@@ -1,0 +1,298 @@
+{
+  "version": 2,
+  "generatedAt": "2026-02-04T15:37:19.793Z",
+  "totalShapes": 8910,
+  "totalConstraints": 18882,
+  "totalGroups": 48,
+  "totalFiles": 202,
+  "groups": [
+    {
+      "group": "alibaba_cloud",
+      "file": "alibaba_cloud.json",
+      "count": 310,
+      "size": 259068
+    },
+    {
+      "group": "android",
+      "file": "android.json",
+      "count": 49,
+      "size": 5848
+    },
+    {
+      "group": "arrows",
+      "file": "arrows.json",
+      "count": 34,
+      "size": 2684
+    },
+    {
+      "group": "atlassian",
+      "file": "atlassian.json",
+      "count": 26,
+      "size": 5132
+    },
+    {
+      "group": "aws",
+      "file": "aws.json",
+      "count": 99,
+      "size": 41496
+    },
+    {
+      "group": "aws2",
+      "file": "aws2.json",
+      "count": 250,
+      "size": 148116
+    },
+    {
+      "group": "aws3",
+      "file": "aws3.json",
+      "count": 293,
+      "size": 184776
+    },
+    {
+      "group": "aws3d",
+      "file": "aws3d.json",
+      "count": 16,
+      "size": 3672
+    },
+    {
+      "group": "aws4",
+      "file": "aws4.json",
+      "count": 1031,
+      "size": 1148540
+    },
+    {
+      "group": "azure",
+      "file": "azure.json",
+      "count": 89,
+      "size": 28876
+    },
+    {
+      "group": "basic",
+      "file": "basic.json",
+      "count": 30,
+      "size": 5892
+    },
+    {
+      "group": "bootstrap",
+      "file": "bootstrap.json",
+      "count": 4,
+      "size": 1100
+    },
+    {
+      "group": "bpmn",
+      "file": "bpmn.json",
+      "count": 39,
+      "size": 3484
+    },
+    {
+      "group": "cabinets",
+      "file": "cabinets.json",
+      "count": 53,
+      "size": 5584
+    },
+    {
+      "group": "cisco",
+      "file": "cisco.json",
+      "count": 296,
+      "size": 156384
+    },
+    {
+      "group": "cisco19",
+      "file": "cisco19.json",
+      "count": 232,
+      "size": 305808
+    },
+    {
+      "group": "cisco_safe",
+      "file": "cisco_safe.json",
+      "count": 485,
+      "size": 648988
+    },
+    {
+      "group": "citrix",
+      "file": "citrix.json",
+      "count": 97,
+      "size": 78684
+    },
+    {
+      "group": "citrix2",
+      "file": "citrix2.json",
+      "count": 126,
+      "size": 174820
+    },
+    {
+      "group": "eip",
+      "file": "eip.json",
+      "count": 36,
+      "size": 4308
+    },
+    {
+      "group": "electrical",
+      "file": "electrical.json",
+      "count": 527,
+      "size": 37380
+    },
+    {
+      "group": "floorplan",
+      "file": "floorplan.json",
+      "count": 44,
+      "size": 8888
+    },
+    {
+      "group": "flowchart",
+      "file": "flowchart.json",
+      "count": 34,
+      "size": 3000
+    },
+    {
+      "group": "fluid_power",
+      "file": "fluid_power.json",
+      "count": 246,
+      "size": 94732
+    },
+    {
+      "group": "gcp",
+      "file": "gcp.json",
+      "count": 66,
+      "size": 29756
+    },
+    {
+      "group": "gcp2",
+      "file": "gcp2.json",
+      "count": 297,
+      "size": 187340
+    },
+    {
+      "group": "gmdl",
+      "file": "gmdl.json",
+      "count": 104,
+      "size": 11556
+    },
+    {
+      "group": "ibm",
+      "file": "ibm.json",
+      "count": 8,
+      "size": 4072
+    },
+    {
+      "group": "ibm_cloud",
+      "file": "ibm_cloud.json",
+      "count": 110,
+      "size": 33224
+    },
+    {
+      "group": "ios7",
+      "file": "ios7.json",
+      "count": 168,
+      "size": 18148
+    },
+    {
+      "group": "kubernetes",
+      "file": "kubernetes.json",
+      "count": 40,
+      "size": 23244
+    },
+    {
+      "group": "kubernetes2",
+      "file": "kubernetes2.json",
+      "count": 39,
+      "size": 25620
+    },
+    {
+      "group": "lean_mapping",
+      "file": "lean_mapping.json",
+      "count": 13,
+      "size": 2384
+    },
+    {
+      "group": "mockup",
+      "file": "mockup.json",
+      "count": 104,
+      "size": 24124
+    },
+    {
+      "group": "mscae",
+      "file": "mscae.json",
+      "count": 368,
+      "size": 200872
+    },
+    {
+      "group": "networks",
+      "file": "networks.json",
+      "count": 57,
+      "size": 15832
+    },
+    {
+      "group": "networks2",
+      "file": "networks2.json",
+      "count": 114,
+      "size": 150236
+    },
+    {
+      "group": "office",
+      "file": "office.json",
+      "count": 449,
+      "size": 298488
+    },
+    {
+      "group": "openstack",
+      "file": "openstack.json",
+      "count": 18,
+      "size": 18528
+    },
+    {
+      "group": "pid",
+      "file": "pid.json",
+      "count": 478,
+      "size": 33640
+    },
+    {
+      "group": "rack",
+      "file": "rack.json",
+      "count": 487,
+      "size": 520844
+    },
+    {
+      "group": "salesforce",
+      "file": "salesforce.json",
+      "count": 96,
+      "size": 93272
+    },
+    {
+      "group": "signs",
+      "file": "signs.json",
+      "count": 369,
+      "size": 281084
+    },
+    {
+      "group": "sitemap",
+      "file": "sitemap.json",
+      "count": 50,
+      "size": 23192
+    },
+    {
+      "group": "veeam",
+      "file": "veeam.json",
+      "count": 580,
+      "size": 379304
+    },
+    {
+      "group": "vvd",
+      "file": "vvd.json",
+      "count": 94,
+      "size": 115368
+    },
+    {
+      "group": "webicons",
+      "file": "webicons.json",
+      "count": 176,
+      "size": 142504
+    },
+    {
+      "group": "weblogos",
+      "file": "weblogos.json",
+      "count": 178,
+      "size": 149696
+    }
+  ]
+}

@@ -1,0 +1,630 @@
+{
+  "about": {
+    "message": "Hakkında",
+    "description": "Menu item for about"
+  },
+  "async_processing_error": {
+    "message": "{0} hatası: {1}",
+    "description": "Generic error message with type and detail"
+  },
+  "async_processing_message": {
+    "message": "{0}{1} işleniyor...",
+    "description": "Async placeholder processing text"
+  },
+  "async_task_processing_error": {
+    "message": "Görev işleme hatası: {0}",
+    "description": "Error when async task fails"
+  },
+  "async_unknown_error": {
+    "message": "Bilinmeyen hata",
+    "description": "Fallback when error message missing"
+  },
+  "cache_clear": {
+    "message": "Önbelleği temizle",
+    "description": "Clear cache button"
+  },
+  "cache_clear_confirm": {
+    "message": "Tüm önbellek verileri temizlensin mi? Bu işlem geri alınamaz.",
+    "description": "Confirmation text for clearing cache"
+  },
+  "cache_clear_failed": {
+    "message": "Önbellek temizleme başarısız",
+    "description": "Toast when cache clear fails"
+  },
+  "cache_clear_success": {
+    "message": "Önbellek temizlendi",
+    "description": "Toast when cache clear succeeds"
+  },
+  "cache_error_message": {
+    "message": "Önbellek iletişimi başarısız — önce bir Markdown dosyası açın",
+    "description": "Shown when cache cannot be reached"
+  },
+  "cache_hint_details": {
+    "message": "Önbellekleme, Markdown sayfaları açıkken otomatik olarak çalışır",
+    "description": "Additional hint when cache is empty"
+  },
+  "cache_item_accessed_label": {
+    "message": "Son erişim",
+    "description": "Label for cache item last access time"
+  },
+  "cache_item_created_label": {
+    "message": "Oluşturuldu",
+    "description": "Label for cache item created time"
+  },
+  "cache_item_size_label": {
+    "message": "Boyut",
+    "description": "Label for cache item size"
+  },
+  "cache_item_type_label": {
+    "message": "Tür",
+    "description": "Label for cache item type"
+  },
+  "cache_item_type_unknown": {
+    "message": "bilinmeyen",
+    "description": "Fallback label when cache type is missing"
+  },
+  "cache_loading_failed": {
+    "message": "Önbellek yükleme başarısız: {0}",
+    "description": "Displayed when cache loading throws an error"
+  },
+  "cache_manual_clear_intro": {
+    "message": "Önbelleği manuel olarak temizlemek için:",
+    "description": "Manual cache clear intro"
+  },
+  "cache_manual_clear_step_1": {
+    "message": "Herhangi bir Markdown dosyası açın",
+    "description": "Manual cache clear step"
+  },
+  "cache_manual_clear_step_2": {
+    "message": "DevTools'u açmak için F12'ye basın",
+    "description": "Manual cache clear step"
+  },
+  "cache_manual_clear_step_3": {
+    "message": "Konsolda \"{0}\" komutunu çalıştırın",
+    "description": "Manual cache clear step with code placeholder"
+  },
+  "cache_manual_clear_title": {
+    "message": "🧹 Önbelleği manuel olarak temizle",
+    "description": "Manual cache clear title"
+  },
+  "cache_manual_limit_desc_1": {
+    "message": "Güvenlik nedeniyle popup doğrudan IndexedDB'ye erişemez.",
+    "description": "Manual cache info description"
+  },
+  "cache_manual_limit_desc_2": {
+    "message": "Önbellekleme Markdown sayfaları işlenirken hala çalışır, ancak popup ayrıntıları gösteremez.",
+    "description": "Manual cache info description"
+  },
+  "cache_manual_limit_title": {
+    "message": "⚠️ Önbellek erişim sınırlamaları",
+    "description": "Manual cache info section title"
+  },
+  "cache_manual_status_intro": {
+    "message": "Önbelleklemenin çalıştığından emin olmak için:",
+    "description": "Manual cache status intro"
+  },
+  "cache_manual_status_step_console": {
+    "message": "DevTools'da \"⚡ Using cached\" günlüklerini kontrol edin",
+    "description": "Manual cache status checklist"
+  },
+  "cache_manual_status_step_open": {
+    "message": "Bir Markdown dosyası açın",
+    "description": "Manual cache status checklist"
+  },
+  "cache_manual_status_step_speed": {
+    "message": "Önbellek sıcak olduğunda daha hızlı işlemeleri fark edin",
+    "description": "Manual cache status checklist"
+  },
+  "cache_manual_status_title": {
+    "message": "📊 Önbellek durumunu kontrol et",
+    "description": "Manual cache status section title"
+  },
+  "cache_refresh": {
+    "message": "Yenile",
+    "description": "Refresh cache button"
+  },
+  "cache_stat_item_label": {
+    "message": "Önbellekteki öğeler",
+    "description": "Label for number of cached items"
+  },
+  "cache_stat_size_label": {
+    "message": "Kullanılan alan",
+    "description": "Label for cache size"
+  },
+  "cancel": {
+    "message": "İptal",
+    "description": "Cancel button text"
+  },
+  "clear_all": {
+    "message": "Tümünü temizle",
+    "description": "Button to clear all items"
+  },
+  "clear_recent_files": {
+    "message": "Son dosyaları temizle",
+    "description": "Dialog title for clearing recent files"
+  },
+  "clear_recent_files_confirm": {
+    "message": "Tüm son dosyalar listeden kaldırılsın mı?",
+    "description": "Confirmation message for clearing recent files"
+  },
+  "clipboard_empty": {
+    "message": "Pano boş",
+    "description": "Error when clipboard is empty"
+  },
+  "clipboard_open": {
+    "message": "Panodan Aç",
+    "description": "Clipboard item title in history"
+  },
+  "clipboard_read_failed": {
+    "message": "Pano okunamadı",
+    "description": "Error when clipboard read fails"
+  },
+  "close": {
+    "message": "Kapat",
+    "description": "Close button text/tooltip"
+  },
+  "contextMenu_viewAsMarkdown": {
+    "message": "Markdown olarak görüntüle",
+    "description": "Context menu item to view any file as markdown"
+  },
+  "delete": {
+    "message": "Delete",
+    "description": "Delete button text"
+  },
+  "delete_file": {
+    "message": "Delete file",
+    "description": "Menu item to delete a file"
+  },
+  "delete_file_confirm": {
+    "message": "Are you sure you want to delete \"{0}\"? This action cannot be undone.",
+    "description": "Confirmation message for deleting a file"
+  },
+  "docx_export_failed_alert": {
+    "message": "Dışa aktarma başarısız{0}",
+    "description": "Alert shown when DOCX export fails"
+  },
+  "docx_export_failed_default": {
+    "message": "Dışa aktarma başarısız",
+    "description": "Fallback message when DOCX export fails"
+  },
+  "export_docx": {
+    "message": "Word olarak paylaş",
+    "description": "Menu item for exporting to DOCX"
+  },
+  "exporting": {
+    "message": "Word belgesi hazırlanıyor...",
+    "description": "Toast shown during export"
+  },
+  "extensionDescription": {
+    "message": "Markdown'dan mükemmel Word'e tek tıkla — Mermaid, Graphviz, Vega, infografik, LaTeX (düzenlenebilir), kod vurgulama, yerel işleme",
+    "description": "Extension description shown in Chrome Web Store"
+  },
+  "extensionName": {
+    "message": "Markdown Viewer",
+    "description": "Extension name"
+  },
+  "failed_to_open_file": {
+    "message": "Dosya açılamadı: {0}",
+    "description": "Toast when file open fails"
+  },
+  "failed_to_open_url": {
+    "message": "URL açılamadı: {0}",
+    "description": "Error message when URL cannot be opened"
+  },
+  "failed_to_share": {
+    "message": "Paylaşılamadı: {0}",
+    "description": "Toast when sharing fails"
+  },
+  "file_access_disabled": {
+    "message": "Devre dışı",
+    "description": "Status text when file access is disabled"
+  },
+  "file_access_disabled_desc_short": {
+    "message": "Yerel dosyaları görüntülemek için şu sayfayı ziyaret edin:",
+    "description": "Short description prefix for file access warning"
+  },
+  "file_access_disabled_suffix": {
+    "message": "ve 'Dosya URL'lerine erişime izin ver' seçeneğini etkinleştirin",
+    "description": "Suffix for file access warning"
+  },
+  "file_access_settings_link": {
+    "message": "uzantı ayarları sayfası",
+    "description": "Link text to extension settings"
+  },
+  "file_deleted": {
+    "message": "File deleted",
+    "description": "Toast when file is deleted"
+  },
+  "file_not_found": {
+    "message": "Dosya bulunamadı",
+    "description": "Error message when file doesn't exist"
+  },
+  "file_removed": {
+    "message": "Removed from list",
+    "description": "Toast when file is removed from list"
+  },
+  "file_url_copied": {
+    "message": "URL kopyalandı. Açmak için adres çubuğuna yapıştırın.",
+    "description": "Message shown when file URL is copied to clipboard in Firefox"
+  },
+  "heading_h2_format": {
+    "message": "Bölüm {0}",
+    "description": "Format for h2 headings. {0} is the chapter number."
+  },
+  "heading_h2_numerals": {
+    "message": "arabic",
+    "description": "Numeral system for h2: chinese, arabic, roman"
+  },
+  "history_clear": {
+    "message": "Geçmişi temizle",
+    "description": "Clear history button"
+  },
+  "history_clear_confirm": {
+    "message": "Tüm geçmiş temizlensin mi? Bu işlem geri alınamaz.",
+    "description": "Clear history confirmation message"
+  },
+  "history_clear_failed": {
+    "message": "Geçmiş temizleme başarısız",
+    "description": "Clear history failed message"
+  },
+  "history_clear_success": {
+    "message": "Geçmiş temizlendi",
+    "description": "Clear history success message"
+  },
+  "history_description": {
+    "message": "Son açılan Markdown belgelerini gösterir, yeniden açmak için tıklayın",
+    "description": "History documents description"
+  },
+  "history_items_empty": {
+    "message": "Henüz geçmiş yok",
+    "description": "Empty history list message"
+  },
+  "history_loading_failed": {
+    "message": "Geçmiş yükleme başarısız",
+    "description": "Load history failed message"
+  },
+  "history_open_failed": {
+    "message": "Belge açma başarısız",
+    "description": "Open history document failed message"
+  },
+  "history_refresh": {
+    "message": "Yenile",
+    "description": "Refresh history button"
+  },
+  "history_title": {
+    "message": "Son belgeler",
+    "description": "History documents title"
+  },
+  "language": {
+    "message": "Dil",
+    "description": "Menu item for language"
+  },
+  "more": {
+    "message": "More",
+    "description": "More menu tooltip"
+  },
+  "no_file_opened": {
+    "message": "Açık dosya yok",
+    "description": "Message when trying to perform action without file"
+  },
+  "no_file_to_share": {
+    "message": "Paylaşılacak dosya yok",
+    "description": "Toast when no file is open for sharing"
+  },
+  "no_headings": {
+    "message": "Başlık bulunamadı",
+    "description": "Toast when document has no headings"
+  },
+  "no_recent_files": {
+    "message": "No recent files",
+    "description": "Toast when there are no recent files"
+  },
+  "open_file": {
+    "message": "Dosya aç",
+    "description": "Menu item to open file"
+  },
+  "popup_review_link": {
+    "message": "Puanla",
+    "description": "Link text to rate and review the extension"
+  },
+  "popup_title": {
+    "message": "Markdown Viewer",
+    "description": "Popup title"
+  },
+  "popup_version_label": {
+    "message": "Sürüm {0}",
+    "description": "Shows the extension version in the header"
+  },
+  "preparing_share": {
+    "message": "Paylaşım hazırlanıyor...",
+    "description": "Progress text when preparing to share"
+  },
+  "recent_files": {
+    "message": "Son dosyalar",
+    "description": "Title for recent files section"
+  },
+  "remove_from_list": {
+    "message": "Remove from list",
+    "description": "Menu item to remove file from recent list"
+  },
+  "reset": {
+    "message": "Sıfırla",
+    "description": "Reset button"
+  },
+  "search_case_sensitive": {
+    "message": "Büyük/küçük harf duyarlı",
+    "description": "Toggle case sensitive search"
+  },
+  "search_next": {
+    "message": "Sonraki",
+    "description": "Navigate to next search match"
+  },
+  "search_placeholder": {
+    "message": "Ara",
+    "description": "Placeholder text for search input"
+  },
+  "search_previous": {
+    "message": "Önceki",
+    "description": "Navigate to previous search match"
+  },
+  "search_whole_word": {
+    "message": "Tam kelime",
+    "description": "Toggle whole word search"
+  },
+  "settings_auto_refresh": {
+    "message": "Otomatik Yenileme",
+    "description": "Label for auto refresh checkbox"
+  },
+  "settings_auto_refresh_interval": {
+    "message": "Yenileme aralığı:",
+    "description": "Label for refresh interval selector"
+  },
+  "settings_auto_refresh_note": {
+    "message": "Yerel dosya değiştiğinde otomatik olarak yeniden yükle (yalnızca file://).",
+    "description": "Helper note for auto refresh option"
+  },
+  "settings_auto_refresh_title": {
+    "message": "Otomatik Yenileme",
+    "description": "Title for auto refresh settings section"
+  },
+  "settings_cache_title": {
+    "message": "Önbellek",
+    "description": "Title for cache settings section"
+  },
+  "settings_docx_emoji_style": {
+    "message": "Emoji Stili",
+    "description": "Label for the emoji style selector in DOCX export settings"
+  },
+  "settings_docx_emoji_style_apple": {
+    "message": "Apple stili",
+    "description": "Option for Apple emoji style"
+  },
+  "settings_docx_emoji_style_note": {
+    "message": "DOCX dışa aktarma için emoji yazı tipi stilini seçin",
+    "description": "Note explaining the emoji style setting"
+  },
+  "settings_docx_emoji_style_system": {
+    "message": "Sistem stili",
+    "description": "Option to use system emoji (no font processing)"
+  },
+  "settings_docx_emoji_style_windows": {
+    "message": "Windows stili",
+    "description": "Option for Windows emoji style"
+  },
+  "settings_docx_hr_display": {
+    "message": "DOCX: Yatay çizgi işleme",
+    "description": "Label for DOCX horizontal rule handling selector"
+  },
+  "settings_docx_hr_display_hide": {
+    "message": "Gizle (boş satır)",
+    "description": "Option to hide horizontal rules in DOCX"
+  },
+  "settings_docx_hr_display_line": {
+    "message": "Yatay çizgi",
+    "description": "Option to export horizontal rules as a line in DOCX"
+  },
+  "settings_docx_hr_display_note": {
+    "message": "Markdown ayırıcılarının (---) DOCX'te nasıl dışa aktarılacağını seçin.",
+    "description": "Helper note for DOCX horizontal rule handling"
+  },
+  "settings_docx_hr_display_page_break": {
+    "message": "Sayfa sonu",
+    "description": "Option to export horizontal rules as page breaks in DOCX"
+  },
+  "settings_frontmatter_display": {
+    "message": "Frontmatter görüntüleme:",
+    "description": "Label for frontmatter display mode selector"
+  },
+  "settings_frontmatter_hide": {
+    "message": "Gizle",
+    "description": "Option to hide frontmatter"
+  },
+  "settings_frontmatter_note": {
+    "message": "Markdown dosyalarının başındaki YAML frontmatter'ın nasıl görüntüleneceğini seçin.",
+    "description": "Helper note for frontmatter display option"
+  },
+  "settings_frontmatter_raw": {
+    "message": "Ham (alıntı)",
+    "description": "Option to display frontmatter as blockquote"
+  },
+  "settings_frontmatter_table": {
+    "message": "Tablo",
+    "description": "Option to display frontmatter as table"
+  },
+  "settings_general_title": {
+    "message": "Uzantı ayarları",
+    "description": "Heading for settings section"
+  },
+  "settings_interface_title": {
+    "message": "Arayüz ayarları",
+    "description": "Heading for interface settings section"
+  },
+  "settings_invalid_max_cache": {
+    "message": "{0} ile {1} arasında geçerli bir önbellek boyutu girin",
+    "description": "Shown when max cache input is invalid"
+  },
+  "settings_language_auto": {
+    "message": "Sistem dili",
+    "description": "Option for automatic locale"
+  },
+  "settings_language_changed": {
+    "message": "Arayüz dili değiştirildi",
+    "description": "Toast when language is changed successfully"
+  },
+  "settings_max_cache_label": {
+    "message": "Maksimum önbellekteki öğe sayısı:",
+    "description": "Label for max cache input"
+  },
+  "settings_reset_btn": {
+    "message": "Varsayılana sıfırla",
+    "description": "Reset button"
+  },
+  "settings_reset_confirm": {
+    "message": "Tüm ayarlar varsayılan değerlere sıfırlansın mı?",
+    "description": "Confirmation text for resetting settings"
+  },
+  "settings_reset_failed": {
+    "message": "Ayarlar sıfırlanamadı",
+    "description": "Toast when resetting settings fails"
+  },
+  "settings_reset_success": {
+    "message": "Ayarlar sıfırlandı",
+    "description": "Toast when settings reset succeeds"
+  },
+  "settings_save_failed": {
+    "message": "Ayarlar kaydedilemedi",
+    "description": "Toast when saving settings fails"
+  },
+  "settings_save_success": {
+    "message": "Ayarlar kaydedildi",
+    "description": "Toast when settings saved"
+  },
+  "settings_support_canvas": {
+    "message": "JSON Canvas diyagramları (.canvas)",
+    "description": "Checkbox label for enabling JSON Canvas file support"
+  },
+  "settings_support_dot": {
+    "message": "Graphviz DOT diyagramları (.gv)",
+    "description": "Checkbox label for Graphviz DOT format support"
+  },
+  "settings_support_drawio": {
+    "message": "drawio diyagramları (.drawio)",
+    "description": "Checkbox label for enabling drawio file support"
+  },
+  "settings_support_infographic": {
+    "message": "İnfografikler (.infographic)",
+    "description": "Checkbox label for Infographic format support"
+  },
+  "settings_support_mermaid": {
+    "message": "Mermaid diyagramları (.mermaid)",
+    "description": "Checkbox label for Mermaid format support"
+  },
+  "settings_support_vega": {
+    "message": "Vega grafikleri (.vega)",
+    "description": "Checkbox label for Vega format support"
+  },
+  "settings_support_vega_lite": {
+    "message": "Vega-Lite grafikleri (.vl, .vega-lite)",
+    "description": "Checkbox label for Vega-Lite format support"
+  },
+  "settings_supported_formats_title": {
+    "message": "Desteklenen Formatlar",
+    "description": "Title for supported file formats section in settings"
+  },
+  "settings_table_layout": {
+    "message": "Tablo düzeni",
+    "description": "Label for table layout selector"
+  },
+  "settings_table_layout_center": {
+    "message": "Orta",
+    "description": "Table layout option: center aligned"
+  },
+  "settings_table_layout_left": {
+    "message": "Sol",
+    "description": "Table layout option: left aligned"
+  },
+  "settings_table_merge_empty": {
+    "message": "Akıllı tablo hücresi birleştirme",
+    "description": "Checkbox label for enabling automatic vertical merging of empty table cells"
+  },
+  "settings_table_merge_empty_note": {
+    "message": "Etkinleştirildiğinde, tablo yapısı analiz edilecek ve boş hücreler akıllıca birleştirilecektir.",
+    "description": "Helper note for the table merge option"
+  },
+  "settings_theme_changed": {
+    "message": "Tema başarıyla değiştirildi. Değişiklikleri görmek için lütfen sayfayı yenileyin.",
+    "description": "Message shown when theme is changed"
+  },
+  "settings_theme_label": {
+    "message": "Tema Seç:",
+    "description": "Label for theme selector"
+  },
+  "share": {
+    "message": "Paylaş",
+    "description": "Share button tooltip"
+  },
+  "tab_history": {
+    "message": "Geçmiş",
+    "description": "Label for history tab"
+  },
+  "tab_settings": {
+    "message": "Ayarlar",
+    "description": "Label for settings tab"
+  },
+  "tab_theme": {
+    "message": "Tema",
+    "description": "Label for theme tab"
+  },
+  "theme": {
+    "message": "Tema",
+    "description": "Menu item for theme"
+  },
+  "toc": {
+    "message": "İçindekiler",
+    "description": "TOC drawer title"
+  },
+  "toolbar_download_title": {
+    "message": "İndir",
+    "description": "Toolbar download tooltip"
+  },
+  "toolbar_layout_title_fullscreen": {
+    "message": "Tam ekran düzeni",
+    "description": "Toolbar layout toggle tooltip for fullscreen mode"
+  },
+  "toolbar_layout_title_narrow": {
+    "message": "Dar düzen",
+    "description": "Toolbar layout toggle tooltip for narrow mode"
+  },
+  "toolbar_layout_title_normal": {
+    "message": "Normal düzen",
+    "description": "Toolbar layout toggle tooltip for normal mode"
+  },
+  "toolbar_print_disabled_title": {
+    "message": "Yazdırma yalnızca yerel dosyalar için kullanılabilir",
+    "description": "Tooltip when print button is disabled for remote files"
+  },
+  "toolbar_print_title": {
+    "message": "Yazdır",
+    "description": "Toolbar print tooltip"
+  },
+  "toolbar_toggle_toc_title": {
+    "message": "İçindekiler tablosunu göster veya gizle",
+    "description": "Toolbar button title for toggling TOC"
+  },
+  "toolbar_zoom_in_title": {
+    "message": "Yakınlaştır",
+    "description": "Toolbar zoom in tooltip"
+  },
+  "toolbar_zoom_out_title": {
+    "message": "Uzaklaştır",
+    "description": "Toolbar zoom out tooltip"
+  },
+  "welcome_message": {
+    "message": "Başlamak için bir markdown dosyası açın",
+    "description": "Welcome message on empty state"
+  },
+  "zoom": {
+    "message": "Yakınlaştır",
+    "description": "Menu item for zoom"
+  }
+}

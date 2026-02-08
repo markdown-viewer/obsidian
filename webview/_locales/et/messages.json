@@ -1,0 +1,630 @@
+{
+  "about": {
+    "message": "Teave",
+    "description": "Menu item for about"
+  },
+  "async_processing_error": {
+    "message": "{0} viga: {1}",
+    "description": "Generic error message with type and detail"
+  },
+  "async_processing_message": {
+    "message": "Töötlemine {0}{1}...",
+    "description": "Async placeholder processing text"
+  },
+  "async_task_processing_error": {
+    "message": "Ülesande töötlemise viga: {0}",
+    "description": "Error when async task fails"
+  },
+  "async_unknown_error": {
+    "message": "Tundmatu viga",
+    "description": "Fallback when error message missing"
+  },
+  "cache_clear": {
+    "message": "Tühjenda vahemälu",
+    "description": "Clear cache button"
+  },
+  "cache_clear_confirm": {
+    "message": "Kustutada kõik vahemällu salvestatud andmed? Seda tegevust ei saa tagasi võtta.",
+    "description": "Confirmation text for clearing cache"
+  },
+  "cache_clear_failed": {
+    "message": "Vahemälu tühjendamine ebaõnnestus",
+    "description": "Toast when cache clear fails"
+  },
+  "cache_clear_success": {
+    "message": "Vahemälu tühjendatud",
+    "description": "Toast when cache clear succeeds"
+  },
+  "cache_error_message": {
+    "message": "Vahemäluga suhtlemine ebaõnnestus — avage esmalt Markdown fail",
+    "description": "Shown when cache cannot be reached"
+  },
+  "cache_hint_details": {
+    "message": "Vahemällu salvestamine toimub automaatselt, kui Markdown lehed on avatud",
+    "description": "Additional hint when cache is empty"
+  },
+  "cache_item_accessed_label": {
+    "message": "Viimati kasutatud",
+    "description": "Label for cache item last access time"
+  },
+  "cache_item_created_label": {
+    "message": "Loodud",
+    "description": "Label for cache item created time"
+  },
+  "cache_item_size_label": {
+    "message": "Suurus",
+    "description": "Label for cache item size"
+  },
+  "cache_item_type_label": {
+    "message": "Tüüp",
+    "description": "Label for cache item type"
+  },
+  "cache_item_type_unknown": {
+    "message": "tundmatu",
+    "description": "Fallback label when cache type is missing"
+  },
+  "cache_loading_failed": {
+    "message": "Vahemälu laadimine ebaõnnestus: {0}",
+    "description": "Displayed when cache loading throws an error"
+  },
+  "cache_manual_clear_intro": {
+    "message": "Vahemälu käsitsi tühjendamiseks:",
+    "description": "Manual cache clear intro"
+  },
+  "cache_manual_clear_step_1": {
+    "message": "Avage suvaline Markdown fail",
+    "description": "Manual cache clear step"
+  },
+  "cache_manual_clear_step_2": {
+    "message": "Vajutage DevTools avamiseks klahvi F12",
+    "description": "Manual cache clear step"
+  },
+  "cache_manual_clear_step_3": {
+    "message": "Käivitage konsoolil \"{0}\"",
+    "description": "Manual cache clear step with code placeholder"
+  },
+  "cache_manual_clear_title": {
+    "message": "🧹 Tühjendage vahemälu käsitsi",
+    "description": "Manual cache clear title"
+  },
+  "cache_manual_limit_desc_1": {
+    "message": "Turvakaalutlustel ei saa hüpikaken IndexedDB-le otse juurde pääseda.",
+    "description": "Manual cache info description"
+  },
+  "cache_manual_limit_desc_2": {
+    "message": "Vahemällu salvestamine töötab Markdown lehtede renderdamise ajal endiselt, kuid hüpikaken ei saa üksikasju kuvada.",
+    "description": "Manual cache info description"
+  },
+  "cache_manual_limit_title": {
+    "message": "⚠️ Vahemälu juurdepääsu piirangud",
+    "description": "Manual cache info section title"
+  },
+  "cache_manual_status_intro": {
+    "message": "Veendumaks, et vahemällu salvestamine töötab:",
+    "description": "Manual cache status intro"
+  },
+  "cache_manual_status_step_console": {
+    "message": "Kontrollige DevTools'is \"⚡ Using cached\" logisid",
+    "description": "Manual cache status checklist"
+  },
+  "cache_manual_status_step_open": {
+    "message": "Avage Markdown fail",
+    "description": "Manual cache status checklist"
+  },
+  "cache_manual_status_step_speed": {
+    "message": "Märkake kiiremat renderdamist, kui vahemälu on soe",
+    "description": "Manual cache status checklist"
+  },
+  "cache_manual_status_title": {
+    "message": "📊 Kontrollige vahemälu olekut",
+    "description": "Manual cache status section title"
+  },
+  "cache_refresh": {
+    "message": "Värskenda",
+    "description": "Refresh cache button"
+  },
+  "cache_stat_item_label": {
+    "message": "Vahemällu salvestatud üksused",
+    "description": "Label for number of cached items"
+  },
+  "cache_stat_size_label": {
+    "message": "Kasutatud ruum",
+    "description": "Label for cache size"
+  },
+  "cancel": {
+    "message": "Tühista",
+    "description": "Cancel button text"
+  },
+  "clear_all": {
+    "message": "Tühjenda kõik",
+    "description": "Button to clear all items"
+  },
+  "clear_recent_files": {
+    "message": "Kustuta hiljutised failid",
+    "description": "Dialog title for clearing recent files"
+  },
+  "clear_recent_files_confirm": {
+    "message": "Eemaldada kõik hiljutised failid loendist?",
+    "description": "Confirmation message for clearing recent files"
+  },
+  "clipboard_empty": {
+    "message": "Lõikelaud on tühi",
+    "description": "Error when clipboard is empty"
+  },
+  "clipboard_open": {
+    "message": "Ava lõikelaualt",
+    "description": "Clipboard item title in history"
+  },
+  "clipboard_read_failed": {
+    "message": "Lõikelaua lugemine ebaõnnestus",
+    "description": "Error when clipboard read fails"
+  },
+  "close": {
+    "message": "Sulge",
+    "description": "Close button text/tooltip"
+  },
+  "contextMenu_viewAsMarkdown": {
+    "message": "Vaata Markdownina",
+    "description": "Context menu item to view any file as markdown"
+  },
+  "delete": {
+    "message": "Kustuta",
+    "description": "Delete button text"
+  },
+  "delete_file": {
+    "message": "Kustuta fail",
+    "description": "Menu item to delete a file"
+  },
+  "delete_file_confirm": {
+    "message": "Kas olete kindel, et soovite kustutada faili \"{0}\"? Seda tegevust ei saa tagasi võtta.",
+    "description": "Confirmation message for deleting a file"
+  },
+  "docx_export_failed_alert": {
+    "message": "Eksport ebaõnnestus{0}",
+    "description": "Alert shown when DOCX export fails"
+  },
+  "docx_export_failed_default": {
+    "message": "Eksport ebaõnnestus",
+    "description": "Fallback message when DOCX export fails"
+  },
+  "export_docx": {
+    "message": "Jaga Wordina",
+    "description": "Menu item for exporting to DOCX"
+  },
+  "exporting": {
+    "message": "Word dokumendi ettevalmistamine...",
+    "description": "Fallback message when DOCX export fails"
+  },
+  "extensionDescription": {
+    "message": "Markdown täiuslikuks Wordiks ühe klõpsuga — Mermaid, Graphviz, Vega, infograafika, LaTeX (redigeeritav), koodi esiletõstmine, kohalik töötlemine",
+    "description": "Extension description shown in Chrome Web Store"
+  },
+  "extensionName": {
+    "message": "Markdown Viewer",
+    "description": "Extension name"
+  },
+  "failed_to_open_file": {
+    "message": "Faili avamine ebaõnnestus: {0}",
+    "description": "Toast when file open fails"
+  },
+  "failed_to_open_url": {
+    "message": "URL-i avamine ebaõnnestus: {0}",
+    "description": "Error message when URL cannot be opened"
+  },
+  "failed_to_share": {
+    "message": "Jagamine ebaõnnestus: {0}",
+    "description": "Toast when sharing fails"
+  },
+  "file_access_disabled": {
+    "message": "Keelatud",
+    "description": "Status text when file access is disabled"
+  },
+  "file_access_disabled_desc_short": {
+    "message": "Kohalike failide vaatamiseks külastage",
+    "description": "Short description prefix for file access warning"
+  },
+  "file_access_disabled_suffix": {
+    "message": "ja lubage 'Luba juurdepääs faili URL-idele'",
+    "description": "Suffix for file access warning"
+  },
+  "file_access_settings_link": {
+    "message": "laienduse sätete lehte",
+    "description": "Link text to extension settings"
+  },
+  "file_deleted": {
+    "message": "Fail kustutatud",
+    "description": "Toast when file is deleted"
+  },
+  "file_not_found": {
+    "message": "Faili ei leitud",
+    "description": "Error message when file doesn't exist"
+  },
+  "file_removed": {
+    "message": "Loendist eemaldatud",
+    "description": "Toast when file is removed from list"
+  },
+  "file_url_copied": {
+    "message": "URL kopeeritud. Kleebi aadressiribale avamiseks.",
+    "description": "Message shown when file URL is copied to clipboard in Firefox"
+  },
+  "heading_h2_format": {
+    "message": "Peatükk {0}",
+    "description": "Format for h2 headings. {0} is the chapter number."
+  },
+  "heading_h2_numerals": {
+    "message": "arabic",
+    "description": "Numeral system for h2: chinese, arabic, roman"
+  },
+  "history_clear": {
+    "message": "Kustuta ajalugu",
+    "description": "Clear history button"
+  },
+  "history_clear_confirm": {
+    "message": "Kustutada kogu ajalugu? Seda tegevust ei saa tagasi võtta.",
+    "description": "Clear history confirmation message"
+  },
+  "history_clear_failed": {
+    "message": "Ajaloo kustutamine ebaõnnestus",
+    "description": "Clear history failed message"
+  },
+  "history_clear_success": {
+    "message": "Ajalugu kustutatud",
+    "description": "Clear history success message"
+  },
+  "history_description": {
+    "message": "Näitab hiljuti avatud Markdown dokumente, klõpsake uuesti avamiseks",
+    "description": "History documents description"
+  },
+  "history_items_empty": {
+    "message": "Ajalugu puudub",
+    "description": "Empty history list message"
+  },
+  "history_loading_failed": {
+    "message": "Ajaloo laadimine ebaõnnestus",
+    "description": "Load history failed message"
+  },
+  "history_open_failed": {
+    "message": "Dokumendi avamine ebaõnnestus",
+    "description": "Open history document failed message"
+  },
+  "history_refresh": {
+    "message": "Värskenda",
+    "description": "Refresh history button"
+  },
+  "history_title": {
+    "message": "Hiljutised dokumendid",
+    "description": "History documents title"
+  },
+  "language": {
+    "message": "Keel",
+    "description": "Menu item for language"
+  },
+  "more": {
+    "message": "Rohkem",
+    "description": "More options menu"
+  },
+  "no_file_opened": {
+    "message": "Fail pole avatud",
+    "description": "Message when trying to perform action without file"
+  },
+  "no_file_to_share": {
+    "message": "Jagamiseks pole faili",
+    "description": "Toast when no file is open for sharing"
+  },
+  "no_headings": {
+    "message": "Pealkirju ei leitud",
+    "description": "Toast when document has no headings"
+  },
+  "no_recent_files": {
+    "message": "Hiljutisi faile pole",
+    "description": "Toast when there are no recent files"
+  },
+  "open_file": {
+    "message": "Ava fail",
+    "description": "Menu item to open file"
+  },
+  "popup_review_link": {
+    "message": "Hinda",
+    "description": "Link text to rate and review the extension"
+  },
+  "popup_title": {
+    "message": "Markdown Viewer",
+    "description": "Popup title"
+  },
+  "popup_version_label": {
+    "message": "v{0}",
+    "description": "Shows the extension version in the header"
+  },
+  "preparing_share": {
+    "message": "Jagamise ettevalmistamine...",
+    "description": "Progress text when preparing to share"
+  },
+  "recent_files": {
+    "message": "Hiljutised failid",
+    "description": "Title for recent files section"
+  },
+  "remove_from_list": {
+    "message": "Eemalda loendist",
+    "description": "Menu item to remove file from recent list"
+  },
+  "reset": {
+    "message": "Lähtesta",
+    "description": "Reset button"
+  },
+  "search_case_sensitive": {
+    "message": "Tõstutundlik",
+    "description": "Toggle case sensitive search"
+  },
+  "search_next": {
+    "message": "Järgmine",
+    "description": "Navigate to next search match"
+  },
+  "search_placeholder": {
+    "message": "Otsi",
+    "description": "Placeholder text for search input"
+  },
+  "search_previous": {
+    "message": "Eelmine",
+    "description": "Navigate to previous search match"
+  },
+  "search_whole_word": {
+    "message": "Terve sõna",
+    "description": "Toggle whole word search"
+  },
+  "settings_auto_refresh": {
+    "message": "Automaatne värskendamine",
+    "description": "Label for auto refresh checkbox"
+  },
+  "settings_auto_refresh_interval": {
+    "message": "Värskendusintervall:",
+    "description": "Label for refresh interval selector"
+  },
+  "settings_auto_refresh_note": {
+    "message": "Laadi automaatselt uuesti, kui kohalik fail muutub (ainult file://).",
+    "description": "Helper note for auto refresh option"
+  },
+  "settings_auto_refresh_title": {
+    "message": "Automaatne värskendamine",
+    "description": "Title for auto refresh settings section"
+  },
+  "settings_cache_title": {
+    "message": "Vahemälu",
+    "description": "Title for cache settings section"
+  },
+  "settings_docx_emoji_style": {
+    "message": "Emoji stiil",
+    "description": "Label for the emoji style selector in DOCX export settings"
+  },
+  "settings_docx_emoji_style_apple": {
+    "message": "Apple'i stiil",
+    "description": "Option for Apple emoji style"
+  },
+  "settings_docx_emoji_style_note": {
+    "message": "Valige DOCX ekspordi jaoks emoji fondi stiil",
+    "description": "Note explaining the emoji style setting"
+  },
+  "settings_docx_emoji_style_system": {
+    "message": "Süsteemi stiil",
+    "description": "Option to use system emoji (no font processing)"
+  },
+  "settings_docx_emoji_style_windows": {
+    "message": "Windowsi stiil",
+    "description": "Option for Windows emoji style"
+  },
+  "settings_docx_hr_display": {
+    "message": "DOCX: Horisontaaljoone käsitlemine",
+    "description": "Label for DOCX horizontal rule handling selector"
+  },
+  "settings_docx_hr_display_hide": {
+    "message": "Peida (tühi rida)",
+    "description": "Option to hide horizontal rules in DOCX"
+  },
+  "settings_docx_hr_display_line": {
+    "message": "Horisontaaljoon",
+    "description": "Option to export horizontal rules as a line in DOCX"
+  },
+  "settings_docx_hr_display_note": {
+    "message": "Valige, kuidas Markdown eraldajad (---) DOCX-is eksporditakse.",
+    "description": "Helper note for DOCX horizontal rule handling"
+  },
+  "settings_docx_hr_display_page_break": {
+    "message": "Leheküljevahetus",
+    "description": "Option to export horizontal rules as page breaks in DOCX"
+  },
+  "settings_frontmatter_display": {
+    "message": "Frontmatteri kuvamine:",
+    "description": "Label for frontmatter display mode selector"
+  },
+  "settings_frontmatter_hide": {
+    "message": "Peida",
+    "description": "Option to hide frontmatter"
+  },
+  "settings_frontmatter_note": {
+    "message": "Valige, kuidas kuvada YAML frontmatterit Markdown-failide alguses.",
+    "description": "Helper note for frontmatter display option"
+  },
+  "settings_frontmatter_raw": {
+    "message": "Toores (tsitaat)",
+    "description": "Option to display frontmatter as blockquote"
+  },
+  "settings_frontmatter_table": {
+    "message": "Tabel",
+    "description": "Option to display frontmatter as table"
+  },
+  "settings_general_title": {
+    "message": "Laienduse sätted",
+    "description": "Heading for settings section"
+  },
+  "settings_interface_title": {
+    "message": "Liidese sätted",
+    "description": "Heading for interface settings section"
+  },
+  "settings_invalid_max_cache": {
+    "message": "Sisestage kehtiv vahemälu suurus vahemikus {0} kuni {1}",
+    "description": "Shown when max cache input is invalid"
+  },
+  "settings_language_auto": {
+    "message": "Süsteemi keel",
+    "description": "Option for automatic locale"
+  },
+  "settings_language_changed": {
+    "message": "Liidese keel muudetud",
+    "description": "Toast when language is changed successfully"
+  },
+  "settings_max_cache_label": {
+    "message": "Maksimaalne vahemällu salvestatud üksuste arv:",
+    "description": "Label for max cache input"
+  },
+  "settings_reset_btn": {
+    "message": "Lähtesta vaikimisi",
+    "description": "Reset button"
+  },
+  "settings_reset_confirm": {
+    "message": "Lähtestada kõik sätted vaikeväärtustele?",
+    "description": "Confirmation text for resetting settings"
+  },
+  "settings_reset_failed": {
+    "message": "Sätete lähtestamine ebaõnnestus",
+    "description": "Toast when resetting settings fails"
+  },
+  "settings_reset_success": {
+    "message": "Sätted lähtestatud",
+    "description": "Toast when settings reset succeeds"
+  },
+  "settings_save_failed": {
+    "message": "Sätete salvestamine ebaõnnestus",
+    "description": "Toast when saving settings fails"
+  },
+  "settings_save_success": {
+    "message": "Sätted salvestatud",
+    "description": "Toast when settings saved"
+  },
+  "settings_support_canvas": {
+    "message": "JSON Canvas diagrammid (.canvas)",
+    "description": "Checkbox label for enabling JSON Canvas file support"
+  },
+  "settings_support_dot": {
+    "message": "Graphviz DOT diagrammid (.gv)",
+    "description": "Checkbox label for enabling DOT file support"
+  },
+  "settings_support_drawio": {
+    "message": "drawio diagrammid (.drawio)",
+    "description": "Checkbox label for enabling drawio file support"
+  },
+  "settings_support_infographic": {
+    "message": "Infograafika (.infographic)",
+    "description": "Checkbox label for enabling infographic file support"
+  },
+  "settings_support_mermaid": {
+    "message": "Mermaid diagrammid (.mermaid)",
+    "description": "Checkbox label for enabling Mermaid file support"
+  },
+  "settings_support_vega": {
+    "message": "Vega diagrammid (.vega)",
+    "description": "Checkbox label for enabling Vega file support"
+  },
+  "settings_support_vega_lite": {
+    "message": "Vega-Lite diagrammid (.vl, .vega-lite)",
+    "description": "Checkbox label for enabling Vega-Lite file support"
+  },
+  "settings_supported_formats_title": {
+    "message": "Toetatud vormingud",
+    "description": "Heading for supported formats section"
+  },
+  "settings_table_layout": {
+    "message": "Tabeli paigutus",
+    "description": "Label for table layout selector"
+  },
+  "settings_table_layout_center": {
+    "message": "Keskel",
+    "description": "Table layout option: center aligned"
+  },
+  "settings_table_layout_left": {
+    "message": "Vasakul",
+    "description": "Table layout option: left aligned"
+  },
+  "settings_table_merge_empty": {
+    "message": "Nutikas tabelilahtrite ühendamine",
+    "description": "Checkbox label for enabling automatic vertical merging of empty table cells"
+  },
+  "settings_table_merge_empty_note": {
+    "message": "Kui see on lubatud, analüüsitakse tabeli struktuuri ja tühjad lahtrid ühendatakse nutikalt.",
+    "description": "Helper note for the table merge option"
+  },
+  "settings_theme_changed": {
+    "message": "Teema edukalt muudetud. Muudatuste nägemiseks laadige leht uuesti.",
+    "description": "Message shown when theme is changed"
+  },
+  "settings_theme_label": {
+    "message": "Valige teema:",
+    "description": "Label for theme selector"
+  },
+  "share": {
+    "message": "Jaga",
+    "description": "Share button tooltip"
+  },
+  "tab_history": {
+    "message": "Ajalugu",
+    "description": "Label for history tab"
+  },
+  "tab_settings": {
+    "message": "Sätted",
+    "description": "Label for settings tab"
+  },
+  "tab_theme": {
+    "message": "Teema",
+    "description": "Label for theme tab"
+  },
+  "theme": {
+    "message": "Teema",
+    "description": "Menu item for theme"
+  },
+  "toc": {
+    "message": "Sisukord",
+    "description": "TOC drawer title"
+  },
+  "toolbar_download_title": {
+    "message": "Laadi alla",
+    "description": "Toolbar download tooltip"
+  },
+  "toolbar_layout_title_fullscreen": {
+    "message": "Täisekraani paigutus",
+    "description": "Toolbar layout toggle tooltip for fullscreen mode"
+  },
+  "toolbar_layout_title_narrow": {
+    "message": "Kitsas paigutus",
+    "description": "Toolbar layout toggle tooltip for narrow mode"
+  },
+  "toolbar_layout_title_normal": {
+    "message": "Tavaline paigutus",
+    "description": "Toolbar layout toggle tooltip for normal mode"
+  },
+  "toolbar_print_disabled_title": {
+    "message": "Printimine on saadaval ainult kohalike failide jaoks",
+    "description": "Tooltip when print button is disabled for remote files"
+  },
+  "toolbar_print_title": {
+    "message": "Prindi",
+    "description": "Toolbar print tooltip"
+  },
+  "toolbar_toggle_toc_title": {
+    "message": "Kuva või peida sisukord",
+    "description": "Toolbar button title for toggling TOC"
+  },
+  "toolbar_zoom_in_title": {
+    "message": "Suurenda",
+    "description": "Toolbar zoom in tooltip"
+  },
+  "toolbar_zoom_out_title": {
+    "message": "Vähenda",
+    "description": "Toolbar zoom out tooltip"
+  },
+  "welcome_message": {
+    "message": "Alustamiseks avage markdown fail",
+    "description": "Welcome message on empty state"
+  },
+  "zoom": {
+    "message": "Suum",
+    "description": "Menu item for zoom"
+  }
+}

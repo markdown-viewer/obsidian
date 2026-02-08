@@ -1,0 +1,630 @@
+{
+  "about": {
+    "message": "정보",
+    "description": "Menu item for about"
+  },
+  "async_processing_error": {
+    "message": "{0} 오류: {1}",
+    "description": "Generic error message with type and detail"
+  },
+  "async_processing_message": {
+    "message": "{0}{1} 처리 중...",
+    "description": "비동기 처리 중 표시되는 텍스트"
+  },
+  "async_task_processing_error": {
+    "message": "작업 오류: {0}",
+    "description": "작업 실패 시 메시지"
+  },
+  "async_unknown_error": {
+    "message": "알 수 없는 오류",
+    "description": "세부 정보가 없을 때 문구"
+  },
+  "cache_clear": {
+    "message": "캐시 비우기",
+    "description": "캐시 비우기 버튼"
+  },
+  "cache_clear_confirm": {
+    "message": "모든 캐시 데이터를 삭제하시겠습니까? 이 작업은 되돌릴 수 없습니다.",
+    "description": "캐시 삭제 확인"
+  },
+  "cache_clear_failed": {
+    "message": "캐시를 비울 수 없습니다",
+    "description": "실패 알림"
+  },
+  "cache_clear_success": {
+    "message": "캐시를 비웠습니다",
+    "description": "성공 알림"
+  },
+  "cache_error_message": {
+    "message": "캐시와 통신하지 못했습니다. 먼저 Markdown 파일을 여세요",
+    "description": "캐시 접근 실패 메시지"
+  },
+  "cache_hint_details": {
+    "message": "Markdown 페이지가 열려 있는 동안 캐시는 자동으로 동작합니다",
+    "description": "추가 안내"
+  },
+  "cache_item_accessed_label": {
+    "message": "마지막 액세스",
+    "description": "마지막 액세스 라벨"
+  },
+  "cache_item_created_label": {
+    "message": "생성",
+    "description": "생성 날짜 라벨"
+  },
+  "cache_item_size_label": {
+    "message": "크기",
+    "description": "크기 라벨"
+  },
+  "cache_item_type_label": {
+    "message": "유형",
+    "description": "유형 라벨"
+  },
+  "cache_item_type_unknown": {
+    "message": "알 수 없음",
+    "description": "유형이 없을 때 라벨"
+  },
+  "cache_loading_failed": {
+    "message": "캐시를 불러올 수 없습니다: {0}",
+    "description": "캐시 로딩 오류"
+  },
+  "cache_manual_clear_intro": {
+    "message": "수동으로 캐시를 비우는 방법:",
+    "description": "청소 섹션 도입"
+  },
+  "cache_manual_clear_step_1": {
+    "message": "임의의 Markdown 파일 열기",
+    "description": "청소 단계"
+  },
+  "cache_manual_clear_step_2": {
+    "message": "F12를 눌러 DevTools 열기",
+    "description": "청소 단계"
+  },
+  "cache_manual_clear_step_3": {
+    "message": "콘솔에서 \"{0}\" 실행",
+    "description": "청소 단계"
+  },
+  "cache_manual_clear_title": {
+    "message": "🧹 캐시 수동 삭제",
+    "description": "청소 섹션 제목"
+  },
+  "cache_manual_limit_desc_1": {
+    "message": "보안상의 이유로 팝업은 IndexedDB에 직접 접근할 수 없습니다.",
+    "description": "안내 텍스트"
+  },
+  "cache_manual_limit_desc_2": {
+    "message": "Markdown 페이지를 렌더링할 때 캐시는 계속 동작하지만 팝업에서는 세부 정보를 표시할 수 없습니다.",
+    "description": "안내 텍스트"
+  },
+  "cache_manual_limit_title": {
+    "message": "⚠️ 캐시 접근 제한",
+    "description": "안내 섹션 제목"
+  },
+  "cache_manual_status_intro": {
+    "message": "캐시가 정상 동작하는지 확인하려면:",
+    "description": "상태 섹션 도입"
+  },
+  "cache_manual_status_step_console": {
+    "message": "DevTools에서 \"⚡ Using cached\" 로그 찾기",
+    "description": "확인 단계"
+  },
+  "cache_manual_status_step_open": {
+    "message": "Markdown 파일 열기",
+    "description": "확인 단계"
+  },
+  "cache_manual_status_step_speed": {
+    "message": "캐시가 워밍업되면 렌더링이 빨라지는지 확인",
+    "description": "확인 단계"
+  },
+  "cache_manual_status_title": {
+    "message": "📊 캐시 상태 확인",
+    "description": "상태 섹션 제목"
+  },
+  "cache_refresh": {
+    "message": "새로고침",
+    "description": "캐시 새로 고침 버튼"
+  },
+  "cache_stat_item_label": {
+    "message": "캐시 항목 수",
+    "description": "항목 수 라벨"
+  },
+  "cache_stat_size_label": {
+    "message": "사용 공간",
+    "description": "공간 라벨"
+  },
+  "cancel": {
+    "message": "취소",
+    "description": "Cancel button text"
+  },
+  "clear_all": {
+    "message": "모두 지우기",
+    "description": "Button to clear all items"
+  },
+  "clear_recent_files": {
+    "message": "최근 파일 지우기",
+    "description": "Dialog title for clearing recent files"
+  },
+  "clear_recent_files_confirm": {
+    "message": "모든 최근 파일을 목록에서 제거하시겠습니까?",
+    "description": "Confirmation message for clearing recent files"
+  },
+  "clipboard_empty": {
+    "message": "클립보드가 비어 있습니다",
+    "description": "Error when clipboard is empty"
+  },
+  "clipboard_open": {
+    "message": "클립보드에서 열기",
+    "description": "Clipboard item title in history"
+  },
+  "clipboard_read_failed": {
+    "message": "클립보드 읽기 실패",
+    "description": "Error when clipboard read fails"
+  },
+  "close": {
+    "message": "닫기",
+    "description": "Close button text/tooltip"
+  },
+  "contextMenu_viewAsMarkdown": {
+    "message": "Markdown으로 보기",
+    "description": "Context menu item to view any file as markdown"
+  },
+  "delete": {
+    "message": "삭제",
+    "description": "Delete button text"
+  },
+  "delete_file": {
+    "message": "파일 삭제",
+    "description": "Menu item to delete a file"
+  },
+  "delete_file_confirm": {
+    "message": "\"{0}\"을(를) 삭제하시겠습니까? 이 작업은 취소할 수 없습니다.",
+    "description": "Confirmation message for deleting a file"
+  },
+  "docx_export_failed_alert": {
+    "message": "내보내기에 실패했습니다{0}",
+    "description": "내보내기 실패 경고"
+  },
+  "docx_export_failed_default": {
+    "message": "내보내기에 실패했습니다",
+    "description": "내보내기 실패 기본 메시지"
+  },
+  "export_docx": {
+    "message": "Word로 공유",
+    "description": "Menu item for exporting to DOCX"
+  },
+  "exporting": {
+    "message": "Word 문서 준비 중...",
+    "description": "Toast shown during export"
+  },
+  "extensionDescription": {
+    "message": "Markdown을 클릭 한 번으로 완벽한 Word로 — Mermaid, Graphviz, Vega, 인포그래픽, LaTeX(편집 가능), 코드 강조, 로컬 처리",
+    "description": "Chrome 웹 스토어에 표시되는 설명"
+  },
+  "extensionName": {
+    "message": "Markdown 뷰어",
+    "description": "확장 프로그램 이름"
+  },
+  "failed_to_open_file": {
+    "message": "파일 열기 실패: {0}",
+    "description": "Toast when file open fails"
+  },
+  "failed_to_open_url": {
+    "message": "URL을 열 수 없습니다: {0}",
+    "description": "Error message when URL cannot be opened"
+  },
+  "failed_to_share": {
+    "message": "공유 실패: {0}",
+    "description": "Toast when sharing fails"
+  },
+  "file_access_disabled": {
+    "message": "비활성화됨",
+    "description": "Status text when file access is disabled"
+  },
+  "file_access_disabled_desc_short": {
+    "message": "로컬 파일을 보려면",
+    "description": "Short description prefix for file access warning"
+  },
+  "file_access_disabled_suffix": {
+    "message": "을 방문하여 '파일 URL에 대한 액세스 허용'을 활성화하세요",
+    "description": "Suffix for file access warning"
+  },
+  "file_access_settings_link": {
+    "message": "확장 프로그램 설정 페이지",
+    "description": "Link text to extension settings"
+  },
+  "file_deleted": {
+    "message": "파일이 삭제되었습니다",
+    "description": "Toast when file is deleted"
+  },
+  "file_not_found": {
+    "message": "파일을 찾을 수 없습니다",
+    "description": "Error message when file doesn't exist"
+  },
+  "file_removed": {
+    "message": "목록에서 제거되었습니다",
+    "description": "Toast when file is removed from list"
+  },
+  "file_url_copied": {
+    "message": "URL이 복사되었습니다. 주소창에 붙여넣어 열어주세요.",
+    "description": "Message shown when file URL is copied to clipboard in Firefox"
+  },
+  "heading_h2_format": {
+    "message": "제{0}장",
+    "description": "Format for h2 headings. {0} is the chapter number."
+  },
+  "heading_h2_numerals": {
+    "message": "arabic",
+    "description": "Numeral system for h2: chinese, arabic, roman"
+  },
+  "history_clear": {
+    "message": "기록 지우기",
+    "description": "기록 지우기 버튼"
+  },
+  "history_clear_confirm": {
+    "message": "모든 기록을 지우시겠습니까? 이 작업은 취소할 수 없습니다.",
+    "description": "기록 지우기 확인 메시지"
+  },
+  "history_clear_failed": {
+    "message": "기록 지우기에 실패했습니다",
+    "description": "기록 지우기 실패 메시지"
+  },
+  "history_clear_success": {
+    "message": "기록이 지워졌습니다",
+    "description": "기록 지우기 성공 메시지"
+  },
+  "history_description": {
+    "message": "최근에 연 Markdown 문서를 표시합니다. 클릭하여 다시 열기",
+    "description": "기록 문서 설명"
+  },
+  "history_items_empty": {
+    "message": "아직 기록이 없습니다",
+    "description": "빈 기록 목록 메시지"
+  },
+  "history_loading_failed": {
+    "message": "기록 로드에 실패했습니다",
+    "description": "기록 로드 실패 메시지"
+  },
+  "history_open_failed": {
+    "message": "문서를 열지 못했습니다",
+    "description": "기록 문서 열기 실패 메시지"
+  },
+  "history_refresh": {
+    "message": "새로 고침",
+    "description": "기록 새로 고침 버튼"
+  },
+  "history_title": {
+    "message": "최근 문서",
+    "description": "기록 문서 제목"
+  },
+  "language": {
+    "message": "언어",
+    "description": "Menu item for language"
+  },
+  "more": {
+    "message": "더 보기",
+    "description": "More menu tooltip"
+  },
+  "no_file_opened": {
+    "message": "열린 파일이 없습니다",
+    "description": "Message when trying to perform action without file"
+  },
+  "no_file_to_share": {
+    "message": "공유할 파일이 없습니다",
+    "description": "Toast when no file is open for sharing"
+  },
+  "no_headings": {
+    "message": "제목을 찾을 수 없습니다",
+    "description": "Toast when document has no headings"
+  },
+  "no_recent_files": {
+    "message": "최근 파일 없음",
+    "description": "Toast when there are no recent files"
+  },
+  "open_file": {
+    "message": "파일 열기",
+    "description": "Menu item to open file"
+  },
+  "popup_review_link": {
+    "message": "평가",
+    "description": "확장 프로그램 평가 링크 텍스트"
+  },
+  "popup_title": {
+    "message": "Markdown Viewer",
+    "description": "팝업 제목"
+  },
+  "popup_version_label": {
+    "message": "버전 {0}",
+    "description": "헤더에 확장 버전을 표시"
+  },
+  "preparing_share": {
+    "message": "공유 준비 중...",
+    "description": "Progress text when preparing to share"
+  },
+  "recent_files": {
+    "message": "최근 파일",
+    "description": "Title for recent files section"
+  },
+  "remove_from_list": {
+    "message": "목록에서 제거",
+    "description": "Menu item to remove file from recent list"
+  },
+  "reset": {
+    "message": "재설정",
+    "description": "Reset button"
+  },
+  "search_case_sensitive": {
+    "message": "대소문자 구분",
+    "description": "Toggle case sensitive search"
+  },
+  "search_next": {
+    "message": "다음",
+    "description": "Navigate to next search match"
+  },
+  "search_placeholder": {
+    "message": "검색",
+    "description": "Placeholder text for search input"
+  },
+  "search_previous": {
+    "message": "이전",
+    "description": "Navigate to previous search match"
+  },
+  "search_whole_word": {
+    "message": "단어 전체",
+    "description": "Toggle whole word search"
+  },
+  "settings_auto_refresh": {
+    "message": "자동 새로고침",
+    "description": "Label for auto refresh checkbox"
+  },
+  "settings_auto_refresh_interval": {
+    "message": "새로고침 간격:",
+    "description": "Label for refresh interval selector"
+  },
+  "settings_auto_refresh_note": {
+    "message": "로컬 파일이 변경되면 자동으로 새로고침합니다 (file://만 해당).",
+    "description": "Helper note for auto refresh option"
+  },
+  "settings_auto_refresh_title": {
+    "message": "자동 새로고침",
+    "description": "Title for auto refresh settings section"
+  },
+  "settings_cache_title": {
+    "message": "캐시",
+    "description": "Title for cache settings section"
+  },
+  "settings_docx_emoji_style": {
+    "message": "이모지 스타일",
+    "description": "Label for the emoji style selector in DOCX export settings"
+  },
+  "settings_docx_emoji_style_apple": {
+    "message": "Apple 스타일",
+    "description": "Option for Apple emoji style"
+  },
+  "settings_docx_emoji_style_note": {
+    "message": "DOCX 내보내기용 이모지 글꼴 스타일 선택",
+    "description": "Note explaining the emoji style setting"
+  },
+  "settings_docx_emoji_style_system": {
+    "message": "시스템 스타일",
+    "description": "Option to use system emoji (no font processing)"
+  },
+  "settings_docx_emoji_style_windows": {
+    "message": "Windows 스타일",
+    "description": "Option for Windows emoji style"
+  },
+  "settings_docx_hr_display": {
+    "message": "DOCX: 가로줄 처리",
+    "description": "Label for DOCX horizontal rule handling selector"
+  },
+  "settings_docx_hr_display_hide": {
+    "message": "숨기기 (빈 줄)",
+    "description": "Option to hide horizontal rules in DOCX"
+  },
+  "settings_docx_hr_display_line": {
+    "message": "가로줄",
+    "description": "Option to export horizontal rules as a line in DOCX"
+  },
+  "settings_docx_hr_display_note": {
+    "message": "Markdown 구분선(---)을 DOCX에서 어떻게 내보낼지 선택합니다.",
+    "description": "Helper note for DOCX horizontal rule handling"
+  },
+  "settings_docx_hr_display_page_break": {
+    "message": "페이지 나누기",
+    "description": "Option to export horizontal rules as page breaks in DOCX"
+  },
+  "settings_frontmatter_display": {
+    "message": "Frontmatter 표시:",
+    "description": "Label for frontmatter display mode selector"
+  },
+  "settings_frontmatter_hide": {
+    "message": "숨기기",
+    "description": "Option to hide frontmatter"
+  },
+  "settings_frontmatter_note": {
+    "message": "Markdown 파일 시작 부분의 YAML frontmatter 표시 방법을 선택합니다.",
+    "description": "Helper note for frontmatter display option"
+  },
+  "settings_frontmatter_raw": {
+    "message": "원본 (인용)",
+    "description": "Option to display frontmatter as blockquote"
+  },
+  "settings_frontmatter_table": {
+    "message": "테이블",
+    "description": "Option to display frontmatter as table"
+  },
+  "settings_general_title": {
+    "message": "확장 프로그램 설정",
+    "description": "설정 섹션 제목"
+  },
+  "settings_interface_title": {
+    "message": "인터페이스 설정",
+    "description": "Heading for interface settings section"
+  },
+  "settings_invalid_max_cache": {
+    "message": "{0} 이상 {1} 이하의 값을 입력하세요",
+    "description": "잘못된 값 메시지"
+  },
+  "settings_language_auto": {
+    "message": "시스템 언어",
+    "description": "자동 언어 옵션"
+  },
+  "settings_language_changed": {
+    "message": "인터페이스 언어가 변경되었습니다",
+    "description": "Toast when language is changed successfully"
+  },
+  "settings_max_cache_label": {
+    "message": "최대 캐시 항목 수:",
+    "description": "캐시 필드 라벨"
+  },
+  "settings_reset_btn": {
+    "message": "재설정",
+    "description": "재설정 버튼"
+  },
+  "settings_reset_confirm": {
+    "message": "모든 설정을 기본값으로 재설정할까요?",
+    "description": "재설정 확인"
+  },
+  "settings_reset_failed": {
+    "message": "설정을 재설정할 수 없습니다",
+    "description": "재설정 실패 알림"
+  },
+  "settings_reset_success": {
+    "message": "설정을 재설정했습니다",
+    "description": "재설정 성공 알림"
+  },
+  "settings_save_failed": {
+    "message": "설정을 저장하지 못했습니다",
+    "description": "저장 실패 알림"
+  },
+  "settings_save_success": {
+    "message": "설정을 저장했습니다",
+    "description": "저장 성공 알림"
+  },
+  "settings_support_canvas": {
+    "message": "JSON Canvas 다이어그램 (.canvas)",
+    "description": "Checkbox label for enabling JSON Canvas file support"
+  },
+  "settings_support_dot": {
+    "message": "Graphviz DOT 다이어그램 (.gv)",
+    "description": "Checkbox label for Graphviz DOT format support"
+  },
+  "settings_support_drawio": {
+    "message": "drawio 다이어그램 (.drawio)",
+    "description": "Checkbox label for enabling drawio file support"
+  },
+  "settings_support_infographic": {
+    "message": "인포그래픽 (.infographic)",
+    "description": "Checkbox label for Infographic format support"
+  },
+  "settings_support_mermaid": {
+    "message": "Mermaid 다이어그램 (.mermaid)",
+    "description": "Checkbox label for Mermaid format support"
+  },
+  "settings_support_vega": {
+    "message": "Vega 차트 (.vega)",
+    "description": "Checkbox label for Vega format support"
+  },
+  "settings_support_vega_lite": {
+    "message": "Vega-Lite 차트 (.vl, .vega-lite)",
+    "description": "Checkbox label for Vega-Lite format support"
+  },
+  "settings_supported_formats_title": {
+    "message": "지원 형식",
+    "description": "Title for supported file formats section in settings"
+  },
+  "settings_table_layout": {
+    "message": "테이블 레이아웃",
+    "description": "Label for table layout selector"
+  },
+  "settings_table_layout_center": {
+    "message": "가운데",
+    "description": "Table layout option: center aligned"
+  },
+  "settings_table_layout_left": {
+    "message": "왼쪽",
+    "description": "Table layout option: left aligned"
+  },
+  "settings_table_merge_empty": {
+    "message": "스마트 테이블 셀 병합",
+    "description": "Checkbox label for enabling automatic vertical merging of empty table cells"
+  },
+  "settings_table_merge_empty_note": {
+    "message": "활성화되면 테이블 구조를 분석하고 빈 셀을 스마트하게 병합합니다.",
+    "description": "Helper note for the table merge option"
+  },
+  "settings_theme_changed": {
+    "message": "테마가 성공적으로 변경되었습니다. 변경 사항을 보려면 페이지를 새로 고침하세요.",
+    "description": "테마 변경 시 표시되는 메시지"
+  },
+  "settings_theme_label": {
+    "message": "테마 선택:",
+    "description": "테마 선택 라벨"
+  },
+  "share": {
+    "message": "공유",
+    "description": "Share button tooltip"
+  },
+  "tab_history": {
+    "message": "기록",
+    "description": "기록 탭 라벨"
+  },
+  "tab_settings": {
+    "message": "설정",
+    "description": "설정 탭 라벨"
+  },
+  "tab_theme": {
+    "message": "테마",
+    "description": "Label for theme tab"
+  },
+  "theme": {
+    "message": "테마",
+    "description": "Menu item for theme"
+  },
+  "toc": {
+    "message": "목차",
+    "description": "TOC drawer title"
+  },
+  "toolbar_download_title": {
+    "message": "다운로드",
+    "description": "다운로드 버튼 툴팁"
+  },
+  "toolbar_layout_title_fullscreen": {
+    "message": "전체 화면 레이아웃",
+    "description": "전체 화면 레이아웃 툴팁"
+  },
+  "toolbar_layout_title_narrow": {
+    "message": "좁은 레이아웃",
+    "description": "좁은 레이아웃 툴팁"
+  },
+  "toolbar_layout_title_normal": {
+    "message": "기본 레이아웃",
+    "description": "기본 레이아웃 툴팁"
+  },
+  "toolbar_print_disabled_title": {
+    "message": "인쇄는 로컬 파일에서만 사용할 수 있습니다",
+    "description": "원격 파일에서 인쇄 버튼이 비활성화될 때의 툴팁"
+  },
+  "toolbar_print_title": {
+    "message": "인쇄",
+    "description": "인쇄 버튼 툴팁"
+  },
+  "toolbar_toggle_toc_title": {
+    "message": "목차 표시/숨기기",
+    "description": "TOC 버튼 툴팁"
+  },
+  "toolbar_zoom_in_title": {
+    "message": "확대",
+    "description": "확대 버튼 툴팁"
+  },
+  "toolbar_zoom_out_title": {
+    "message": "축소",
+    "description": "축소 버튼 툴팁"
+  },
+  "welcome_message": {
+    "message": "마크다운 파일을 열어 시작하세요",
+    "description": "Welcome message on empty state"
+  },
+  "zoom": {
+    "message": "확대/축소",
+    "description": "Menu item for zoom"
+  }
+}

@@ -1,0 +1,630 @@
+{
+  "about": {
+    "message": "Про програму",
+    "description": "Menu item for about"
+  },
+  "async_processing_error": {
+    "message": "Помилка {0}: {1}",
+    "description": "Generic error message with type and detail"
+  },
+  "async_processing_message": {
+    "message": "Обробка {0}{1}...",
+    "description": "Async placeholder processing text"
+  },
+  "async_task_processing_error": {
+    "message": "Помилка обробки завдання: {0}",
+    "description": "Error when async task fails"
+  },
+  "async_unknown_error": {
+    "message": "Невідома помилка",
+    "description": "Fallback when error message missing"
+  },
+  "cache_clear": {
+    "message": "Очистити кеш",
+    "description": "Clear cache button"
+  },
+  "cache_clear_confirm": {
+    "message": "Очистити всі кешовані дані? Цю дію неможливо скасувати.",
+    "description": "Confirmation text for clearing cache"
+  },
+  "cache_clear_failed": {
+    "message": "Не вдалося очистити кеш",
+    "description": "Toast when cache clear fails"
+  },
+  "cache_clear_success": {
+    "message": "Кеш очищено",
+    "description": "Toast when cache clear succeeds"
+  },
+  "cache_error_message": {
+    "message": "Не вдалося зʼєднатися з кешем — спочатку відкрийте Markdown-файл",
+    "description": "Shown when cache cannot be reached"
+  },
+  "cache_hint_details": {
+    "message": "Кешування працює автоматично, поки відкриті Markdown-сторінки",
+    "description": "Additional hint when cache is empty"
+  },
+  "cache_item_accessed_label": {
+    "message": "Останній доступ",
+    "description": "Label for cache item last access time"
+  },
+  "cache_item_created_label": {
+    "message": "Створено",
+    "description": "Label for cache item created time"
+  },
+  "cache_item_size_label": {
+    "message": "Розмір",
+    "description": "Label for cache item size"
+  },
+  "cache_item_type_label": {
+    "message": "Тип",
+    "description": "Label for cache item type"
+  },
+  "cache_item_type_unknown": {
+    "message": "невідомо",
+    "description": "Fallback label when cache type is missing"
+  },
+  "cache_loading_failed": {
+    "message": "Не вдалося завантажити кеш: {0}",
+    "description": "Displayed when cache loading throws an error"
+  },
+  "cache_manual_clear_intro": {
+    "message": "Щоб очистити кеш вручну:",
+    "description": "Manual cache clear intro"
+  },
+  "cache_manual_clear_step_1": {
+    "message": "Відкрийте будь-який Markdown-файл",
+    "description": "Manual cache clear step"
+  },
+  "cache_manual_clear_step_2": {
+    "message": "Натисніть F12, щоб відкрити DevTools",
+    "description": "Manual cache clear step"
+  },
+  "cache_manual_clear_step_3": {
+    "message": "Виконайте \"{0}\" у консолі",
+    "description": "Manual cache clear step with code placeholder"
+  },
+  "cache_manual_clear_title": {
+    "message": "🧹 Очистити кеш вручну",
+    "description": "Manual cache clear title"
+  },
+  "cache_manual_limit_desc_1": {
+    "message": "З міркувань безпеки спливаюче вікно не може отримати прямий доступ до IndexedDB.",
+    "description": "Manual cache info description"
+  },
+  "cache_manual_limit_desc_2": {
+    "message": "Кешування працює під час рендерингу Markdown-сторінок, але спливаюче вікно не може показати деталі.",
+    "description": "Manual cache info description"
+  },
+  "cache_manual_limit_title": {
+    "message": "⚠️ Обмеження доступу до кешу",
+    "description": "Manual cache info section title"
+  },
+  "cache_manual_status_intro": {
+    "message": "Щоб переконатися, що кешування працює:",
+    "description": "Manual cache status intro"
+  },
+  "cache_manual_status_step_console": {
+    "message": "Перевірте журнали \"⚡ Using cached\" у DevTools",
+    "description": "Manual cache status checklist"
+  },
+  "cache_manual_status_step_open": {
+    "message": "Відкрийте Markdown-файл",
+    "description": "Manual cache status checklist"
+  },
+  "cache_manual_status_step_speed": {
+    "message": "Зверніть увагу на швидший рендеринг при прогрітому кеші",
+    "description": "Manual cache status checklist"
+  },
+  "cache_manual_status_title": {
+    "message": "📊 Перевірити стан кешу",
+    "description": "Manual cache status section title"
+  },
+  "cache_refresh": {
+    "message": "Оновити",
+    "description": "Refresh cache button"
+  },
+  "cache_stat_item_label": {
+    "message": "Кешовані елементи",
+    "description": "Label for number of cached items"
+  },
+  "cache_stat_size_label": {
+    "message": "Використано місця",
+    "description": "Label for cache size"
+  },
+  "cancel": {
+    "message": "Скасувати",
+    "description": "Cancel button text"
+  },
+  "clear_all": {
+    "message": "Очистити все",
+    "description": "Button to clear all items"
+  },
+  "clear_recent_files": {
+    "message": "Очистити останні файли",
+    "description": "Dialog title for clearing recent files"
+  },
+  "clear_recent_files_confirm": {
+    "message": "Видалити всі останні файли зі списку?",
+    "description": "Confirmation message for clearing recent files"
+  },
+  "clipboard_empty": {
+    "message": "Буфер обміну порожній",
+    "description": "Error when clipboard is empty"
+  },
+  "clipboard_open": {
+    "message": "Відкрити з буфера обміну",
+    "description": "Clipboard item title in history"
+  },
+  "clipboard_read_failed": {
+    "message": "Не вдалося прочитати буфер обміну",
+    "description": "Error when clipboard read fails"
+  },
+  "close": {
+    "message": "Закрити",
+    "description": "Close button text/tooltip"
+  },
+  "contextMenu_viewAsMarkdown": {
+    "message": "Переглянути як Markdown",
+    "description": "Context menu item to view any file as markdown"
+  },
+  "delete": {
+    "message": "Видалити",
+    "description": "Delete button text"
+  },
+  "delete_file": {
+    "message": "Видалити файл",
+    "description": "Menu item to delete a file"
+  },
+  "delete_file_confirm": {
+    "message": "Ви впевнені, що хочете видалити \"{0}\"? Цю дію неможливо скасувати.",
+    "description": "Confirmation message for deleting a file"
+  },
+  "docx_export_failed_alert": {
+    "message": "Експорт не вдався{0}",
+    "description": "Alert shown when DOCX export fails"
+  },
+  "docx_export_failed_default": {
+    "message": "Експорт не вдався",
+    "description": "Fallback message when DOCX export fails"
+  },
+  "export_docx": {
+    "message": "Поділитися як Word",
+    "description": "Menu item for exporting to DOCX"
+  },
+  "exporting": {
+    "message": "Підготовка Word-документа...",
+    "description": "Fallback message when DOCX export fails"
+  },
+  "extensionDescription": {
+    "message": "Markdown у ідеальний Word одним кліком — Mermaid, Graphviz, Vega, інфографіка, LaTeX (редагований), підсвітка коду, локальна обробка",
+    "description": "Extension description shown in Chrome Web Store"
+  },
+  "extensionName": {
+    "message": "Markdown Viewer",
+    "description": "Extension name"
+  },
+  "failed_to_open_file": {
+    "message": "Не вдалося відкрити файл: {0}",
+    "description": "Toast when file open fails"
+  },
+  "failed_to_open_url": {
+    "message": "Не вдалося відкрити URL: {0}",
+    "description": "Error message when URL cannot be opened"
+  },
+  "failed_to_share": {
+    "message": "Не вдалося поділитися: {0}",
+    "description": "Toast when sharing fails"
+  },
+  "file_access_disabled": {
+    "message": "Вимкнено",
+    "description": "Status text when file access is disabled"
+  },
+  "file_access_disabled_desc_short": {
+    "message": "Щоб переглядати локальні файли, відвідайте",
+    "description": "Short description prefix for file access warning"
+  },
+  "file_access_disabled_suffix": {
+    "message": "і увімкніть 'Дозволити доступ до URL-адрес файлів'",
+    "description": "Suffix for file access warning"
+  },
+  "file_access_settings_link": {
+    "message": "сторінку налаштувань розширення",
+    "description": "Link text to extension settings"
+  },
+  "file_deleted": {
+    "message": "Файл видалено",
+    "description": "Toast when file is deleted"
+  },
+  "file_not_found": {
+    "message": "Файл не знайдено",
+    "description": "Error message when file doesn't exist"
+  },
+  "file_removed": {
+    "message": "Видалено зі списку",
+    "description": "Toast when file is removed from list"
+  },
+  "file_url_copied": {
+    "message": "URL скопійовано. Вставте в адресний рядок для відкриття.",
+    "description": "Message shown when file URL is copied to clipboard in Firefox"
+  },
+  "heading_h2_format": {
+    "message": "Розділ {0}",
+    "description": "Format for h2 headings. {0} is the chapter number."
+  },
+  "heading_h2_numerals": {
+    "message": "arabic",
+    "description": "Numeral system for h2: chinese, arabic, roman"
+  },
+  "history_clear": {
+    "message": "Очистити історію",
+    "description": "Clear history button"
+  },
+  "history_clear_confirm": {
+    "message": "Очистити всю історію? Цю дію неможливо скасувати.",
+    "description": "Clear history confirmation message"
+  },
+  "history_clear_failed": {
+    "message": "Не вдалося очистити історію",
+    "description": "Clear history failed message"
+  },
+  "history_clear_success": {
+    "message": "Історію очищено",
+    "description": "Clear history success message"
+  },
+  "history_description": {
+    "message": "Показує нещодавно відкриті Markdown-документи, клікніть, щоб відкрити знову",
+    "description": "History documents description"
+  },
+  "history_items_empty": {
+    "message": "Історія порожня",
+    "description": "Empty history list message"
+  },
+  "history_loading_failed": {
+    "message": "Не вдалося завантажити історію",
+    "description": "Load history failed message"
+  },
+  "history_open_failed": {
+    "message": "Не вдалося відкрити документ",
+    "description": "Open history document failed message"
+  },
+  "history_refresh": {
+    "message": "Оновити",
+    "description": "Refresh history button"
+  },
+  "history_title": {
+    "message": "Останні документи",
+    "description": "History documents title"
+  },
+  "language": {
+    "message": "Мова",
+    "description": "Menu item for language"
+  },
+  "more": {
+    "message": "Більше",
+    "description": "More options menu"
+  },
+  "no_file_opened": {
+    "message": "Файл не відкрито",
+    "description": "Message when trying to perform action without file"
+  },
+  "no_file_to_share": {
+    "message": "Немає файлу для поширення",
+    "description": "Toast when no file is open for sharing"
+  },
+  "no_headings": {
+    "message": "Заголовків не знайдено",
+    "description": "Toast when document has no headings"
+  },
+  "no_recent_files": {
+    "message": "Немає останніх файлів",
+    "description": "Toast when there are no recent files"
+  },
+  "open_file": {
+    "message": "Відкрити файл",
+    "description": "Menu item to open file"
+  },
+  "popup_review_link": {
+    "message": "Оцінити",
+    "description": "Link text to rate and review the extension"
+  },
+  "popup_title": {
+    "message": "Markdown Viewer",
+    "description": "Popup title"
+  },
+  "popup_version_label": {
+    "message": "v{0}",
+    "description": "Shows the extension version in the header"
+  },
+  "preparing_share": {
+    "message": "Підготовка до поширення...",
+    "description": "Progress text when preparing to share"
+  },
+  "recent_files": {
+    "message": "Останні файли",
+    "description": "Title for recent files section"
+  },
+  "remove_from_list": {
+    "message": "Видалити зі списку",
+    "description": "Menu item to remove file from recent list"
+  },
+  "reset": {
+    "message": "Скинути",
+    "description": "Reset button"
+  },
+  "search_case_sensitive": {
+    "message": "З урахуванням регістру",
+    "description": "Toggle case sensitive search"
+  },
+  "search_next": {
+    "message": "Наступний",
+    "description": "Navigate to next search match"
+  },
+  "search_placeholder": {
+    "message": "Пошук",
+    "description": "Placeholder text for search input"
+  },
+  "search_previous": {
+    "message": "Попередній",
+    "description": "Navigate to previous search match"
+  },
+  "search_whole_word": {
+    "message": "Слово повністю",
+    "description": "Toggle whole word search"
+  },
+  "settings_auto_refresh": {
+    "message": "Автооновлення",
+    "description": "Label for auto refresh checkbox"
+  },
+  "settings_auto_refresh_interval": {
+    "message": "Інтервал оновлення:",
+    "description": "Label for refresh interval selector"
+  },
+  "settings_auto_refresh_note": {
+    "message": "Автоматично перезавантажувати при зміні локального файлу (лише file://).",
+    "description": "Helper note for auto refresh option"
+  },
+  "settings_auto_refresh_title": {
+    "message": "Автооновлення",
+    "description": "Title for auto refresh settings section"
+  },
+  "settings_cache_title": {
+    "message": "Кеш",
+    "description": "Title for cache settings section"
+  },
+  "settings_docx_emoji_style": {
+    "message": "Стиль емодзі",
+    "description": "Label for the emoji style selector in DOCX export settings"
+  },
+  "settings_docx_emoji_style_apple": {
+    "message": "Стиль Apple",
+    "description": "Option for Apple emoji style"
+  },
+  "settings_docx_emoji_style_note": {
+    "message": "Виберіть стиль шрифту емодзі для експорту DOCX",
+    "description": "Note explaining the emoji style setting"
+  },
+  "settings_docx_emoji_style_system": {
+    "message": "Системний стиль",
+    "description": "Option to use system emoji (no font processing)"
+  },
+  "settings_docx_emoji_style_windows": {
+    "message": "Стиль Windows",
+    "description": "Option for Windows emoji style"
+  },
+  "settings_docx_hr_display": {
+    "message": "DOCX: Обробка горизонтальних ліній",
+    "description": "Label for DOCX horizontal rule handling selector"
+  },
+  "settings_docx_hr_display_hide": {
+    "message": "Приховати (порожній рядок)",
+    "description": "Option to hide horizontal rules in DOCX"
+  },
+  "settings_docx_hr_display_line": {
+    "message": "Горизонтальна лінія",
+    "description": "Option to export horizontal rules as a line in DOCX"
+  },
+  "settings_docx_hr_display_note": {
+    "message": "Виберіть, як роздільники Markdown (---) експортуються в DOCX.",
+    "description": "Helper note for DOCX horizontal rule handling"
+  },
+  "settings_docx_hr_display_page_break": {
+    "message": "Розрив сторінки",
+    "description": "Option to export horizontal rules as page breaks in DOCX"
+  },
+  "settings_frontmatter_display": {
+    "message": "Відображення Frontmatter:",
+    "description": "Label for frontmatter display mode selector"
+  },
+  "settings_frontmatter_hide": {
+    "message": "Сховати",
+    "description": "Option to hide frontmatter"
+  },
+  "settings_frontmatter_note": {
+    "message": "Виберіть спосіб відображення YAML frontmatter на початку файлів Markdown.",
+    "description": "Helper note for frontmatter display option"
+  },
+  "settings_frontmatter_raw": {
+    "message": "Вихідний (цитата)",
+    "description": "Option to display frontmatter as blockquote"
+  },
+  "settings_frontmatter_table": {
+    "message": "Таблиця",
+    "description": "Option to display frontmatter as table"
+  },
+  "settings_general_title": {
+    "message": "Налаштування розширення",
+    "description": "Heading for settings section"
+  },
+  "settings_interface_title": {
+    "message": "Налаштування інтерфейсу",
+    "description": "Heading for interface settings section"
+  },
+  "settings_invalid_max_cache": {
+    "message": "Введіть коректний розмір кешу від {0} до {1}",
+    "description": "Shown when max cache input is invalid"
+  },
+  "settings_language_auto": {
+    "message": "Мова системи",
+    "description": "Option for automatic locale"
+  },
+  "settings_language_changed": {
+    "message": "Мову інтерфейсу змінено",
+    "description": "Toast when language is changed successfully"
+  },
+  "settings_max_cache_label": {
+    "message": "Макс. кількість кешованих елементів:",
+    "description": "Label for max cache input"
+  },
+  "settings_reset_btn": {
+    "message": "Скинути до стандартних",
+    "description": "Reset button"
+  },
+  "settings_reset_confirm": {
+    "message": "Скинути всі налаштування до стандартних значень?",
+    "description": "Confirmation text for resetting settings"
+  },
+  "settings_reset_failed": {
+    "message": "Не вдалося скинути налаштування",
+    "description": "Toast when resetting settings fails"
+  },
+  "settings_reset_success": {
+    "message": "Налаштування скинуто",
+    "description": "Toast when settings reset succeeds"
+  },
+  "settings_save_failed": {
+    "message": "Не вдалося зберегти налаштування",
+    "description": "Toast when saving settings fails"
+  },
+  "settings_save_success": {
+    "message": "Налаштування збережено",
+    "description": "Toast when settings saved"
+  },
+  "settings_support_canvas": {
+    "message": "JSON Canvas діаграми (.canvas)",
+    "description": "Checkbox label for enabling JSON Canvas file support"
+  },
+  "settings_support_dot": {
+    "message": "Діаграми Graphviz DOT (.gv)",
+    "description": "Checkbox label for enabling DOT file support"
+  },
+  "settings_support_drawio": {
+    "message": "drawio діаграми (.drawio)",
+    "description": "Checkbox label for enabling drawio file support"
+  },
+  "settings_support_infographic": {
+    "message": "Інфографіка (.infographic)",
+    "description": "Checkbox label for enabling infographic file support"
+  },
+  "settings_support_mermaid": {
+    "message": "Діаграми Mermaid (.mermaid)",
+    "description": "Checkbox label for enabling Mermaid file support"
+  },
+  "settings_support_vega": {
+    "message": "Графіки Vega (.vega)",
+    "description": "Checkbox label for enabling Vega file support"
+  },
+  "settings_support_vega_lite": {
+    "message": "Графіки Vega-Lite (.vl, .vega-lite)",
+    "description": "Checkbox label for enabling Vega-Lite file support"
+  },
+  "settings_supported_formats_title": {
+    "message": "Підтримувані формати",
+    "description": "Heading for supported formats section"
+  },
+  "settings_table_layout": {
+    "message": "Макет таблиці",
+    "description": "Label for table layout selector"
+  },
+  "settings_table_layout_center": {
+    "message": "По центру",
+    "description": "Table layout option: center aligned"
+  },
+  "settings_table_layout_left": {
+    "message": "Зліва",
+    "description": "Table layout option: left aligned"
+  },
+  "settings_table_merge_empty": {
+    "message": "Розумне об'єднання комірок таблиці",
+    "description": "Checkbox label for enabling automatic vertical merging of empty table cells"
+  },
+  "settings_table_merge_empty_note": {
+    "message": "Якщо увімкнено, структура таблиці буде проаналізована і порожні комірки будуть інтелектуально об'єднані.",
+    "description": "Helper note for the table merge option"
+  },
+  "settings_theme_changed": {
+    "message": "Тему успішно змінено. Перезавантажте сторінку, щоб побачити зміни.",
+    "description": "Message shown when theme is changed"
+  },
+  "settings_theme_label": {
+    "message": "Виберіть тему:",
+    "description": "Label for theme selector"
+  },
+  "share": {
+    "message": "Поділитися",
+    "description": "Share button tooltip"
+  },
+  "tab_history": {
+    "message": "Історія",
+    "description": "Label for history tab"
+  },
+  "tab_settings": {
+    "message": "Налаштування",
+    "description": "Label for settings tab"
+  },
+  "tab_theme": {
+    "message": "Тема",
+    "description": "Label for theme tab"
+  },
+  "theme": {
+    "message": "Тема",
+    "description": "Menu item for theme"
+  },
+  "toc": {
+    "message": "Зміст",
+    "description": "TOC drawer title"
+  },
+  "toolbar_download_title": {
+    "message": "Завантажити",
+    "description": "Toolbar download tooltip"
+  },
+  "toolbar_layout_title_fullscreen": {
+    "message": "Повноекранний режим",
+    "description": "Toolbar layout toggle tooltip for fullscreen mode"
+  },
+  "toolbar_layout_title_narrow": {
+    "message": "Вузький режим",
+    "description": "Toolbar layout toggle tooltip for narrow mode"
+  },
+  "toolbar_layout_title_normal": {
+    "message": "Звичайний режим",
+    "description": "Toolbar layout toggle tooltip for normal mode"
+  },
+  "toolbar_print_disabled_title": {
+    "message": "Друк доступний лише для локальних файлів",
+    "description": "Tooltip when print button is disabled for remote files"
+  },
+  "toolbar_print_title": {
+    "message": "Друк",
+    "description": "Toolbar print tooltip"
+  },
+  "toolbar_toggle_toc_title": {
+    "message": "Показати або приховати зміст",
+    "description": "Toolbar button title for toggling TOC"
+  },
+  "toolbar_zoom_in_title": {
+    "message": "Збільшити",
+    "description": "Toolbar zoom in tooltip"
+  },
+  "toolbar_zoom_out_title": {
+    "message": "Зменшити",
+    "description": "Toolbar zoom out tooltip"
+  },
+  "welcome_message": {
+    "message": "Відкрийте markdown-файл, щоб почати",
+    "description": "Welcome message on empty state"
+  },
+  "zoom": {
+    "message": "Масштаб",
+    "description": "Menu item for zoom"
+  }
+}

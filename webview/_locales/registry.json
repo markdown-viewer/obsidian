@@ -1,0 +1,33 @@
+{
+  "version": "1.0.0",
+  "locales": [
+    { "code": "en", "name": "English" },
+    { "code": "zh_CN", "name": "简体中文" },
+    { "code": "zh_TW", "name": "繁體中文" },
+    { "code": "ru", "name": "Русский" },
+    { "code": "ja", "name": "日本語" },
+    { "code": "ko", "name": "한국어" },
+    { "code": "es", "name": "Español" },
+    { "code": "fr", "name": "Français" },
+    { "code": "de", "name": "Deutsch" },
+    { "code": "vi", "name": "Tiếng Việt" },
+    { "code": "tr", "name": "Türkçe" },
+    { "code": "pt_BR", "name": "Português (Brasil)" },
+    { "code": "pt_PT", "name": "Português (Portugal)" },
+    { "code": "th", "name": "ไทย" },
+    { "code": "hi", "name": "हिन्दी" },
+    { "code": "nl", "name": "Nederlands" },
+    { "code": "uk", "name": "Українська" },
+    { "code": "be", "name": "Беларуская" },
+    { "code": "it", "name": "Italiano" },
+    { "code": "id", "name": "Bahasa Indonesia" },
+    { "code": "sv", "name": "Svenska" },
+    { "code": "et", "name": "Eesti" },
+    { "code": "ms", "name": "Bahasa Melayu" },
+    { "code": "pl", "name": "Polski" },
+    { "code": "fi", "name": "Suomi" },
+    { "code": "lt", "name": "Lietuvių" },
+    { "code": "no", "name": "Norsk" },
+    { "code": "da", "name": "Dansk" }
+  ]
+}

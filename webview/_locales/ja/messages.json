@@ -1,0 +1,630 @@
+{
+  "about": {
+    "message": "について",
+    "description": "Menu item for about"
+  },
+  "async_processing_error": {
+    "message": "{0}エラー：{1}",
+    "description": "Generic error message with type and detail"
+  },
+  "async_processing_message": {
+    "message": "{0}{1} を処理中...",
+    "description": "非同期処理中に表示されるテキスト"
+  },
+  "async_task_processing_error": {
+    "message": "タスクエラー: {0}",
+    "description": "タスク失敗時のエラー"
+  },
+  "async_unknown_error": {
+    "message": "不明なエラー",
+    "description": "詳細がない場合の文言"
+  },
+  "cache_clear": {
+    "message": "キャッシュをクリア",
+    "description": "キャッシュクリアボタン"
+  },
+  "cache_clear_confirm": {
+    "message": "キャッシュされたデータをすべて削除しますか？ この操作は元に戻せません。",
+    "description": "キャッシュ削除の確認"
+  },
+  "cache_clear_failed": {
+    "message": "キャッシュを削除できませんでした",
+    "description": "失敗時の通知"
+  },
+  "cache_clear_success": {
+    "message": "キャッシュを削除しました",
+    "description": "成功時の通知"
+  },
+  "cache_error_message": {
+    "message": "キャッシュにアクセスできません。先に Markdown ファイルを開いてください",
+    "description": "キャッシュアクセス失敗時のメッセージ"
+  },
+  "cache_hint_details": {
+    "message": "Markdown ページを開いている間はキャッシュが自動的に動作します",
+    "description": "キャッシュに関する補足"
+  },
+  "cache_item_accessed_label": {
+    "message": "最終アクセス",
+    "description": "最終アクセスラベル"
+  },
+  "cache_item_created_label": {
+    "message": "作成日時",
+    "description": "作成日時ラベル"
+  },
+  "cache_item_size_label": {
+    "message": "サイズ",
+    "description": "サイズラベル"
+  },
+  "cache_item_type_label": {
+    "message": "種類",
+    "description": "種類ラベル"
+  },
+  "cache_item_type_unknown": {
+    "message": "不明",
+    "description": "種類不明時のラベル"
+  },
+  "cache_loading_failed": {
+    "message": "キャッシュを読み込めませんでした: {0}",
+    "description": "キャッシュ読み込みエラー"
+  },
+  "cache_manual_clear_intro": {
+    "message": "手動で削除する手順:",
+    "description": "クリアセクションの導入"
+  },
+  "cache_manual_clear_step_1": {
+    "message": "任意の Markdown ファイルを開く",
+    "description": "削除ステップ"
+  },
+  "cache_manual_clear_step_2": {
+    "message": "F12 を押して DevTools を開く",
+    "description": "削除ステップ"
+  },
+  "cache_manual_clear_step_3": {
+    "message": "コンソールで \"{0}\" を実行",
+    "description": "削除ステップ"
+  },
+  "cache_manual_clear_title": {
+    "message": "🧹 キャッシュを手動で削除",
+    "description": "クリアセクションの見出し"
+  },
+  "cache_manual_limit_desc_1": {
+    "message": "セキュリティ上の理由から、ポップアップは IndexedDB に直接アクセスできません。",
+    "description": "案内テキスト"
+  },
+  "cache_manual_limit_desc_2": {
+    "message": "Markdown ページのレンダリング中はキャッシュが機能しますが、ポップアップでは詳細を表示できません。",
+    "description": "案内テキスト"
+  },
+  "cache_manual_limit_title": {
+    "message": "⚠️ キャッシュアクセスの制限",
+    "description": "案内セクションの見出し"
+  },
+  "cache_manual_status_intro": {
+    "message": "キャッシュが機能しているか確認するには:",
+    "description": "状態セクションの導入"
+  },
+  "cache_manual_status_step_console": {
+    "message": "DevTools で \"⚡ Using cached\" ログを探す",
+    "description": "確認ステップ"
+  },
+  "cache_manual_status_step_open": {
+    "message": "Markdown ファイルを開く",
+    "description": "確認ステップ"
+  },
+  "cache_manual_status_step_speed": {
+    "message": "キャッシュが温まるとレンダリングが速くなることを確認",
+    "description": "確認ステップ"
+  },
+  "cache_manual_status_title": {
+    "message": "📊 キャッシュの状態を確認",
+    "description": "状態セクションの見出し"
+  },
+  "cache_refresh": {
+    "message": "更新",
+    "description": "キャッシュ更新ボタン"
+  },
+  "cache_stat_item_label": {
+    "message": "キャッシュ件数",
+    "description": "件数ラベル"
+  },
+  "cache_stat_size_label": {
+    "message": "使用容量",
+    "description": "容量ラベル"
+  },
+  "cancel": {
+    "message": "キャンセル",
+    "description": "Cancel button text"
+  },
+  "clear_all": {
+    "message": "すべてクリア",
+    "description": "Button to clear all items"
+  },
+  "clear_recent_files": {
+    "message": "最近のファイルをクリア",
+    "description": "Dialog title for clearing recent files"
+  },
+  "clear_recent_files_confirm": {
+    "message": "最近のファイルをすべて削除しますか？",
+    "description": "Confirmation message for clearing recent files"
+  },
+  "clipboard_empty": {
+    "message": "クリップボードは空です",
+    "description": "Error when clipboard is empty"
+  },
+  "clipboard_open": {
+    "message": "クリップボードから開く",
+    "description": "Clipboard item title in history"
+  },
+  "clipboard_read_failed": {
+    "message": "クリップボードの読み取りに失敗しました",
+    "description": "Error when clipboard read fails"
+  },
+  "close": {
+    "message": "閉じる",
+    "description": "Close button text/tooltip"
+  },
+  "contextMenu_viewAsMarkdown": {
+    "message": "Markdownで表示",
+    "description": "Context menu item to view any file as markdown"
+  },
+  "delete": {
+    "message": "削除",
+    "description": "Delete button text"
+  },
+  "delete_file": {
+    "message": "ファイルを削除",
+    "description": "Menu item to delete a file"
+  },
+  "delete_file_confirm": {
+    "message": "\"{0}\" を削除してもよろしいですか？この操作は取り消せません。",
+    "description": "Confirmation message for deleting a file"
+  },
+  "docx_export_failed_alert": {
+    "message": "エクスポートに失敗しました{0}",
+    "description": "エクスポート失敗時の警告"
+  },
+  "docx_export_failed_default": {
+    "message": "エクスポートに失敗しました",
+    "description": "エクスポート失敗時のデフォルトメッセージ"
+  },
+  "export_docx": {
+    "message": "Wordで共有",
+    "description": "Menu item for exporting to DOCX"
+  },
+  "exporting": {
+    "message": "Word文書を準備中...",
+    "description": "Toast shown during export"
+  },
+  "extensionDescription": {
+    "message": "Markdown をワンクリックで完璧な Word に — Mermaid、Graphviz、Vega、インフォグラフィック、LaTeX（編集可能）、コードハイライト、ローカル処理",
+    "description": "Chrome ウェブストアに表示される説明"
+  },
+  "extensionName": {
+    "message": "Markdown ビューア",
+    "description": "拡張機能の名称"
+  },
+  "failed_to_open_file": {
+    "message": "ファイルを開けませんでした: {0}",
+    "description": "Toast when file open fails"
+  },
+  "failed_to_open_url": {
+    "message": "URLを開くことができません: {0}",
+    "description": "Error message when URL cannot be opened"
+  },
+  "failed_to_share": {
+    "message": "共有に失敗しました: {0}",
+    "description": "Toast when sharing fails"
+  },
+  "file_access_disabled": {
+    "message": "無効",
+    "description": "Status text when file access is disabled"
+  },
+  "file_access_disabled_desc_short": {
+    "message": "ローカルファイルを表示するには、",
+    "description": "Short description prefix for file access warning"
+  },
+  "file_access_disabled_suffix": {
+    "message": "にアクセスして「ファイルの URL へのアクセスを許可する」を有効にしてください",
+    "description": "Suffix for file access warning"
+  },
+  "file_access_settings_link": {
+    "message": "拡張機能の設定ページ",
+    "description": "Link text to extension settings"
+  },
+  "file_deleted": {
+    "message": "ファイルを削除しました",
+    "description": "Toast when file is deleted"
+  },
+  "file_not_found": {
+    "message": "ファイルが見つかりません",
+    "description": "Error message when file doesn't exist"
+  },
+  "file_removed": {
+    "message": "リストから削除しました",
+    "description": "Toast when file is removed from list"
+  },
+  "file_url_copied": {
+    "message": "URLをコピーしました。アドレスバーに貼り付けて開いてください。",
+    "description": "Message shown when file URL is copied to clipboard in Firefox"
+  },
+  "heading_h2_format": {
+    "message": "第{0}章",
+    "description": "Format for h2 headings. {0} is the chapter number."
+  },
+  "heading_h2_numerals": {
+    "message": "arabic",
+    "description": "Numeral system for h2: chinese, arabic, roman"
+  },
+  "history_clear": {
+    "message": "履歴をクリア",
+    "description": "履歴クリアボタン"
+  },
+  "history_clear_confirm": {
+    "message": "すべての履歴をクリアしますか？この操作は元に戻せません。",
+    "description": "履歴クリア確認メッセージ"
+  },
+  "history_clear_failed": {
+    "message": "履歴のクリアに失敗しました",
+    "description": "履歴クリア失敗メッセージ"
+  },
+  "history_clear_success": {
+    "message": "履歴をクリアしました",
+    "description": "履歴クリア成功メッセージ"
+  },
+  "history_description": {
+    "message": "最近開いたMarkdownドキュメントを表示、クリックして再度開く",
+    "description": "履歴ドキュメントの説明"
+  },
+  "history_items_empty": {
+    "message": "履歴はまだありません",
+    "description": "空の履歴リストメッセージ"
+  },
+  "history_loading_failed": {
+    "message": "履歴の読み込みに失敗しました",
+    "description": "履歴読み込み失敗メッセージ"
+  },
+  "history_open_failed": {
+    "message": "ドキュメントを開けませんでした",
+    "description": "履歴ドキュメントを開く失敗メッセージ"
+  },
+  "history_refresh": {
+    "message": "更新",
+    "description": "履歴更新ボタン"
+  },
+  "history_title": {
+    "message": "最近開いたドキュメント",
+    "description": "履歴ドキュメントタイトル"
+  },
+  "language": {
+    "message": "言語",
+    "description": "Menu item for language"
+  },
+  "more": {
+    "message": "その他",
+    "description": "More menu tooltip"
+  },
+  "no_file_opened": {
+    "message": "ファイルが開かれていません",
+    "description": "Message when trying to perform action without file"
+  },
+  "no_file_to_share": {
+    "message": "共有するファイルがありません",
+    "description": "Toast when no file is open for sharing"
+  },
+  "no_headings": {
+    "message": "見出しが見つかりません",
+    "description": "Toast when document has no headings"
+  },
+  "no_recent_files": {
+    "message": "最近のファイルはありません",
+    "description": "Toast when there are no recent files"
+  },
+  "open_file": {
+    "message": "ファイルを開く",
+    "description": "Menu item to open file"
+  },
+  "popup_review_link": {
+    "message": "評価",
+    "description": "拡張機能を評価するリンクテキスト"
+  },
+  "popup_title": {
+    "message": "Markdown Viewer",
+    "description": "ポップアップタイトル"
+  },
+  "popup_version_label": {
+    "message": "バージョン {0}",
+    "description": "ヘッダーに拡張機能のバージョンを表示"
+  },
+  "preparing_share": {
+    "message": "共有の準備中...",
+    "description": "Progress text when preparing to share"
+  },
+  "recent_files": {
+    "message": "最近のファイル",
+    "description": "Title for recent files section"
+  },
+  "remove_from_list": {
+    "message": "リストから削除",
+    "description": "Menu item to remove file from recent list"
+  },
+  "reset": {
+    "message": "リセット",
+    "description": "Reset button"
+  },
+  "search_case_sensitive": {
+    "message": "大文字と小文字を区別",
+    "description": "Toggle case sensitive search"
+  },
+  "search_next": {
+    "message": "次へ",
+    "description": "Navigate to next search match"
+  },
+  "search_placeholder": {
+    "message": "検索",
+    "description": "Placeholder text for search input"
+  },
+  "search_previous": {
+    "message": "前へ",
+    "description": "Navigate to previous search match"
+  },
+  "search_whole_word": {
+    "message": "単語全体",
+    "description": "Toggle whole word search"
+  },
+  "settings_auto_refresh": {
+    "message": "自動更新",
+    "description": "Label for auto refresh checkbox"
+  },
+  "settings_auto_refresh_interval": {
+    "message": "更新間隔:",
+    "description": "Label for refresh interval selector"
+  },
+  "settings_auto_refresh_note": {
+    "message": "ローカルファイルが変更されたときに自動的にリロードします（file://のみ）。",
+    "description": "Helper note for auto refresh option"
+  },
+  "settings_auto_refresh_title": {
+    "message": "自動更新",
+    "description": "Title for auto refresh settings section"
+  },
+  "settings_cache_title": {
+    "message": "キャッシュ",
+    "description": "Title for cache settings section"
+  },
+  "settings_docx_emoji_style": {
+    "message": "絵文字スタイル",
+    "description": "Label for the emoji style selector in DOCX export settings"
+  },
+  "settings_docx_emoji_style_apple": {
+    "message": "Apple スタイル",
+    "description": "Option for Apple emoji style"
+  },
+  "settings_docx_emoji_style_note": {
+    "message": "DOCXエクスポート用の絵文字フォントスタイルを選択",
+    "description": "Note explaining the emoji style setting"
+  },
+  "settings_docx_emoji_style_system": {
+    "message": "システムスタイル",
+    "description": "Option to use system emoji (no font processing)"
+  },
+  "settings_docx_emoji_style_windows": {
+    "message": "Windows スタイル",
+    "description": "Option for Windows emoji style"
+  },
+  "settings_docx_hr_display": {
+    "message": "DOCX: 水平線の処理",
+    "description": "Label for DOCX horizontal rule handling selector"
+  },
+  "settings_docx_hr_display_hide": {
+    "message": "非表示（空行）",
+    "description": "Option to hide horizontal rules in DOCX"
+  },
+  "settings_docx_hr_display_line": {
+    "message": "水平線",
+    "description": "Option to export horizontal rules as a line in DOCX"
+  },
+  "settings_docx_hr_display_note": {
+    "message": "Markdownの区切り線(---)をDOCXでどのようにエクスポートするかを選択します。",
+    "description": "Helper note for DOCX horizontal rule handling"
+  },
+  "settings_docx_hr_display_page_break": {
+    "message": "改ページ",
+    "description": "Option to export horizontal rules as page breaks in DOCX"
+  },
+  "settings_frontmatter_display": {
+    "message": "Frontmatter表示:",
+    "description": "Label for frontmatter display mode selector"
+  },
+  "settings_frontmatter_hide": {
+    "message": "非表示",
+    "description": "Option to hide frontmatter"
+  },
+  "settings_frontmatter_note": {
+    "message": "Markdownファイルの先頭にあるYAML frontmatterの表示方法を選択します。",
+    "description": "Helper note for frontmatter display option"
+  },
+  "settings_frontmatter_raw": {
+    "message": "生データ（引用）",
+    "description": "Option to display frontmatter as blockquote"
+  },
+  "settings_frontmatter_table": {
+    "message": "テーブル",
+    "description": "Option to display frontmatter as table"
+  },
+  "settings_general_title": {
+    "message": "拡張機能の設定",
+    "description": "設定セクションの見出し"
+  },
+  "settings_interface_title": {
+    "message": "インターフェース設定",
+    "description": "Heading for interface settings section"
+  },
+  "settings_invalid_max_cache": {
+    "message": "{0} から {1} の範囲で有効な値を入力してください",
+    "description": "不正な値のメッセージ"
+  },
+  "settings_language_auto": {
+    "message": "システム言語",
+    "description": "自動言語のオプション"
+  },
+  "settings_language_changed": {
+    "message": "インターフェース言語が変更されました",
+    "description": "Toast when language is changed successfully"
+  },
+  "settings_max_cache_label": {
+    "message": "キャッシュ最大件数:",
+    "description": "キャッシュ項目数のラベル"
+  },
+  "settings_reset_btn": {
+    "message": "リセット",
+    "description": "リセットボタン"
+  },
+  "settings_reset_confirm": {
+    "message": "すべての設定を初期値にリセットしますか？",
+    "description": "リセット確認"
+  },
+  "settings_reset_failed": {
+    "message": "設定をリセットできませんでした",
+    "description": "リセット失敗の通知"
+  },
+  "settings_reset_success": {
+    "message": "設定をリセットしました",
+    "description": "リセット成功の通知"
+  },
+  "settings_save_failed": {
+    "message": "設定を保存できませんでした",
+    "description": "保存失敗の通知"
+  },
+  "settings_save_success": {
+    "message": "設定を保存しました",
+    "description": "保存成功の通知"
+  },
+  "settings_support_canvas": {
+    "message": "JSON Canvas図 (.canvas)",
+    "description": "Checkbox label for enabling JSON Canvas file support"
+  },
+  "settings_support_dot": {
+    "message": "Graphviz DOT図 (.gv)",
+    "description": "Checkbox label for Graphviz DOT format support"
+  },
+  "settings_support_drawio": {
+    "message": "drawio図 (.drawio)",
+    "description": "Checkbox label for enabling drawio file support"
+  },
+  "settings_support_infographic": {
+    "message": "インフォグラフィック (.infographic)",
+    "description": "Checkbox label for Infographic format support"
+  },
+  "settings_support_mermaid": {
+    "message": "Mermaid図 (.mermaid)",
+    "description": "Checkbox label for Mermaid format support"
+  },
+  "settings_support_vega": {
+    "message": "Vegaチャート (.vega)",
+    "description": "Checkbox label for Vega format support"
+  },
+  "settings_support_vega_lite": {
+    "message": "Vega-Liteチャート (.vl, .vega-lite)",
+    "description": "Checkbox label for Vega-Lite format support"
+  },
+  "settings_supported_formats_title": {
+    "message": "対応フォーマット",
+    "description": "Title for supported file formats section in settings"
+  },
+  "settings_table_layout": {
+    "message": "テーブルレイアウト",
+    "description": "Label for table layout selector"
+  },
+  "settings_table_layout_center": {
+    "message": "中央",
+    "description": "Table layout option: center aligned"
+  },
+  "settings_table_layout_left": {
+    "message": "左",
+    "description": "Table layout option: left aligned"
+  },
+  "settings_table_merge_empty": {
+    "message": "スマートセル結合",
+    "description": "Checkbox label for enabling automatic vertical merging of empty table cells"
+  },
+  "settings_table_merge_empty_note": {
+    "message": "有効にすると、テーブル構造を分析し、空のセルをスマートに結合します。",
+    "description": "Helper note for the table merge option"
+  },
+  "settings_theme_changed": {
+    "message": "テーマが正常に変更されました。変更を確認するにはページを再読み込みしてください。",
+    "description": "テーマ変更時のメッセージ"
+  },
+  "settings_theme_label": {
+    "message": "テーマを選択：",
+    "description": "テーマ選択のラベル"
+  },
+  "share": {
+    "message": "共有",
+    "description": "Share button tooltip"
+  },
+  "tab_history": {
+    "message": "履歴",
+    "description": "履歴タブのラベル"
+  },
+  "tab_settings": {
+    "message": "設定",
+    "description": "設定タブのラベル"
+  },
+  "tab_theme": {
+    "message": "テーマ",
+    "description": "Label for theme tab"
+  },
+  "theme": {
+    "message": "テーマ",
+    "description": "Menu item for theme"
+  },
+  "toc": {
+    "message": "目次",
+    "description": "TOC drawer title"
+  },
+  "toolbar_download_title": {
+    "message": "ダウンロード",
+    "description": "ダウンロードボタンのツールチップ"
+  },
+  "toolbar_layout_title_fullscreen": {
+    "message": "全画面レイアウト",
+    "description": "全画面レイアウトのツールチップ"
+  },
+  "toolbar_layout_title_narrow": {
+    "message": "ナローレイアウト",
+    "description": "ナローレイアウトのツールチップ"
+  },
+  "toolbar_layout_title_normal": {
+    "message": "通常レイアウト",
+    "description": "通常レイアウトのツールチップ"
+  },
+  "toolbar_print_disabled_title": {
+    "message": "印刷はローカルファイルでのみ利用可能です",
+    "description": "リモートファイルで印刷ボタンが無効な時のツールチップ"
+  },
+  "toolbar_print_title": {
+    "message": "印刷",
+    "description": "印刷ボタンのツールチップ"
+  },
+  "toolbar_toggle_toc_title": {
+    "message": "目次の表示/非表示を切り替え",
+    "description": "TOC ボタンのツールチップ"
+  },
+  "toolbar_zoom_in_title": {
+    "message": "ズームイン",
+    "description": "ズームインボタンのツールチップ"
+  },
+  "toolbar_zoom_out_title": {
+    "message": "ズームアウト",
+    "description": "ズームアウトボタンのツールチップ"
+  },
+  "welcome_message": {
+    "message": "マークダウンファイルを開いて始めましょう",
+    "description": "Welcome message on empty state"
+  },
+  "zoom": {
+    "message": "ズーム",
+    "description": "Menu item for zoom"
+  }
+}
