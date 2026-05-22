@@ -147,25 +147,33 @@
     "message": "모든 최근 파일을 목록에서 제거하시겠습니까?",
     "description": "Confirmation message for clearing recent files"
   },
-  "clipboard_empty": {
-    "message": "클립보드가 비어 있습니다",
-    "description": "Error when clipboard is empty"
-  },
-  "clipboard_open": {
-    "message": "클립보드에서 열기",
-    "description": "Clipboard item title in history"
-  },
-  "clipboard_read_failed": {
-    "message": "클립보드 읽기 실패",
-    "description": "Error when clipboard read fails"
-  },
   "close": {
     "message": "닫기",
     "description": "Close button text/tooltip"
   },
+  "code_copied": {
+    "message": "복사됨",
+    "description": "Tooltip shown after a code block has been copied"
+  },
+  "code_copy": {
+    "message": "코드 복사",
+    "description": "Tooltip for the button that copies a code block"
+  },
+  "code_copy_failed": {
+    "message": "복사 실패",
+    "description": "Tooltip shown when copying a code block fails"
+  },
   "contextMenu_viewAsMarkdown": {
     "message": "Markdown으로 보기",
     "description": "Context menu item to view any file as markdown"
+  },
+  "contextMenu_viewAsRaw": {
+    "message": "View as Raw",
+    "description": "Context menu item to restore the page to its original state"
+  },
+  "copy_as_png": {
+    "message": "Copy as PNG",
+    "description": "Context menu item for copying a diagram as PNG"
   },
   "delete": {
     "message": "삭제",
@@ -191,12 +199,28 @@
     "message": "Word로 공유",
     "description": "Menu item for exporting to DOCX"
   },
+  "export_menu_export_docx": {
+    "message": "DOCX로 내보내기",
+    "description": "Export menu item for exporting to DOCX"
+  },
+  "export_menu_export_html": {
+    "message": "HTML로 내보내기",
+    "description": "Export menu item for exporting to HTML"
+  },
+  "export_menu_print_pdf": {
+    "message": "PDF로 인쇄",
+    "description": "Export menu item for printing to PDF"
+  },
+  "export_menu_save_file": {
+    "message": "파일 저장",
+    "description": "Export menu item for saving current file"
+  },
   "exporting": {
     "message": "Word 문서 준비 중...",
     "description": "Toast shown during export"
   },
   "extensionDescription": {
-    "message": "Markdown을 클릭 한 번으로 완벽한 Word로 — Mermaid, Vega, drawio, canvas, 인포그래픽, Graphviz, LaTeX(편집 가능), 코드 강조, 로컬 처리.",
+    "message": "Markdown을 완벽한 Word로 — Mermaid, PlantUML, Vega, drawio, canvas, 인포그래픽, Graphviz, LaTeX(편집 가능), 코드 강조, 로컬 처리.",
     "description": "Chrome 웹 스토어에 표시되는 설명"
   },
   "extensionName": {
@@ -299,6 +323,22 @@
     "message": "언어",
     "description": "Menu item for language"
   },
+  "lightbox_close": {
+    "message": "닫기",
+    "description": "Tooltip for closing the diagram lightbox"
+  },
+  "lightbox_fit": {
+    "message": "화면에 맞추기",
+    "description": "Tooltip for fitting the diagram to the lightbox viewport"
+  },
+  "lightbox_zoom_in": {
+    "message": "확대",
+    "description": "Tooltip for zooming in in the diagram lightbox"
+  },
+  "lightbox_zoom_out": {
+    "message": "축소",
+    "description": "Tooltip for zooming out in the diagram lightbox"
+  },
   "more": {
     "message": "더 보기",
     "description": "More menu tooltip"
@@ -343,6 +383,94 @@
     "message": "최근 파일",
     "description": "Title for recent files section"
   },
+  "remark_add_note": {
+    "message": "메모 추가…",
+    "description": "Placeholder for the note input in the annotation popup and sidebar"
+  },
+  "remark_cancel": {
+    "message": "취소하고 제거",
+    "description": "Cancel button in the annotation popup"
+  },
+  "remark_change_color": {
+    "message": "색상 변경",
+    "description": "Tooltip for changing the remark color"
+  },
+  "remark_clear_all": {
+    "message": "모든 주석 지우기",
+    "description": "Tooltip for clearing all remarks"
+  },
+  "remark_color_blue": {
+    "message": "질문",
+    "description": "Label for the blue annotation color"
+  },
+  "remark_color_green": {
+    "message": "유지",
+    "description": "Label for the green annotation color"
+  },
+  "remark_color_pink": {
+    "message": "우려",
+    "description": "Label for the pink annotation color"
+  },
+  "remark_color_yellow": {
+    "message": "제안",
+    "description": "Label for the yellow annotation color"
+  },
+  "remark_copied": {
+    "message": "복사됨!",
+    "description": "Feedback shown after remarks are successfully copied"
+  },
+  "remark_copy_btn": {
+    "message": "주석 복사",
+    "description": "Button label to copy all remarks to clipboard and exit Remark Mode"
+  },
+  "remark_copy_failed": {
+    "message": "복사 실패",
+    "description": "Feedback shown when copying remarks fails"
+  },
+  "remark_copy_tooltip": {
+    "message": "모든 주석을 클립보드에 복사",
+    "description": "Tooltip for the Copy remarks button"
+  },
+  "remark_delete": {
+    "message": "삭제",
+    "description": "Tooltip for deleting a remark"
+  },
+  "remark_deleted": {
+    "message": "삭제됨",
+    "description": "Status label shown after a remark is deleted"
+  },
+  "remark_edit_note": {
+    "message": "클릭하여 편집",
+    "description": "Tooltip on a remark note in the sidebar indicating it is editable"
+  },
+  "remark_empty_hint": {
+    "message": "텍스트를 선택해 주석 추가",
+    "description": "Empty state hint in the remarks sidebar"
+  },
+  "remark_exit_mode": {
+    "message": "주석 모드 종료",
+    "description": "Toolbar button tooltip to exit Remark Mode"
+  },
+  "remark_export_intro": {
+    "message": "**{0}**을 검토했고 다음과 같은 피드백이 있습니다:",
+    "description": "Intro line for exported remarks. {0} is the file path or title."
+  },
+  "remark_export_note": {
+    "message": "메모",
+    "description": "Label preceding the note text in exported remarks"
+  },
+  "remark_mode": {
+    "message": "주석 모드",
+    "description": "Toolbar button tooltip to enter Remark Mode"
+  },
+  "remark_sidebar_title": {
+    "message": "주석",
+    "description": "Title of the Remark Mode sidebar panel"
+  },
+  "remark_undo": {
+    "message": "실행 취소",
+    "description": "Button text for undoing remark deletion"
+  },
   "remove_from_list": {
     "message": "목록에서 제거",
     "description": "Menu item to remove file from recent list"
@@ -350,6 +478,22 @@
   "reset": {
     "message": "재설정",
     "description": "Reset button"
+  },
+  "save_as_drawio": {
+    "message": "DrawIO로 저장",
+    "description": "Context menu item for saving a PlantUML diagram as DrawIO"
+  },
+  "save_as_png": {
+    "message": "PNG로 저장",
+    "description": "Context menu item for saving a diagram as PNG"
+  },
+  "save_as_svg": {
+    "message": "SVG로 저장",
+    "description": "Context menu item for saving a diagram as SVG"
+  },
+  "save_image_as": {
+    "message": "이미지를 다른 이름으로 저장…",
+    "description": "Context menu item for saving an image"
   },
   "search_case_sensitive": {
     "message": "대소문자 구분",
@@ -499,37 +643,13 @@
     "message": "설정을 저장했습니다",
     "description": "저장 성공 알림"
   },
-  "settings_support_canvas": {
-    "message": "JSON Canvas 다이어그램 (.canvas)",
-    "description": "Checkbox label for enabling JSON Canvas file support"
+  "settings_swap_panel_side": {
+    "message": "Swap TOC / file tree side",
+    "description": "Checkbox label for swapping TOC and workspace file tree panel side"
   },
-  "settings_support_dot": {
-    "message": "Graphviz DOT 다이어그램 (.gv)",
-    "description": "Checkbox label for Graphviz DOT format support"
-  },
-  "settings_support_drawio": {
-    "message": "drawio 다이어그램 (.drawio)",
-    "description": "Checkbox label for enabling drawio file support"
-  },
-  "settings_support_infographic": {
-    "message": "인포그래픽 (.infographic)",
-    "description": "Checkbox label for Infographic format support"
-  },
-  "settings_support_mermaid": {
-    "message": "Mermaid 다이어그램 (.mermaid)",
-    "description": "Checkbox label for Mermaid format support"
-  },
-  "settings_support_vega": {
-    "message": "Vega 차트 (.vega)",
-    "description": "Checkbox label for Vega format support"
-  },
-  "settings_support_vega_lite": {
-    "message": "Vega-Lite 차트 (.vl, .vega-lite)",
-    "description": "Checkbox label for Vega-Lite format support"
-  },
-  "settings_supported_formats_title": {
-    "message": "지원 형식",
-    "description": "Title for supported file formats section in settings"
+  "settings_swap_panel_side_note": {
+    "message": "Chrome switches both the TOC and workspace file tree. Firefox switches the TOC only.",
+    "description": "Helper note for TOC and workspace panel side swap setting"
   },
   "settings_table_layout": {
     "message": "테이블 레이아웃",
@@ -538,6 +658,10 @@
   "settings_table_layout_center": {
     "message": "가운데",
     "description": "Table layout option: center aligned"
+  },
+  "settings_table_layout_full_width": {
+    "message": "전체 너비",
+    "description": "Option for centered tables stretched to the full content width"
   },
   "settings_table_layout_left": {
     "message": "왼쪽",
@@ -622,6 +746,74 @@
   "welcome_message": {
     "message": "마크다운 파일을 열어 시작하세요",
     "description": "Welcome message on empty state"
+  },
+  "workspace_binary_file_cannot_preview": {
+    "message": "바이너리 파일은 미리 볼 수 없습니다",
+    "description": "Message shown in workspace preview pane when selected file is binary"
+  },
+  "workspace_change_directory": {
+    "message": "디렉터리 변경",
+    "description": "Tooltip for changing the current workspace directory"
+  },
+  "workspace_choose_directory": {
+    "message": "디렉터리 선택",
+    "description": "Button to open directory picker"
+  },
+  "workspace_desc": {
+    "message": "로컬 디렉터리를 열어 지원되는 파일을 탐색하고 미리 봅니다.",
+    "description": "Workspace landing page description"
+  },
+  "workspace_open": {
+    "message": "워크스페이스 열기",
+    "description": "Button in popup to open workspace page"
+  },
+  "workspace_recent": {
+    "message": "최근 워크스페이스",
+    "description": "Title for recent workspaces list"
+  },
+  "workspace_search_content_hint": {
+    "message": "파일 내용을 검색하려면 Enter를 누르세요",
+    "description": "Hint shown before executing a workspace content search"
+  },
+  "workspace_search_content_no_results": {
+    "message": "일치하는 내용이 없습니다",
+    "description": "Empty state shown when workspace content search returns no matches"
+  },
+  "workspace_search_content_placeholder": {
+    "message": "파일 내용 검색",
+    "description": "Placeholder text for the workspace content search input"
+  },
+  "workspace_search_content_searching": {
+    "message": "파일 내용을 검색하는 중...",
+    "description": "Status shown while workspace content search is running"
+  },
+  "workspace_search_mode_content_title": {
+    "message": "내용 검색 모드",
+    "description": "Tooltip for workspace content search mode toggle"
+  },
+  "workspace_search_mode_filename_title": {
+    "message": "파일 이름 검색 모드",
+    "description": "Tooltip for workspace file name search mode toggle"
+  },
+  "workspace_search_no_results": {
+    "message": "일치하는 파일이 없습니다",
+    "description": "Empty state shown when workspace file search returns no matches"
+  },
+  "workspace_search_placeholder": {
+    "message": "파일 이름 검색",
+    "description": "Placeholder text for the workspace file name search input"
+  },
+  "workspace_search_title": {
+    "message": "파일 검색",
+    "description": "Tooltip for the workspace file search button"
+  },
+  "workspace_select_file": {
+    "message": "미리 볼 파일을 선택하세요",
+    "description": "Placeholder text when no file is selected"
+  },
+  "workspace_title": {
+    "message": "워크스페이스",
+    "description": "Workspace landing page title"
   },
   "zoom": {
     "message": "확대/축소",

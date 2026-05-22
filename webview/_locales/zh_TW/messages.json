@@ -147,25 +147,33 @@
     "message": "確定要清除所有最近開啟的檔案記錄嗎？",
     "description": "Confirmation message for clearing recent files"
   },
-  "clipboard_empty": {
-    "message": "剪貼簿為空",
-    "description": "Error when clipboard is empty"
-  },
-  "clipboard_open": {
-    "message": "從剪貼簿開啟",
-    "description": "Clipboard item title in history"
-  },
-  "clipboard_read_failed": {
-    "message": "讀取剪貼簿失敗",
-    "description": "Error when clipboard read fails"
-  },
   "close": {
     "message": "關閉",
     "description": "Close button text/tooltip"
   },
+  "code_copied": {
+    "message": "已複製",
+    "description": "Tooltip shown after a code block has been copied"
+  },
+  "code_copy": {
+    "message": "複製程式碼",
+    "description": "Tooltip for the button that copies a code block"
+  },
+  "code_copy_failed": {
+    "message": "複製失敗",
+    "description": "Tooltip shown when copying a code block fails"
+  },
   "contextMenu_viewAsMarkdown": {
     "message": "以 Markdown 格式檢視",
     "description": "Context menu item to view any file as markdown"
+  },
+  "contextMenu_viewAsRaw": {
+    "message": "View as Raw",
+    "description": "Context menu item to restore the page to its original state"
+  },
+  "copy_as_png": {
+    "message": "複製為 PNG",
+    "description": "Context menu item for copying a diagram as PNG"
   },
   "delete": {
     "message": "刪除",
@@ -191,16 +199,32 @@
     "message": "分享為 Word",
     "description": "Menu item for exporting to DOCX"
   },
+  "export_menu_export_docx": {
+    "message": "匯出為 DOCX",
+    "description": "匯出選單中的 DOCX 項"
+  },
+  "export_menu_export_html": {
+    "message": "匯出為 HTML",
+    "description": "Export menu item for exporting to HTML"
+  },
+  "export_menu_print_pdf": {
+    "message": "列印為 PDF",
+    "description": "匯出選單中的 PDF 列印項"
+  },
+  "export_menu_save_file": {
+    "message": "儲存檔案",
+    "description": "Export menu item for saving current file"
+  },
   "exporting": {
     "message": "正在準備 Word 文件...",
     "description": "Toast shown during export"
   },
   "extensionDescription": {
-    "message": "Markdown 一鍵匯出完美 Word — Mermaid 流程圖、Vega 圖表、drawio、canvas、資訊圖、Graphviz、LaTeX 公式自動轉為可編輯格式，程式碼高亮，本地處理.",
+    "message": "Markdown 匯出完美 Word — Mermaid、PlantUML、Vega、drawio、canvas、資訊圖、Graphviz、LaTeX 公式可編輯，程式碼高亮，本地處理.",
     "description": "擴充功能簡介"
   },
   "extensionName": {
-    "message": "Markdown Viewer",
+    "message": "docu.md Markdown Viewer",
     "description": "擴充功能名稱"
   },
   "failed_to_open_file": {
@@ -299,6 +323,22 @@
     "message": "語言",
     "description": "Menu item for language"
   },
+  "lightbox_close": {
+    "message": "關閉",
+    "description": "Tooltip for closing the diagram lightbox"
+  },
+  "lightbox_fit": {
+    "message": "適應螢幕",
+    "description": "Tooltip for fitting the diagram to the lightbox viewport"
+  },
+  "lightbox_zoom_in": {
+    "message": "放大",
+    "description": "Tooltip for zooming in in the diagram lightbox"
+  },
+  "lightbox_zoom_out": {
+    "message": "縮小",
+    "description": "Tooltip for zooming out in the diagram lightbox"
+  },
   "more": {
     "message": "更多",
     "description": "More options menu"
@@ -343,6 +383,94 @@
     "message": "最近檔案",
     "description": "Title for recent files section"
   },
+  "remark_add_note": {
+    "message": "新增批註…",
+    "description": "Placeholder for the note input in the annotation popup and sidebar"
+  },
+  "remark_cancel": {
+    "message": "取消並移除",
+    "description": "Cancel button in the annotation popup"
+  },
+  "remark_change_color": {
+    "message": "更改顏色",
+    "description": "Tooltip for changing the remark color"
+  },
+  "remark_clear_all": {
+    "message": "清除所有批註",
+    "description": "Tooltip for clearing all remarks"
+  },
+  "remark_color_blue": {
+    "message": "問題",
+    "description": "Label for the blue annotation color"
+  },
+  "remark_color_green": {
+    "message": "保留",
+    "description": "Label for the green annotation color"
+  },
+  "remark_color_pink": {
+    "message": "疑慮",
+    "description": "Label for the pink annotation color"
+  },
+  "remark_color_yellow": {
+    "message": "建議",
+    "description": "Label for the yellow annotation color"
+  },
+  "remark_copied": {
+    "message": "已複製！",
+    "description": "Feedback shown after remarks are successfully copied"
+  },
+  "remark_copy_btn": {
+    "message": "複製批註",
+    "description": "Button label to copy all remarks to clipboard and exit Remark Mode"
+  },
+  "remark_copy_failed": {
+    "message": "複製失敗",
+    "description": "Feedback shown when copying remarks fails"
+  },
+  "remark_copy_tooltip": {
+    "message": "複製所有批註到剪貼簿",
+    "description": "Tooltip for the Copy remarks button"
+  },
+  "remark_delete": {
+    "message": "刪除",
+    "description": "Tooltip for deleting a remark"
+  },
+  "remark_deleted": {
+    "message": "已刪除",
+    "description": "Status label shown after a remark is deleted"
+  },
+  "remark_edit_note": {
+    "message": "點擊以編輯",
+    "description": "Tooltip on a remark note in the sidebar indicating it is editable"
+  },
+  "remark_empty_hint": {
+    "message": "選取文字以新增批註",
+    "description": "Empty state hint in the remarks sidebar"
+  },
+  "remark_exit_mode": {
+    "message": "退出批註模式",
+    "description": "Toolbar button tooltip to exit Remark Mode"
+  },
+  "remark_export_intro": {
+    "message": "我已審閱 **{0}**，並有以下回饋：",
+    "description": "Intro line for exported remarks. {0} is the file path or title."
+  },
+  "remark_export_note": {
+    "message": "備註",
+    "description": "Label preceding the note text in exported remarks"
+  },
+  "remark_mode": {
+    "message": "批註模式",
+    "description": "Toolbar button tooltip to enter Remark Mode"
+  },
+  "remark_sidebar_title": {
+    "message": "批註",
+    "description": "Title of the Remark Mode sidebar panel"
+  },
+  "remark_undo": {
+    "message": "復原",
+    "description": "Button text for undoing remark deletion"
+  },
   "remove_from_list": {
     "message": "從列表移除",
     "description": "Menu item to remove file from recent list"
@@ -350,6 +478,22 @@
   "reset": {
     "message": "重置",
     "description": "Reset button"
+  },
+  "save_as_drawio": {
+    "message": "儲存為 DrawIO",
+    "description": "Context menu item for saving a PlantUML diagram as DrawIO"
+  },
+  "save_as_png": {
+    "message": "儲存為 PNG",
+    "description": "Context menu item for saving a diagram as PNG"
+  },
+  "save_as_svg": {
+    "message": "儲存為 SVG",
+    "description": "Context menu item for saving a diagram as SVG"
+  },
+  "save_image_as": {
+    "message": "圖片另存為…",
+    "description": "Context menu item for saving an image"
   },
   "search_case_sensitive": {
     "message": "區分大小寫",
@@ -499,37 +643,13 @@
     "message": "設定已儲存",
     "description": "儲存設定成功提示"
   },
-  "settings_support_canvas": {
-    "message": "JSON Canvas 圖表 (.canvas)",
-    "description": "Checkbox label for enabling JSON Canvas file support"
+  "settings_swap_panel_side": {
+    "message": "切換 TOC / 檔案樹側邊位置",
+    "description": "Checkbox label for swapping TOC and workspace file tree panel side"
   },
-  "settings_support_dot": {
-    "message": "Graphviz DOT 圖表 (.gv)",
-    "description": "Checkbox label for Graphviz DOT format support"
-  },
-  "settings_support_drawio": {
-    "message": "drawio 圖表 (.drawio)",
-    "description": "Checkbox label for enabling drawio file support"
-  },
-  "settings_support_infographic": {
-    "message": "資訊圖表 (.infographic)",
-    "description": "Checkbox label for Infographic format support"
-  },
-  "settings_support_mermaid": {
-    "message": "Mermaid 圖表 (.mermaid)",
-    "description": "Checkbox label for Mermaid format support"
-  },
-  "settings_support_vega": {
-    "message": "Vega 圖表 (.vega)",
-    "description": "Checkbox label for Vega format support"
-  },
-  "settings_support_vega_lite": {
-    "message": "Vega-Lite 圖表 (.vl, .vega-lite)",
-    "description": "Checkbox label for Vega-Lite format support"
-  },
-  "settings_supported_formats_title": {
-    "message": "支援的格式",
-    "description": "Title for supported file formats section in settings"
+  "settings_swap_panel_side_note": {
+    "message": "Chrome 會同時切換 TOC 和 workspace 檔案樹；Firefox 僅切換 TOC。",
+    "description": "Helper note for TOC and workspace panel side swap setting"
   },
   "settings_table_layout": {
     "message": "表格佈局",
@@ -538,6 +658,10 @@
   "settings_table_layout_center": {
     "message": "置中",
     "description": "Table layout option: center aligned"
+  },
+  "settings_table_layout_full_width": {
+    "message": "全寬",
+    "description": "Option for centered tables stretched to the full content width"
   },
   "settings_table_layout_left": {
     "message": "靠左",
@@ -622,6 +746,74 @@
   "welcome_message": {
     "message": "開啟一個 Markdown 檔案開始",
     "description": "Welcome message on empty state"
+  },
+  "workspace_binary_file_cannot_preview": {
+    "message": "二進位檔案無法預覽",
+    "description": "Message shown in workspace preview pane when selected file is binary"
+  },
+  "workspace_change_directory": {
+    "message": "更換目錄",
+    "description": "Tooltip for changing the current workspace directory"
+  },
+  "workspace_choose_directory": {
+    "message": "選擇目錄",
+    "description": "Button to open directory picker"
+  },
+  "workspace_desc": {
+    "message": "開啟本機目錄以瀏覽和預覽支援的檔案。",
+    "description": "Workspace landing page description"
+  },
+  "workspace_open": {
+    "message": "開啟工作區",
+    "description": "Button in popup to open workspace page"
+  },
+  "workspace_recent": {
+    "message": "最近的工作區",
+    "description": "Title for recent workspaces list"
+  },
+  "workspace_search_content_hint": {
+    "message": "按 Enter 搜尋檔案內容",
+    "description": "Hint shown before executing a workspace content search"
+  },
+  "workspace_search_content_no_results": {
+    "message": "沒有符合的內容",
+    "description": "Empty state shown when workspace content search returns no matches"
+  },
+  "workspace_search_content_placeholder": {
+    "message": "搜尋檔案內容",
+    "description": "Placeholder text for the workspace content search input"
+  },
+  "workspace_search_content_searching": {
+    "message": "正在搜尋檔案內容...",
+    "description": "Status shown while workspace content search is running"
+  },
+  "workspace_search_mode_content_title": {
+    "message": "內容搜尋模式",
+    "description": "Tooltip for workspace content search mode toggle"
+  },
+  "workspace_search_mode_filename_title": {
+    "message": "檔名搜尋模式",
+    "description": "Tooltip for workspace file name search mode toggle"
+  },
+  "workspace_search_no_results": {
+    "message": "沒有符合的檔案",
+    "description": "Empty state shown when workspace file search returns no matches"
+  },
+  "workspace_search_placeholder": {
+    "message": "搜尋檔名",
+    "description": "Placeholder text for the workspace file name search input"
+  },
+  "workspace_search_title": {
+    "message": "搜尋檔案",
+    "description": "Tooltip for the workspace file search button"
+  },
+  "workspace_select_file": {
+    "message": "選擇檔案以預覽",
+    "description": "Placeholder text when no file is selected"
+  },
+  "workspace_title": {
+    "message": "工作區",
+    "description": "Workspace landing page title"
   },
   "zoom": {
     "message": "縮放",

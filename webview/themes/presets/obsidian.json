@@ -1,0 +1,18 @@
+{
+  "id": "obsidian",
+  "name": "曜石",
+  "name_en": "Obsidian",
+  "description": "Catppuccin Mocha 风的紫灰底，适合笔记与长文",
+  "description_en": "Catppuccin Mocha mauve base for notes and long reads",
+  "author": "docu.md Markdown Viewer",
+  "version": "1.0.0",
+  "fontScheme": {
+    "body": { "fontFamily": "Helvetica Neue" },
+    "headings": {},
+    "code": { "fontFamily": "Consolas" }
+  },
+  "layoutScheme": "editorial",
+  "colorScheme": "obsidian",
+  "tableStyle": "borderless",
+  "codeTheme": "dracula-code"
+}

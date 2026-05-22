@@ -147,25 +147,33 @@
     "message": "सूची से सभी हाल की फ़ाइलें हटाएं?",
     "description": "Confirmation message for clearing recent files"
   },
-  "clipboard_empty": {
-    "message": "क्लिपबोर्ड खाली है",
-    "description": "Error when clipboard is empty"
-  },
-  "clipboard_open": {
-    "message": "क्लिपबोर्ड से खोलें",
-    "description": "Clipboard item title in history"
-  },
-  "clipboard_read_failed": {
-    "message": "क्लिपबोर्ड पढ़ने में विफल",
-    "description": "Error when clipboard read fails"
-  },
   "close": {
     "message": "बंद करें",
     "description": "Close button text/tooltip"
   },
+  "code_copied": {
+    "message": "कॉपी हो गया",
+    "description": "Tooltip shown after a code block has been copied"
+  },
+  "code_copy": {
+    "message": "कोड कॉपी करें",
+    "description": "Tooltip for the button that copies a code block"
+  },
+  "code_copy_failed": {
+    "message": "कॉपी विफल रही",
+    "description": "Tooltip shown when copying a code block fails"
+  },
   "contextMenu_viewAsMarkdown": {
     "message": "Markdown के रूप में देखें",
     "description": "Context menu item to view any file as markdown"
+  },
+  "contextMenu_viewAsRaw": {
+    "message": "View as Raw",
+    "description": "Context menu item to restore the page to its original state"
+  },
+  "copy_as_png": {
+    "message": "Copy as PNG",
+    "description": "Context menu item for copying a diagram as PNG"
   },
   "delete": {
     "message": "Delete",
@@ -191,16 +199,32 @@
     "message": "Word के रूप में साझा करें",
     "description": "Menu item for exporting to DOCX"
   },
+  "export_menu_export_docx": {
+    "message": "DOCX में निर्यात करें",
+    "description": "Export menu item for exporting to DOCX"
+  },
+  "export_menu_export_html": {
+    "message": "HTML में निर्यात करें",
+    "description": "Export menu item for exporting to HTML"
+  },
+  "export_menu_print_pdf": {
+    "message": "PDF के रूप में प्रिंट करें",
+    "description": "Export menu item for printing to PDF"
+  },
+  "export_menu_save_file": {
+    "message": "फ़ाइल सहेजें",
+    "description": "Export menu item for saving current file"
+  },
   "exporting": {
     "message": "Word दस्तावेज़ तैयार हो रहा है...",
     "description": "Toast shown during export"
   },
   "extensionDescription": {
-    "message": "एक क्लिक में Markdown से परफेक्ट Word — Mermaid, Vega, drawio, canvas, इन्फोग्राफिक, Graphviz, LaTeX (संपादन योग्य), कोड हाइलाइटिंग, स्थानीय प्रोसेसिंग.",
+    "message": "Markdown से परफेक्ट Word — Mermaid, PlantUML, Vega, drawio, इन्फोग्राफिक, Graphviz, LaTeX, कोड हाइलाइटिंग, स्थानीय प्रोसेसिंग.",
     "description": "Extension description shown in Chrome Web Store"
   },
   "extensionName": {
-    "message": "Markdown Viewer",
+    "message": "docu.md Markdown Viewer",
     "description": "Extension name"
   },
   "failed_to_open_file": {
@@ -299,6 +323,22 @@
     "message": "भाषा",
     "description": "Menu item for language"
   },
+  "lightbox_close": {
+    "message": "बंद करें",
+    "description": "Tooltip for closing the diagram lightbox"
+  },
+  "lightbox_fit": {
+    "message": "स्क्रीन में फ़िट करें",
+    "description": "Tooltip for fitting the diagram to the lightbox viewport"
+  },
+  "lightbox_zoom_in": {
+    "message": "बड़ा करें",
+    "description": "Tooltip for zooming in in the diagram lightbox"
+  },
+  "lightbox_zoom_out": {
+    "message": "छोटा करें",
+    "description": "Tooltip for zooming out in the diagram lightbox"
+  },
   "more": {
     "message": "More",
     "description": "More menu tooltip"
@@ -343,6 +383,94 @@
     "message": "हाल की फ़ाइलें",
     "description": "Title for recent files section"
   },
+  "remark_add_note": {
+    "message": "टिप्पणी जोड़ें…",
+    "description": "Placeholder and tooltip for adding a remark note"
+  },
+  "remark_cancel": {
+    "message": "रद्द करें और हटाएँ",
+    "description": "Button text for cancelling a new remark and removing the temporary mark"
+  },
+  "remark_change_color": {
+    "message": "रंग बदलें",
+    "description": "Tooltip for changing the remark color"
+  },
+  "remark_clear_all": {
+    "message": "सभी टिप्पणियाँ साफ़ करें",
+    "description": "Tooltip for clearing all remarks"
+  },
+  "remark_color_blue": {
+    "message": "प्रश्न",
+    "description": "Label for the blue remark category"
+  },
+  "remark_color_green": {
+    "message": "रखें",
+    "description": "Label for the green remark category"
+  },
+  "remark_color_pink": {
+    "message": "चिंता",
+    "description": "Label for the pink remark category"
+  },
+  "remark_color_yellow": {
+    "message": "सुझाव",
+    "description": "Label for the yellow remark category"
+  },
+  "remark_copied": {
+    "message": "कॉपी हो गया!",
+    "description": "Temporary success state after copying remarks"
+  },
+  "remark_copy_btn": {
+    "message": "टिप्पणियाँ कॉपी करें",
+    "description": "Button text for copying all remarks"
+  },
+  "remark_copy_failed": {
+    "message": "कॉपी विफल",
+    "description": "Temporary error state when copying remarks fails"
+  },
+  "remark_copy_tooltip": {
+    "message": "सभी टिप्पणियों को क्लिपबोर्ड पर कॉपी करें",
+    "description": "Tooltip for copying all remarks"
+  },
+  "remark_delete": {
+    "message": "हटाएँ",
+    "description": "Tooltip for deleting a remark"
+  },
+  "remark_deleted": {
+    "message": "हटाया गया",
+    "description": "Status label shown after a remark is deleted"
+  },
+  "remark_edit_note": {
+    "message": "संपादित करने के लिए क्लिक करें",
+    "description": "Tooltip for editing an existing remark note"
+  },
+  "remark_empty_hint": {
+    "message": "टिप्पणी जोड़ने के लिए पाठ चुनें",
+    "description": "Empty state hint in the remarks sidebar"
+  },
+  "remark_exit_mode": {
+    "message": "टिप्पणी मोड से बाहर निकलें",
+    "description": "Toolbar button title for leaving remark mode"
+  },
+  "remark_export_intro": {
+    "message": "मैंने **{0}** की समीक्षा की है और मेरी प्रतिक्रिया इस प्रकार है:",
+    "description": "Intro line for exported remarks. {0} is the file path or title."
+  },
+  "remark_export_note": {
+    "message": "टिप्पणी",
+    "description": "Label preceding the note text in exported remarks"
+  },
+  "remark_mode": {
+    "message": "टिप्पणी मोड",
+    "description": "Toolbar button title for entering remark mode"
+  },
+  "remark_sidebar_title": {
+    "message": "टिप्पणियाँ",
+    "description": "Sidebar title for the remarks panel"
+  },
+  "remark_undo": {
+    "message": "पूर्ववत करें",
+    "description": "Button text for undoing remark deletion"
+  },
   "remove_from_list": {
     "message": "Remove from list",
     "description": "Menu item to remove file from recent list"
@@ -350,6 +478,22 @@
   "reset": {
     "message": "रीसेट",
     "description": "Reset button"
+  },
+  "save_as_drawio": {
+    "message": "DrawIO के रूप में सहेजें",
+    "description": "Context menu item for saving a PlantUML diagram as DrawIO"
+  },
+  "save_as_png": {
+    "message": "PNG के रूप में सहेजें",
+    "description": "Context menu item for saving a diagram as PNG"
+  },
+  "save_as_svg": {
+    "message": "SVG के रूप में सहेजें",
+    "description": "Context menu item for saving a diagram as SVG"
+  },
+  "save_image_as": {
+    "message": "छवि इस रूप में सहेजें…",
+    "description": "Context menu item for saving an image"
   },
   "search_case_sensitive": {
     "message": "केस मिलाएं",
@@ -499,37 +643,13 @@
     "message": "सेटिंग्स सहेजी गईं",
     "description": "Toast when settings saved"
   },
-  "settings_support_canvas": {
-    "message": "JSON Canvas आरेख (.canvas)",
-    "description": "Checkbox label for enabling JSON Canvas file support"
+  "settings_swap_panel_side": {
+    "message": "Swap TOC / file tree side",
+    "description": "Checkbox label for swapping TOC and workspace file tree panel side"
   },
-  "settings_support_dot": {
-    "message": "Graphviz DOT आरेख (.gv)",
-    "description": "Checkbox label for Graphviz DOT format support"
-  },
-  "settings_support_drawio": {
-    "message": "drawio आरेख (.drawio)",
-    "description": "Checkbox label for enabling drawio file support"
-  },
-  "settings_support_infographic": {
-    "message": "इन्फोग्राफिक्स (.infographic)",
-    "description": "Checkbox label for Infographic format support"
-  },
-  "settings_support_mermaid": {
-    "message": "Mermaid आरेख (.mermaid)",
-    "description": "Checkbox label for Mermaid format support"
-  },
-  "settings_support_vega": {
-    "message": "Vega चार्ट (.vega)",
-    "description": "Checkbox label for Vega format support"
-  },
-  "settings_support_vega_lite": {
-    "message": "Vega-Lite चार्ट (.vl, .vega-lite)",
-    "description": "Checkbox label for Vega-Lite format support"
-  },
-  "settings_supported_formats_title": {
-    "message": "समर्थित प्रारूप",
-    "description": "Title for supported file formats section in settings"
+  "settings_swap_panel_side_note": {
+    "message": "Chrome switches both the TOC and workspace file tree. Firefox switches the TOC only.",
+    "description": "Helper note for TOC and workspace panel side swap setting"
   },
   "settings_table_layout": {
     "message": "तालिका लेआउट",
@@ -538,6 +658,10 @@
   "settings_table_layout_center": {
     "message": "केंद्र",
     "description": "Table layout option: center aligned"
+  },
+  "settings_table_layout_full_width": {
+    "message": "puri chaudai",
+    "description": "Option for centered tables stretched to the full content width"
   },
   "settings_table_layout_left": {
     "message": "बाएं",
@@ -622,6 +746,74 @@
   "welcome_message": {
     "message": "शुरू करने के लिए एक मार्कडाउन फ़ाइल खोलें",
     "description": "Welcome message on empty state"
+  },
+  "workspace_binary_file_cannot_preview": {
+    "message": "बाइनरी फ़ाइल का पूर्वावलोकन नहीं किया जा सकता",
+    "description": "Message shown in workspace preview pane when selected file is binary"
+  },
+  "workspace_change_directory": {
+    "message": "डायरेक्टरी बदलें",
+    "description": "Tooltip for changing the current workspace directory"
+  },
+  "workspace_choose_directory": {
+    "message": "निर्देशिका चुनें",
+    "description": "Button to open directory picker"
+  },
+  "workspace_desc": {
+    "message": "समर्थित फ़ाइलों को ब्राउज़ और पूर्वावलोकन करने के लिए स्थानीय निर्देशिका खोलें।",
+    "description": "Workspace landing page description"
+  },
+  "workspace_open": {
+    "message": "कार्यक्षेत्र खोलें",
+    "description": "Button in popup to open workspace page"
+  },
+  "workspace_recent": {
+    "message": "हाल के कार्यक्षेत्र",
+    "description": "Title for recent workspaces list"
+  },
+  "workspace_search_content_hint": {
+    "message": "फ़ाइल सामग्री खोजने के लिए Enter दबाएँ",
+    "description": "Hint shown before executing a workspace content search"
+  },
+  "workspace_search_content_no_results": {
+    "message": "मिलती हुई सामग्री नहीं मिली",
+    "description": "Empty state shown when workspace content search returns no matches"
+  },
+  "workspace_search_content_placeholder": {
+    "message": "फ़ाइल सामग्री खोजें",
+    "description": "Placeholder text for the workspace content search input"
+  },
+  "workspace_search_content_searching": {
+    "message": "फ़ाइल सामग्री खोजी जा रही है...",
+    "description": "Status shown while workspace content search is running"
+  },
+  "workspace_search_mode_content_title": {
+    "message": "सामग्री खोज मोड",
+    "description": "Tooltip for workspace content search mode toggle"
+  },
+  "workspace_search_mode_filename_title": {
+    "message": "फ़ाइल नाम खोज मोड",
+    "description": "Tooltip for workspace file name search mode toggle"
+  },
+  "workspace_search_no_results": {
+    "message": "मिलती हुई फ़ाइलें नहीं मिलीं",
+    "description": "Empty state shown when workspace file search returns no matches"
+  },
+  "workspace_search_placeholder": {
+    "message": "फ़ाइल नाम खोजें",
+    "description": "Placeholder text for the workspace file name search input"
+  },
+  "workspace_search_title": {
+    "message": "फ़ाइलें खोजें",
+    "description": "Tooltip for the workspace file search button"
+  },
+  "workspace_select_file": {
+    "message": "पूर्वावलोकन के लिए फ़ाइल चुनें",
+    "description": "Placeholder text when no file is selected"
+  },
+  "workspace_title": {
+    "message": "कार्यक्षेत्र",
+    "description": "Workspace landing page title"
   },
   "zoom": {
     "message": "ज़ूम",

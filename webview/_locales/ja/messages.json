@@ -147,25 +147,33 @@
     "message": "最近のファイルをすべて削除しますか？",
     "description": "Confirmation message for clearing recent files"
   },
-  "clipboard_empty": {
-    "message": "クリップボードは空です",
-    "description": "Error when clipboard is empty"
-  },
-  "clipboard_open": {
-    "message": "クリップボードから開く",
-    "description": "Clipboard item title in history"
-  },
-  "clipboard_read_failed": {
-    "message": "クリップボードの読み取りに失敗しました",
-    "description": "Error when clipboard read fails"
-  },
   "close": {
     "message": "閉じる",
     "description": "Close button text/tooltip"
   },
+  "code_copied": {
+    "message": "コピーしました",
+    "description": "Tooltip shown after a code block has been copied"
+  },
+  "code_copy": {
+    "message": "コードをコピー",
+    "description": "Tooltip for the button that copies a code block"
+  },
+  "code_copy_failed": {
+    "message": "コピーに失敗しました",
+    "description": "Tooltip shown when copying a code block fails"
+  },
   "contextMenu_viewAsMarkdown": {
     "message": "Markdownで表示",
     "description": "Context menu item to view any file as markdown"
+  },
+  "contextMenu_viewAsRaw": {
+    "message": "View as Raw",
+    "description": "Context menu item to restore the page to its original state"
+  },
+  "copy_as_png": {
+    "message": "Copy as PNG",
+    "description": "Context menu item for copying a diagram as PNG"
   },
   "delete": {
     "message": "削除",
@@ -191,12 +199,28 @@
     "message": "Wordで共有",
     "description": "Menu item for exporting to DOCX"
   },
+  "export_menu_export_docx": {
+    "message": "DOCX にエクスポート",
+    "description": "Export menu item for exporting to DOCX"
+  },
+  "export_menu_export_html": {
+    "message": "HTML にエクスポート",
+    "description": "Export menu item for exporting to HTML"
+  },
+  "export_menu_print_pdf": {
+    "message": "PDF に印刷",
+    "description": "Export menu item for printing to PDF"
+  },
+  "export_menu_save_file": {
+    "message": "ファイルを保存",
+    "description": "Export menu item for saving current file"
+  },
   "exporting": {
     "message": "Word文書を準備中...",
     "description": "Toast shown during export"
   },
   "extensionDescription": {
-    "message": "Markdown をワンクリックで完璧な Word に — Mermaid、Vega、drawio、canvas、インフォグラフィック、Graphviz、LaTeX（編集可能）、コードハイライト、ローカル処理.",
+    "message": "Markdown を完璧な Word に — Mermaid、PlantUML、Vega、drawio、canvas、インフォグラフィック、Graphviz、LaTeX（編集可能）、コードハイライト、ローカル処理.",
     "description": "Chrome ウェブストアに表示される説明"
   },
   "extensionName": {
@@ -299,6 +323,22 @@
     "message": "言語",
     "description": "Menu item for language"
   },
+  "lightbox_close": {
+    "message": "閉じる",
+    "description": "Tooltip for closing the diagram lightbox"
+  },
+  "lightbox_fit": {
+    "message": "画面に合わせる",
+    "description": "Tooltip for fitting the diagram to the lightbox viewport"
+  },
+  "lightbox_zoom_in": {
+    "message": "ズームイン",
+    "description": "Tooltip for zooming in in the diagram lightbox"
+  },
+  "lightbox_zoom_out": {
+    "message": "ズームアウト",
+    "description": "Tooltip for zooming out in the diagram lightbox"
+  },
   "more": {
     "message": "その他",
     "description": "More menu tooltip"
@@ -343,6 +383,94 @@
     "message": "最近のファイル",
     "description": "Title for recent files section"
   },
+  "remark_add_note": {
+    "message": "注釈を追加…",
+    "description": "Placeholder for the note input in the annotation popup and sidebar"
+  },
+  "remark_cancel": {
+    "message": "取り消して削除",
+    "description": "Cancel button in the annotation popup"
+  },
+  "remark_change_color": {
+    "message": "色を変更",
+    "description": "Tooltip for changing the remark color"
+  },
+  "remark_clear_all": {
+    "message": "注釈をすべて削除",
+    "description": "Tooltip for clearing all remarks"
+  },
+  "remark_color_blue": {
+    "message": "質問",
+    "description": "Label for the blue annotation color"
+  },
+  "remark_color_green": {
+    "message": "保持",
+    "description": "Label for the green annotation color"
+  },
+  "remark_color_pink": {
+    "message": "懸念",
+    "description": "Label for the pink annotation color"
+  },
+  "remark_color_yellow": {
+    "message": "提案",
+    "description": "Label for the yellow annotation color"
+  },
+  "remark_copied": {
+    "message": "コピーしました！",
+    "description": "Feedback shown after remarks are successfully copied"
+  },
+  "remark_copy_btn": {
+    "message": "注釈をコピー",
+    "description": "Button label to copy all remarks to clipboard and exit Remark Mode"
+  },
+  "remark_copy_failed": {
+    "message": "コピーに失敗しました",
+    "description": "Feedback shown when copying remarks fails"
+  },
+  "remark_copy_tooltip": {
+    "message": "すべての注釈をクリップボードにコピー",
+    "description": "Tooltip for the Copy remarks button"
+  },
+  "remark_delete": {
+    "message": "削除",
+    "description": "Tooltip for deleting a remark"
+  },
+  "remark_deleted": {
+    "message": "削除しました",
+    "description": "Status label shown after a remark is deleted"
+  },
+  "remark_edit_note": {
+    "message": "クリックして編集",
+    "description": "Tooltip on a remark note in the sidebar indicating it is editable"
+  },
+  "remark_empty_hint": {
+    "message": "テキストを選択して注釈を追加",
+    "description": "Empty state hint in the remarks sidebar"
+  },
+  "remark_exit_mode": {
+    "message": "注釈モードを終了",
+    "description": "Toolbar button tooltip to exit Remark Mode"
+  },
+  "remark_export_intro": {
+    "message": "**{0}** を確認し、次のフィードバックをまとめました：",
+    "description": "Intro line for exported remarks. {0} is the file path or title."
+  },
+  "remark_export_note": {
+    "message": "メモ",
+    "description": "Label preceding the note text in exported remarks"
+  },
+  "remark_mode": {
+    "message": "注釈モード",
+    "description": "Toolbar button tooltip to enter Remark Mode"
+  },
+  "remark_sidebar_title": {
+    "message": "注釈",
+    "description": "Title of the Remark Mode sidebar panel"
+  },
+  "remark_undo": {
+    "message": "元に戻す",
+    "description": "Button text for undoing remark deletion"
+  },
   "remove_from_list": {
     "message": "リストから削除",
     "description": "Menu item to remove file from recent list"
@@ -350,6 +478,22 @@
   "reset": {
     "message": "リセット",
     "description": "Reset button"
+  },
+  "save_as_drawio": {
+    "message": "DrawIOとして保存",
+    "description": "Context menu item for saving a PlantUML diagram as DrawIO"
+  },
+  "save_as_png": {
+    "message": "PNGとして保存",
+    "description": "Context menu item for saving a diagram as PNG"
+  },
+  "save_as_svg": {
+    "message": "SVGとして保存",
+    "description": "Context menu item for saving a diagram as SVG"
+  },
+  "save_image_as": {
+    "message": "名前を付けて画像を保存…",
+    "description": "Context menu item for saving an image"
   },
   "search_case_sensitive": {
     "message": "大文字と小文字を区別",
@@ -499,37 +643,13 @@
     "message": "設定を保存しました",
     "description": "保存成功の通知"
   },
-  "settings_support_canvas": {
-    "message": "JSON Canvas図 (.canvas)",
-    "description": "Checkbox label for enabling JSON Canvas file support"
+  "settings_swap_panel_side": {
+    "message": "Swap TOC / file tree side",
+    "description": "Checkbox label for swapping TOC and workspace file tree panel side"
   },
-  "settings_support_dot": {
-    "message": "Graphviz DOT図 (.gv)",
-    "description": "Checkbox label for Graphviz DOT format support"
-  },
-  "settings_support_drawio": {
-    "message": "drawio図 (.drawio)",
-    "description": "Checkbox label for enabling drawio file support"
-  },
-  "settings_support_infographic": {
-    "message": "インフォグラフィック (.infographic)",
-    "description": "Checkbox label for Infographic format support"
-  },
-  "settings_support_mermaid": {
-    "message": "Mermaid図 (.mermaid)",
-    "description": "Checkbox label for Mermaid format support"
-  },
-  "settings_support_vega": {
-    "message": "Vegaチャート (.vega)",
-    "description": "Checkbox label for Vega format support"
-  },
-  "settings_support_vega_lite": {
-    "message": "Vega-Liteチャート (.vl, .vega-lite)",
-    "description": "Checkbox label for Vega-Lite format support"
-  },
-  "settings_supported_formats_title": {
-    "message": "対応フォーマット",
-    "description": "Title for supported file formats section in settings"
+  "settings_swap_panel_side_note": {
+    "message": "Chrome switches both the TOC and workspace file tree. Firefox switches the TOC only.",
+    "description": "Helper note for TOC and workspace panel side swap setting"
   },
   "settings_table_layout": {
     "message": "テーブルレイアウト",
@@ -538,6 +658,10 @@
   "settings_table_layout_center": {
     "message": "中央",
     "description": "Table layout option: center aligned"
+  },
+  "settings_table_layout_full_width": {
+    "message": "全幅",
+    "description": "Option for centered tables stretched to the full content width"
   },
   "settings_table_layout_left": {
     "message": "左",
@@ -622,6 +746,74 @@
   "welcome_message": {
     "message": "マークダウンファイルを開いて始めましょう",
     "description": "Welcome message on empty state"
+  },
+  "workspace_binary_file_cannot_preview": {
+    "message": "バイナリファイルはプレビューできません",
+    "description": "Message shown in workspace preview pane when selected file is binary"
+  },
+  "workspace_change_directory": {
+    "message": "ディレクトリを変更",
+    "description": "Tooltip for changing the current workspace directory"
+  },
+  "workspace_choose_directory": {
+    "message": "ディレクトリを選択",
+    "description": "Button to open directory picker"
+  },
+  "workspace_desc": {
+    "message": "ローカルディレクトリを開いてサポートされているファイルを閲覧・プレビューします。",
+    "description": "Workspace landing page description"
+  },
+  "workspace_open": {
+    "message": "ワークスペースを開く",
+    "description": "Button in popup to open workspace page"
+  },
+  "workspace_recent": {
+    "message": "最近のワークスペース",
+    "description": "Title for recent workspaces list"
+  },
+  "workspace_search_content_hint": {
+    "message": "ファイル内容を検索するには Enter キーを押してください",
+    "description": "Hint shown before executing a workspace content search"
+  },
+  "workspace_search_content_no_results": {
+    "message": "一致する内容はありません",
+    "description": "Empty state shown when workspace content search returns no matches"
+  },
+  "workspace_search_content_placeholder": {
+    "message": "ファイル内容を検索",
+    "description": "Placeholder text for the workspace content search input"
+  },
+  "workspace_search_content_searching": {
+    "message": "ファイル内容を検索中...",
+    "description": "Status shown while workspace content search is running"
+  },
+  "workspace_search_mode_content_title": {
+    "message": "内容検索モード",
+    "description": "Tooltip for workspace content search mode toggle"
+  },
+  "workspace_search_mode_filename_title": {
+    "message": "ファイル名検索モード",
+    "description": "Tooltip for workspace file name search mode toggle"
+  },
+  "workspace_search_no_results": {
+    "message": "一致するファイルはありません",
+    "description": "Empty state shown when workspace file search returns no matches"
+  },
+  "workspace_search_placeholder": {
+    "message": "ファイル名を検索",
+    "description": "Placeholder text for the workspace file name search input"
+  },
+  "workspace_search_title": {
+    "message": "ファイルを検索",
+    "description": "Tooltip for the workspace file search button"
+  },
+  "workspace_select_file": {
+    "message": "プレビューするファイルを選択",
+    "description": "Placeholder text when no file is selected"
+  },
+  "workspace_title": {
+    "message": "ワークスペース",
+    "description": "Workspace landing page title"
   },
   "zoom": {
     "message": "ズーム",

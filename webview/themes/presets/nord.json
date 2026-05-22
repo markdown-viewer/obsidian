@@ -1,0 +1,18 @@
+{
+  "id": "nord",
+  "name": "北欧",
+  "name_en": "Nord",
+  "description": "Nord 官方冷净配色，适合长文阅读",
+  "description_en": "Official Nord cool palette for long reads",
+  "author": "docu.md Markdown Viewer",
+  "version": "1.0.0",
+  "fontScheme": {
+    "body": { "fontFamily": "Helvetica Neue" },
+    "headings": {},
+    "code": { "fontFamily": "Consolas" }
+  },
+  "layoutScheme": "editorial",
+  "colorScheme": "nord-dark",
+  "tableStyle": "minimal-gray",
+  "codeTheme": "nord-code"
+}

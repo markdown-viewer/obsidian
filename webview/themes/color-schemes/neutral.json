@@ -17,7 +17,10 @@
   },
   
   "background": {
-    "code": "#f5f5f5"
+    "page": "#ffffff",
+    "surface": "#f9fafb",
+    "code": "#f5f5f5",
+    "blockquote": "#f5f5f5"
   },
   
   "blockquote": {

@@ -147,25 +147,33 @@
     "message": "Alle recente bestanden uit de lijst verwijderen?",
     "description": "Confirmation message for clearing recent files"
   },
-  "clipboard_empty": {
-    "message": "Klembord is leeg",
-    "description": "Error when clipboard is empty"
-  },
-  "clipboard_open": {
-    "message": "Openen vanuit klembord",
-    "description": "Clipboard item title in history"
-  },
-  "clipboard_read_failed": {
-    "message": "Kan klembord niet lezen",
-    "description": "Error when clipboard read fails"
-  },
   "close": {
     "message": "Sluiten",
     "description": "Close button text/tooltip"
   },
+  "code_copied": {
+    "message": "Gekopieerd",
+    "description": "Tooltip shown after a code block has been copied"
+  },
+  "code_copy": {
+    "message": "Code kopiëren",
+    "description": "Tooltip for the button that copies a code block"
+  },
+  "code_copy_failed": {
+    "message": "Kopiëren mislukt",
+    "description": "Tooltip shown when copying a code block fails"
+  },
   "contextMenu_viewAsMarkdown": {
     "message": "Bekijk als Markdown",
     "description": "Context menu item to view any file as markdown"
+  },
+  "contextMenu_viewAsRaw": {
+    "message": "View as Raw",
+    "description": "Context menu item to restore the page to its original state"
+  },
+  "copy_as_png": {
+    "message": "Copy as PNG",
+    "description": "Context menu item for copying a diagram as PNG"
   },
   "delete": {
     "message": "Delete",
@@ -191,16 +199,32 @@
     "message": "Delen als Word",
     "description": "Menu item for exporting to DOCX"
   },
+  "export_menu_export_docx": {
+    "message": "Exporteren naar DOCX",
+    "description": "Export menu item for exporting to DOCX"
+  },
+  "export_menu_export_html": {
+    "message": "Exporteren naar HTML",
+    "description": "Export menu item for exporting to HTML"
+  },
+  "export_menu_print_pdf": {
+    "message": "Afdrukken naar PDF",
+    "description": "Export menu item for printing to PDF"
+  },
+  "export_menu_save_file": {
+    "message": "Bestand opslaan",
+    "description": "Export menu item for saving current file"
+  },
   "exporting": {
     "message": "Word-document voorbereiden...",
     "description": "Toast shown during export"
   },
   "extensionDescription": {
-    "message": "Markdown naar perfect Word met één klik — Mermaid, Vega, drawio, canvas, infographic, Graphviz, LaTeX (bewerkbaar), code-accentuering, lokale verwerking.",
+    "message": "Markdown naar perfect Word — Mermaid, PlantUML, Vega, drawio, infographic, Graphviz, LaTeX, code-accentuering, lokale verwerking.",
     "description": "Extension description shown in Chrome Web Store"
   },
   "extensionName": {
-    "message": "Markdown Viewer",
+    "message": "docu.md Markdown Viewer",
     "description": "Extension name"
   },
   "failed_to_open_file": {
@@ -299,6 +323,22 @@
     "message": "Taal",
     "description": "Menu item for language"
   },
+  "lightbox_close": {
+    "message": "Sluiten",
+    "description": "Tooltip for closing the diagram lightbox"
+  },
+  "lightbox_fit": {
+    "message": "Aan scherm aanpassen",
+    "description": "Tooltip for fitting the diagram to the lightbox viewport"
+  },
+  "lightbox_zoom_in": {
+    "message": "Inzoomen",
+    "description": "Tooltip for zooming in in the diagram lightbox"
+  },
+  "lightbox_zoom_out": {
+    "message": "Uitzoomen",
+    "description": "Tooltip for zooming out in the diagram lightbox"
+  },
   "more": {
     "message": "More",
     "description": "More menu tooltip"
@@ -343,6 +383,94 @@
     "message": "Recente bestanden",
     "description": "Title for recent files section"
   },
+  "remark_add_note": {
+    "message": "Opmerking toevoegen…",
+    "description": "Placeholder and tooltip for adding a remark note"
+  },
+  "remark_cancel": {
+    "message": "Annuleren en verwijderen",
+    "description": "Button text for cancelling a new remark and removing the temporary mark"
+  },
+  "remark_change_color": {
+    "message": "Kleur wijzigen",
+    "description": "Tooltip for changing the remark color"
+  },
+  "remark_clear_all": {
+    "message": "Alle opmerkingen wissen",
+    "description": "Tooltip for clearing all remarks"
+  },
+  "remark_color_blue": {
+    "message": "Vraag",
+    "description": "Label for the blue remark category"
+  },
+  "remark_color_green": {
+    "message": "Behouden",
+    "description": "Label for the green remark category"
+  },
+  "remark_color_pink": {
+    "message": "Zorgpunt",
+    "description": "Label for the pink remark category"
+  },
+  "remark_color_yellow": {
+    "message": "Suggestie",
+    "description": "Label for the yellow remark category"
+  },
+  "remark_copied": {
+    "message": "Gekopieerd!",
+    "description": "Temporary success state after copying remarks"
+  },
+  "remark_copy_btn": {
+    "message": "Opmerkingen kopiëren",
+    "description": "Button text for copying all remarks"
+  },
+  "remark_copy_failed": {
+    "message": "Kopiëren mislukt",
+    "description": "Temporary error state when copying remarks fails"
+  },
+  "remark_copy_tooltip": {
+    "message": "Alle opmerkingen naar het klembord kopiëren",
+    "description": "Tooltip for copying all remarks"
+  },
+  "remark_delete": {
+    "message": "Verwijderen",
+    "description": "Tooltip for deleting a remark"
+  },
+  "remark_deleted": {
+    "message": "Verwijderd",
+    "description": "Status label shown after a remark is deleted"
+  },
+  "remark_edit_note": {
+    "message": "Klik om te bewerken",
+    "description": "Tooltip for editing an existing remark note"
+  },
+  "remark_empty_hint": {
+    "message": "Selecteer tekst om opmerkingen toe te voegen",
+    "description": "Empty state hint in the remarks sidebar"
+  },
+  "remark_exit_mode": {
+    "message": "Opmerkingsmodus afsluiten",
+    "description": "Toolbar button title for leaving remark mode"
+  },
+  "remark_export_intro": {
+    "message": "Ik heb **{0}** beoordeeld en heb de volgende feedback:",
+    "description": "Intro line for exported remarks. {0} is the file path or title."
+  },
+  "remark_export_note": {
+    "message": "Notitie",
+    "description": "Label preceding the note text in exported remarks"
+  },
+  "remark_mode": {
+    "message": "Opmerkingsmodus",
+    "description": "Toolbar button title for entering remark mode"
+  },
+  "remark_sidebar_title": {
+    "message": "Opmerkingen",
+    "description": "Sidebar title for the remarks panel"
+  },
+  "remark_undo": {
+    "message": "Ongedaan maken",
+    "description": "Button text for undoing remark deletion"
+  },
   "remove_from_list": {
     "message": "Remove from list",
     "description": "Menu item to remove file from recent list"
@@ -350,6 +478,22 @@
   "reset": {
     "message": "Resetten",
     "description": "Reset button"
+  },
+  "save_as_drawio": {
+    "message": "Opslaan als DrawIO",
+    "description": "Context menu item for saving a PlantUML diagram as DrawIO"
+  },
+  "save_as_png": {
+    "message": "Opslaan als PNG",
+    "description": "Context menu item for saving a diagram as PNG"
+  },
+  "save_as_svg": {
+    "message": "Opslaan als SVG",
+    "description": "Context menu item for saving a diagram as SVG"
+  },
+  "save_image_as": {
+    "message": "Afbeelding opslaan als…",
+    "description": "Context menu item for saving an image"
   },
   "search_case_sensitive": {
     "message": "Hoofdlettergevoelig",
@@ -499,37 +643,13 @@
     "message": "Instellingen opgeslagen",
     "description": "Toast when settings saved"
   },
-  "settings_support_canvas": {
-    "message": "JSON Canvas diagrammen (.canvas)",
-    "description": "Checkbox label for enabling JSON Canvas file support"
+  "settings_swap_panel_side": {
+    "message": "Swap TOC / file tree side",
+    "description": "Checkbox label for swapping TOC and workspace file tree panel side"
   },
-  "settings_support_dot": {
-    "message": "Graphviz DOT-diagrammen (.gv)",
-    "description": "Checkbox label for Graphviz DOT format support"
-  },
-  "settings_support_drawio": {
-    "message": "drawio diagrammen (.drawio)",
-    "description": "Checkbox label for enabling drawio file support"
-  },
-  "settings_support_infographic": {
-    "message": "Infographics (.infographic)",
-    "description": "Checkbox label for Infographic format support"
-  },
-  "settings_support_mermaid": {
-    "message": "Mermaid-diagrammen (.mermaid)",
-    "description": "Checkbox label for Mermaid format support"
-  },
-  "settings_support_vega": {
-    "message": "Vega-grafieken (.vega)",
-    "description": "Checkbox label for Vega format support"
-  },
-  "settings_support_vega_lite": {
-    "message": "Vega-Lite-grafieken (.vl, .vega-lite)",
-    "description": "Checkbox label for Vega-Lite format support"
-  },
-  "settings_supported_formats_title": {
-    "message": "Ondersteunde formaten",
-    "description": "Title for supported file formats section in settings"
+  "settings_swap_panel_side_note": {
+    "message": "Chrome switches both the TOC and workspace file tree. Firefox switches the TOC only.",
+    "description": "Helper note for TOC and workspace panel side swap setting"
   },
   "settings_table_layout": {
     "message": "Tabelindeling",
@@ -538,6 +658,10 @@
   "settings_table_layout_center": {
     "message": "Gecentreerd",
     "description": "Table layout option: center aligned"
+  },
+  "settings_table_layout_full_width": {
+    "message": "Volledige breedte",
+    "description": "Option for centered tables stretched to the full content width"
   },
   "settings_table_layout_left": {
     "message": "Links",
@@ -622,6 +746,74 @@
   "welcome_message": {
     "message": "Open een markdown-bestand om te beginnen",
     "description": "Welcome message on empty state"
+  },
+  "workspace_binary_file_cannot_preview": {
+    "message": "Binaire bestand kan niet worden weergegeven",
+    "description": "Message shown in workspace preview pane when selected file is binary"
+  },
+  "workspace_change_directory": {
+    "message": "Map wijzigen",
+    "description": "Tooltip for changing the current workspace directory"
+  },
+  "workspace_choose_directory": {
+    "message": "Map kiezen",
+    "description": "Button to open directory picker"
+  },
+  "workspace_desc": {
+    "message": "Open een lokale map om ondersteunde bestanden te bekijken en een voorbeeld te zien.",
+    "description": "Workspace landing page description"
+  },
+  "workspace_open": {
+    "message": "Werkruimte openen",
+    "description": "Button in popup to open workspace page"
+  },
+  "workspace_recent": {
+    "message": "Recente werkruimtes",
+    "description": "Title for recent workspaces list"
+  },
+  "workspace_search_content_hint": {
+    "message": "Druk op Enter om in bestandsinhoud te zoeken",
+    "description": "Hint shown before executing a workspace content search"
+  },
+  "workspace_search_content_no_results": {
+    "message": "Geen overeenkomende inhoud",
+    "description": "Empty state shown when workspace content search returns no matches"
+  },
+  "workspace_search_content_placeholder": {
+    "message": "In bestandsinhoud zoeken",
+    "description": "Placeholder text for the workspace content search input"
+  },
+  "workspace_search_content_searching": {
+    "message": "Bezig met zoeken in bestandsinhoud...",
+    "description": "Status shown while workspace content search is running"
+  },
+  "workspace_search_mode_content_title": {
+    "message": "Zoekmodus voor inhoud",
+    "description": "Tooltip for workspace content search mode toggle"
+  },
+  "workspace_search_mode_filename_title": {
+    "message": "Zoekmodus voor bestandsnaam",
+    "description": "Tooltip for workspace file name search mode toggle"
+  },
+  "workspace_search_no_results": {
+    "message": "Geen overeenkomende bestanden",
+    "description": "Empty state shown when workspace file search returns no matches"
+  },
+  "workspace_search_placeholder": {
+    "message": "Bestandsnamen zoeken",
+    "description": "Placeholder text for the workspace file name search input"
+  },
+  "workspace_search_title": {
+    "message": "Bestanden zoeken",
+    "description": "Tooltip for the workspace file search button"
+  },
+  "workspace_select_file": {
+    "message": "Selecteer een bestand om te bekijken",
+    "description": "Placeholder text when no file is selected"
+  },
+  "workspace_title": {
+    "message": "Werkruimte",
+    "description": "Workspace landing page title"
   },
   "zoom": {
     "message": "Zoomen",

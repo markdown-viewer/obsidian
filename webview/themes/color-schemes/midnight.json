@@ -1,0 +1,37 @@
+{
+  "id": "midnight",
+  "name": "深夜蓝",
+  "name_en": "Midnight",
+  "description": "深蓝夜读底色，低干扰、高对比，适合长时间阅读",
+  "description_en": "Deep blue night-reading base with calm contrast",
+  
+  "text": {
+    "primary": "#e5e7eb",
+    "secondary": "#cbd5e1",
+    "muted": "#9ca3af"
+  },
+  
+  "accent": {
+    "link": "#60a5fa",
+    "linkHover": "#93c5fd"
+  },
+  
+  "background": {
+    "page": "#0b0f19",
+    "surface": "#111827",
+    "code": "#1f2937",
+    "blockquote": "#111a2d"
+  },
+  
+  "blockquote": {
+    "border": "#334155"
+  },
+  
+  "table": {
+    "border": "#334155",
+    "headerBackground": "#1f2937",
+    "headerText": "#f3f4f6",
+    "zebraEven": "#0f172a",
+    "zebraOdd": "#0b1220"
+  }
+}

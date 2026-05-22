@@ -1,0 +1,31 @@
+{
+  "id": "dracula-code",
+  "name": "吸血鬼代码",
+  "description": "Dracula 配色常量，适合 dracula-soft / obsidian 等主题",
+  "description_en": "Dracula constants for dracula-soft and obsidian themes",
+  
+  "foreground": "#f8f8f2",
+  "colors": {
+    "keyword": "#ff79c6",
+    "built_in": "#8be9fd",
+    "literal": "#bd93f9",
+    "number": "#bd93f9",
+    "string": "#f1fa8c",
+    "title": "#50fa7b",
+    "attr": "#50fa7b",
+    "comment": "#6272a4",
+    "meta": "#8be9fd",
+    "params": "#ffb86c",
+    "symbol": "#ff79c6",
+    "type": "#8be9fd",
+    "addition": "#50fa7b",
+    "deletion": "#ff5555",
+    "quote": "#6272a4",
+    "regexp": "#f1fa8c",
+    "selector_tag": "#ff79c6",
+    "selector_id": "#50fa7b",
+    "selector_class": "#50fa7b",
+    "variable": "#f8f8f2",
+    "property": "#66d9ef"
+  }
+}

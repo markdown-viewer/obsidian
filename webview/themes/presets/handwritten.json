@@ -4,7 +4,7 @@
   "name_en": "Handwritten",
   "description": "手写体标题，个人化感觉，适合日记和随笔",
   "description_en": "Handwriting style titles for personal notes and journals",
-  "author": "Markdown Viewer Extension",
+  "author": "docu.md Markdown Viewer",
   "version": "2.0.0",
   "fontScheme": {
     "body": {

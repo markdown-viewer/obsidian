@@ -147,25 +147,33 @@
     "message": "Видалити всі останні файли зі списку?",
     "description": "Confirmation message for clearing recent files"
   },
-  "clipboard_empty": {
-    "message": "Буфер обміну порожній",
-    "description": "Error when clipboard is empty"
-  },
-  "clipboard_open": {
-    "message": "Відкрити з буфера обміну",
-    "description": "Clipboard item title in history"
-  },
-  "clipboard_read_failed": {
-    "message": "Не вдалося прочитати буфер обміну",
-    "description": "Error when clipboard read fails"
-  },
   "close": {
     "message": "Закрити",
     "description": "Close button text/tooltip"
   },
+  "code_copied": {
+    "message": "Скопійовано",
+    "description": "Tooltip shown after a code block has been copied"
+  },
+  "code_copy": {
+    "message": "Скопіювати код",
+    "description": "Tooltip for the button that copies a code block"
+  },
+  "code_copy_failed": {
+    "message": "Не вдалося скопіювати",
+    "description": "Tooltip shown when copying a code block fails"
+  },
   "contextMenu_viewAsMarkdown": {
     "message": "Переглянути як Markdown",
     "description": "Context menu item to view any file as markdown"
+  },
+  "contextMenu_viewAsRaw": {
+    "message": "View as Raw",
+    "description": "Context menu item to restore the page to its original state"
+  },
+  "copy_as_png": {
+    "message": "Copy as PNG",
+    "description": "Context menu item for copying a diagram as PNG"
   },
   "delete": {
     "message": "Видалити",
@@ -191,16 +199,32 @@
     "message": "Поділитися як Word",
     "description": "Menu item for exporting to DOCX"
   },
+  "export_menu_export_docx": {
+    "message": "Експортувати в DOCX",
+    "description": "Export menu item for exporting to DOCX"
+  },
+  "export_menu_export_html": {
+    "message": "Експортувати в HTML",
+    "description": "Export menu item for exporting to HTML"
+  },
+  "export_menu_print_pdf": {
+    "message": "Друкувати в PDF",
+    "description": "Export menu item for printing to PDF"
+  },
+  "export_menu_save_file": {
+    "message": "Зберегти файл",
+    "description": "Export menu item for saving current file"
+  },
   "exporting": {
     "message": "Підготовка Word-документа...",
     "description": "Fallback message when DOCX export fails"
   },
   "extensionDescription": {
-    "message": "Markdown у ідеальний Word одним кліком — Mermaid, Vega, drawio, canvas, інфографіка, Graphviz, LaTeX (редагований), підсвітка коду, локальна обробка.",
+    "message": "Markdown у ідеальний Word — Mermaid, PlantUML, Vega, drawio, інфографіка, Graphviz, LaTeX, підсвітка коду, локальна обробка.",
     "description": "Extension description shown in Chrome Web Store"
   },
   "extensionName": {
-    "message": "Markdown Viewer",
+    "message": "docu.md Markdown Viewer",
     "description": "Extension name"
   },
   "failed_to_open_file": {
@@ -299,6 +323,22 @@
     "message": "Мова",
     "description": "Menu item for language"
   },
+  "lightbox_close": {
+    "message": "Закрити",
+    "description": "Tooltip for closing the diagram lightbox"
+  },
+  "lightbox_fit": {
+    "message": "Умістити на екрані",
+    "description": "Tooltip for fitting the diagram to the lightbox viewport"
+  },
+  "lightbox_zoom_in": {
+    "message": "Збільшити масштаб",
+    "description": "Tooltip for zooming in in the diagram lightbox"
+  },
+  "lightbox_zoom_out": {
+    "message": "Зменшити масштаб",
+    "description": "Tooltip for zooming out in the diagram lightbox"
+  },
   "more": {
     "message": "Більше",
     "description": "More options menu"
@@ -343,6 +383,94 @@
     "message": "Останні файли",
     "description": "Title for recent files section"
   },
+  "remark_add_note": {
+    "message": "Додати примітку…",
+    "description": "Placeholder and tooltip for adding a remark note"
+  },
+  "remark_cancel": {
+    "message": "Скасувати й видалити",
+    "description": "Button text for cancelling a new remark and removing the temporary mark"
+  },
+  "remark_change_color": {
+    "message": "Змінити колір",
+    "description": "Tooltip for changing the remark color"
+  },
+  "remark_clear_all": {
+    "message": "Очистити всі примітки",
+    "description": "Tooltip for clearing all remarks"
+  },
+  "remark_color_blue": {
+    "message": "Питання",
+    "description": "Label for the blue remark category"
+  },
+  "remark_color_green": {
+    "message": "Залишити",
+    "description": "Label for the green remark category"
+  },
+  "remark_color_pink": {
+    "message": "Застереження",
+    "description": "Label for the pink remark category"
+  },
+  "remark_color_yellow": {
+    "message": "Пропозиція",
+    "description": "Label for the yellow remark category"
+  },
+  "remark_copied": {
+    "message": "Скопійовано!",
+    "description": "Temporary success state after copying remarks"
+  },
+  "remark_copy_btn": {
+    "message": "Скопіювати примітки",
+    "description": "Button text for copying all remarks"
+  },
+  "remark_copy_failed": {
+    "message": "Не вдалося скопіювати",
+    "description": "Temporary error state when copying remarks fails"
+  },
+  "remark_copy_tooltip": {
+    "message": "Скопіювати всі примітки до буфера обміну",
+    "description": "Tooltip for copying all remarks"
+  },
+  "remark_delete": {
+    "message": "Видалити",
+    "description": "Tooltip for deleting a remark"
+  },
+  "remark_deleted": {
+    "message": "Видалено",
+    "description": "Status label shown after a remark is deleted"
+  },
+  "remark_edit_note": {
+    "message": "Натисніть, щоб редагувати",
+    "description": "Tooltip for editing an existing remark note"
+  },
+  "remark_empty_hint": {
+    "message": "Виділіть текст, щоб додати примітки",
+    "description": "Empty state hint in the remarks sidebar"
+  },
+  "remark_exit_mode": {
+    "message": "Вийти з режиму приміток",
+    "description": "Toolbar button title for leaving remark mode"
+  },
+  "remark_export_intro": {
+    "message": "Я переглянув **{0}** і маю такі зауваження:",
+    "description": "Intro line for exported remarks. {0} is the file path or title."
+  },
+  "remark_export_note": {
+    "message": "Примітка",
+    "description": "Label preceding the note text in exported remarks"
+  },
+  "remark_mode": {
+    "message": "Режим приміток",
+    "description": "Toolbar button title for entering remark mode"
+  },
+  "remark_sidebar_title": {
+    "message": "Примітки",
+    "description": "Sidebar title for the remarks panel"
+  },
+  "remark_undo": {
+    "message": "Скасувати",
+    "description": "Button text for undoing remark deletion"
+  },
   "remove_from_list": {
     "message": "Видалити зі списку",
     "description": "Menu item to remove file from recent list"
@@ -350,6 +478,22 @@
   "reset": {
     "message": "Скинути",
     "description": "Reset button"
+  },
+  "save_as_drawio": {
+    "message": "Зберегти як DrawIO",
+    "description": "Context menu item for saving a PlantUML diagram as DrawIO"
+  },
+  "save_as_png": {
+    "message": "Зберегти як PNG",
+    "description": "Context menu item for saving a diagram as PNG"
+  },
+  "save_as_svg": {
+    "message": "Зберегти як SVG",
+    "description": "Context menu item for saving a diagram as SVG"
+  },
+  "save_image_as": {
+    "message": "Зберегти зображення як…",
+    "description": "Context menu item for saving an image"
   },
   "search_case_sensitive": {
     "message": "З урахуванням регістру",
@@ -499,37 +643,13 @@
     "message": "Налаштування збережено",
     "description": "Toast when settings saved"
   },
-  "settings_support_canvas": {
-    "message": "JSON Canvas діаграми (.canvas)",
-    "description": "Checkbox label for enabling JSON Canvas file support"
+  "settings_swap_panel_side": {
+    "message": "Swap TOC / file tree side",
+    "description": "Checkbox label for swapping TOC and workspace file tree panel side"
   },
-  "settings_support_dot": {
-    "message": "Діаграми Graphviz DOT (.gv)",
-    "description": "Checkbox label for enabling DOT file support"
-  },
-  "settings_support_drawio": {
-    "message": "drawio діаграми (.drawio)",
-    "description": "Checkbox label for enabling drawio file support"
-  },
-  "settings_support_infographic": {
-    "message": "Інфографіка (.infographic)",
-    "description": "Checkbox label for enabling infographic file support"
-  },
-  "settings_support_mermaid": {
-    "message": "Діаграми Mermaid (.mermaid)",
-    "description": "Checkbox label for enabling Mermaid file support"
-  },
-  "settings_support_vega": {
-    "message": "Графіки Vega (.vega)",
-    "description": "Checkbox label for enabling Vega file support"
-  },
-  "settings_support_vega_lite": {
-    "message": "Графіки Vega-Lite (.vl, .vega-lite)",
-    "description": "Checkbox label for enabling Vega-Lite file support"
-  },
-  "settings_supported_formats_title": {
-    "message": "Підтримувані формати",
-    "description": "Heading for supported formats section"
+  "settings_swap_panel_side_note": {
+    "message": "Chrome switches both the TOC and workspace file tree. Firefox switches the TOC only.",
+    "description": "Helper note for TOC and workspace panel side swap setting"
   },
   "settings_table_layout": {
     "message": "Макет таблиці",
@@ -538,6 +658,10 @@
   "settings_table_layout_center": {
     "message": "По центру",
     "description": "Table layout option: center aligned"
+  },
+  "settings_table_layout_full_width": {
+    "message": "Na vsiu shyrynu",
+    "description": "Option for centered tables stretched to the full content width"
   },
   "settings_table_layout_left": {
     "message": "Зліва",
@@ -622,6 +746,74 @@
   "welcome_message": {
     "message": "Відкрийте markdown-файл, щоб почати",
     "description": "Welcome message on empty state"
+  },
+  "workspace_binary_file_cannot_preview": {
+    "message": "Бінарний файл неможливо переглянути",
+    "description": "Message shown in workspace preview pane when selected file is binary"
+  },
+  "workspace_change_directory": {
+    "message": "Змінити каталог",
+    "description": "Tooltip for changing the current workspace directory"
+  },
+  "workspace_choose_directory": {
+    "message": "Вибрати каталог",
+    "description": "Button to open directory picker"
+  },
+  "workspace_desc": {
+    "message": "Відкрийте локальний каталог для перегляду та попереднього перегляду підтримуваних файлів.",
+    "description": "Workspace landing page description"
+  },
+  "workspace_open": {
+    "message": "Відкрити робочий простір",
+    "description": "Button in popup to open workspace page"
+  },
+  "workspace_recent": {
+    "message": "Нещодавні робочі простори",
+    "description": "Title for recent workspaces list"
+  },
+  "workspace_search_content_hint": {
+    "message": "Натисніть Enter, щоб шукати у вмісті файлів",
+    "description": "Hint shown before executing a workspace content search"
+  },
+  "workspace_search_content_no_results": {
+    "message": "Немає відповідного вмісту",
+    "description": "Empty state shown when workspace content search returns no matches"
+  },
+  "workspace_search_content_placeholder": {
+    "message": "Шукати у вмісті файлів",
+    "description": "Placeholder text for the workspace content search input"
+  },
+  "workspace_search_content_searching": {
+    "message": "Пошук у вмісті файлів...",
+    "description": "Status shown while workspace content search is running"
+  },
+  "workspace_search_mode_content_title": {
+    "message": "Режим пошуку за вмістом",
+    "description": "Tooltip for workspace content search mode toggle"
+  },
+  "workspace_search_mode_filename_title": {
+    "message": "Режим пошуку за назвою файлу",
+    "description": "Tooltip for workspace file name search mode toggle"
+  },
+  "workspace_search_no_results": {
+    "message": "Немає відповідних файлів",
+    "description": "Empty state shown when workspace file search returns no matches"
+  },
+  "workspace_search_placeholder": {
+    "message": "Шукати назви файлів",
+    "description": "Placeholder text for the workspace file name search input"
+  },
+  "workspace_search_title": {
+    "message": "Шукати файли",
+    "description": "Tooltip for the workspace file search button"
+  },
+  "workspace_select_file": {
+    "message": "Виберіть файл для попереднього перегляду",
+    "description": "Placeholder text when no file is selected"
+  },
+  "workspace_title": {
+    "message": "Робочий простір",
+    "description": "Workspace landing page title"
   },
   "zoom": {
     "message": "Масштаб",

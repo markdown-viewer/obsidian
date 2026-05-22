@@ -1,0 +1,18 @@
+{
+  "id": "dracula",
+  "name": "吸血鬼",
+  "name_en": "Dracula",
+  "description": "Dracula 柔化配色，开发者经典夜间主题",
+  "description_en": "Softened Dracula palette—a developer classic",
+  "author": "docu.md Markdown Viewer",
+  "version": "1.0.0",
+  "fontScheme": {
+    "body": { "fontFamily": "Lucida Grande" },
+    "headings": {},
+    "code": { "fontFamily": "Monaco" }
+  },
+  "layoutScheme": "regular",
+  "colorScheme": "dracula-soft",
+  "tableStyle": "borderless",
+  "codeTheme": "dracula-code"
+}

@@ -1,8 +1,8 @@
 # ![Markdown Viewer](icons/icon48.png) Markdown Viewer
 
-[English](docs/readme/README.en.md) · [简体中文](docs/readme/README.zh-CN.md) · [繁體中文](docs/readme/README.zh-TW.md) · [Русский](docs/readme/README.ru.md) · [日本語](docs/readme/README.ja.md) · [हिन्दी](docs/readme/README.hi.md) · [한국어](docs/readme/README.ko.md) · [Deutsch](docs/readme/README.de.md) · [Português (Brasil)](docs/readme/README.pt-BR.md) · [Português (Portugal)](docs/readme/README.pt-PT.md) · [Nederlands](docs/readme/README.nl.md) · [Українська](docs/readme/README.uk.md) · [Tiếng Việt](docs/readme/README.vi.md) · [Беларуская](docs/readme/README.be.md) · [Français](docs/readme/README.fr.md) · [Italiano](docs/readme/README.it.md) · [Bahasa Indonesia](docs/readme/README.id.md) · [Español](docs/readme/README.es.md) · [ไทย](docs/readme/README.th.md) · [Svenska](docs/readme/README.sv.md) · [Türkçe](docs/readme/README.tr.md) · [Eesti](docs/readme/README.et.md) · [Bahasa Melayu](docs/readme/README.ms.md) · [Polski](docs/readme/README.pl.md) · [Suomi](docs/readme/README.fi.md) · [Lietuvių](docs/readme/README.lt.md) · [Norsk](docs/readme/README.no.md) · [Dansk](docs/readme/README.da.md)
+[English](https://github.com/markdown-viewer/docs/blob/main/readme/README.en.md) · [简体中文](https://github.com/markdown-viewer/docs/blob/main/readme/README.zh-CN.md) · [繁體中文](https://github.com/markdown-viewer/docs/blob/main/readme/README.zh-TW.md) · [Русский](https://github.com/markdown-viewer/docs/blob/main/readme/README.ru.md) · [日本語](https://github.com/markdown-viewer/docs/blob/main/readme/README.ja.md) · [हिन्दी](https://github.com/markdown-viewer/docs/blob/main/readme/README.hi.md) · [한국어](https://github.com/markdown-viewer/docs/blob/main/readme/README.ko.md) · [Deutsch](https://github.com/markdown-viewer/docs/blob/main/readme/README.de.md) · [Português (Brasil)](https://github.com/markdown-viewer/docs/blob/main/readme/README.pt-BR.md) · [Português (Portugal)](https://github.com/markdown-viewer/docs/blob/main/readme/README.pt-PT.md) · [Nederlands](https://github.com/markdown-viewer/docs/blob/main/readme/README.nl.md) · [Українська](https://github.com/markdown-viewer/docs/blob/main/readme/README.uk.md) · [Tiếng Việt](https://github.com/markdown-viewer/docs/blob/main/readme/README.vi.md) · [Беларуская](https://github.com/markdown-viewer/docs/blob/main/readme/README.be.md) · [Français](https://github.com/markdown-viewer/docs/blob/main/readme/README.fr.md) · [Italiano](https://github.com/markdown-viewer/docs/blob/main/readme/README.it.md) · [Bahasa Indonesia](https://github.com/markdown-viewer/docs/blob/main/readme/README.id.md) · [Español](https://github.com/markdown-viewer/docs/blob/main/readme/README.es.md) · [ไทย](https://github.com/markdown-viewer/docs/blob/main/readme/README.th.md) · [Svenska](https://github.com/markdown-viewer/docs/blob/main/readme/README.sv.md) · [Türkçe](https://github.com/markdown-viewer/docs/blob/main/readme/README.tr.md) · [Eesti](https://github.com/markdown-viewer/docs/blob/main/readme/README.et.md) · [Bahasa Melayu](https://github.com/markdown-viewer/docs/blob/main/readme/README.ms.md) · [Polski](https://github.com/markdown-viewer/docs/blob/main/readme/README.pl.md) · [Suomi](https://github.com/markdown-viewer/docs/blob/main/readme/README.fi.md) · [Lietuvių](https://github.com/markdown-viewer/docs/blob/main/readme/README.lt.md) · [Norsk](https://github.com/markdown-viewer/docs/blob/main/readme/README.no.md) · [Dansk](https://github.com/markdown-viewer/docs/blob/main/readme/README.da.md)
 
-**Markdown to perfect Word in one click — Mermaid, Vega, drawio, Canvas, Infographic, Graphviz, LaTeX (editable), code highlighting, local processing**
+**Markdown to perfect Word in one click — PlantUML, Mermaid, Vega, Canvas, Infographic, Graphviz, LaTeX (editable), code highlighting, local processing**
 
 *Completely Free · 29 Professional Themes · 28 Languages Support*
 
@@ -11,7 +11,7 @@
 - **Chrome / Chromium:** https://chromewebstore.google.com/detail/markdown-viewer/jekhhoflgcfoikceikgeenibinpojaoi
 - **Firefox:** https://addons.mozilla.org/firefox/addon/markdown-viewer-extension/
 - **VS Code:** https://marketplace.visualstudio.com/items?itemName=xicilion.markdown-viewer-extension · [Open VSX](https://open-vsx.org/extension/xicilion/markdown-viewer-extension)
-- **Mobile (iOS/Android):** See [Mobile App](docs/platforms/mobile.md)
+- **Mobile (iOS/Android):** See [Mobile App](https://github.com/markdown-viewer/docs/blob/main/platforms/mobile.md)
 
 ---
 
@@ -29,6 +29,7 @@ But eventually, you always need a Word document.
 **Now it takes just 1 second.**
 
 Click to download and get a perfect Word document:
+- ✅ PlantUML diagrams → High-resolution images
 - ✅ Mermaid diagrams → High-resolution images
 - ✅ Vega/Vega-Lite data charts → High-resolution images
 - ✅ drawio diagrams → High-resolution images
@@ -50,12 +51,12 @@ Markdown Viewer is not just a Chrome extension anymore — it's a unified render
 
 | Platform | Best for | Docs |
 |---|---|---|
-| **Chrome Extension** | Reading local/online Markdown in browser + export | [docs/platforms/chrome.md](docs/platforms/chrome.md) |
-| **Firefox Extension** | Firefox users, same core features | [docs/platforms/firefox.md](docs/platforms/firefox.md) |
-| **VS Code Extension** | Writing + live preview + export inside editor | [docs/platforms/vscode.md](docs/platforms/vscode.md) |
-| **Mobile App** | Reading/export on the go (iOS/Android) | [docs/platforms/mobile.md](docs/platforms/mobile.md) |
+| **Chrome Extension** | Reading local/online Markdown in browser + export | [chrome.md](https://github.com/markdown-viewer/docs/blob/main/platforms/chrome.md) |
+| **Firefox Extension** | Firefox users, same core features | [firefox.md](https://github.com/markdown-viewer/docs/blob/main/platforms/firefox.md) |
+| **VS Code Extension** | Writing + live preview + export inside editor | [vscode.md](https://github.com/markdown-viewer/docs/blob/main/platforms/vscode.md) |
+| **Mobile App** | Reading/export on the go (iOS/Android) | [mobile.md](https://github.com/markdown-viewer/docs/blob/main/platforms/mobile.md) |
 
-See the full feature matrix: [docs/platforms/platform-comparison.md](docs/platforms/platform-comparison.md)
+See the full feature matrix: [platform-comparison.md](https://github.com/markdown-viewer/docs/blob/main/platforms/platform-comparison.md)
 
 ## 💫 See It in Action
 
@@ -116,8 +117,9 @@ Let data speak, generate professional reports with one click.
 
 ### 1. Automatic Diagram Conversion
 
-**Mermaid** · **Vega/Vega-Lite** · **drawio** · **Canvas** · **Infographic** · **Graphviz DOT** · SVG images · Complex HTML tables
+**PlantUML** · **Mermaid** · **Vega/Vega-Lite** · **drawio** · **Canvas** · **Infographic** · **Graphviz DOT** · SVG images · Complex HTML tables
 
+**PlantUML:** Class diagrams, sequence diagrams, use case diagrams, activity diagrams, component diagrams → Software design, UML modeling  
 **Mermaid:** Flowcharts, sequence diagrams, class diagrams, state diagrams → Technical docs, architecture design  
 **Vega/Vega-Lite:** Bar charts, line charts, scatter plots, heatmaps → Business reports, data analytics  
 **drawio:** Architecture diagrams, network topologies, UML diagrams → System design, technical documentation  
@@ -204,9 +206,9 @@ Pick one platform and install:
 1. Enable local file access in your browser extension settings
 2. ✅ Now you can double-click to open local `.md` files
 
-**VS Code:** Open any `.md` file → run the preview command (see [VS Code Extension](docs/platforms/vscode.md))
+**VS Code:** Open any `.md` file → run the preview command (see [VS Code Extension](https://github.com/markdown-viewer/docs/blob/main/platforms/vscode.md))
 
-**Mobile:** Use file picker or open from cloud drive (details in [Mobile App](docs/platforms/mobile.md))
+**Mobile:** Use file picker or open from cloud drive (details in [Mobile App](https://github.com/markdown-viewer/docs/blob/main/platforms/mobile.md))
 
 **Not needed if:**
 - Only viewing online docs (GitHub, blogs, etc.)
@@ -228,7 +230,7 @@ Pick one platform and install:
 
 ### Full Markdown Syntax Support
 
-Headings · Paragraphs · Bold · Italic · Strikethrough · Lists · Task lists · Blockquotes · Code blocks (100+ languages highlighted) · Tables · Links · Images · Mermaid diagrams · Vega / Vega-Lite charts · drawio diagrams · Canvas diagrams · Infographic charts · Graphviz DOT graphs · LaTeX formulas · HTML · GFM extensions
+Headings · Paragraphs · Bold · Italic · Strikethrough · Lists · Task lists · Blockquotes · Code blocks (100+ languages highlighted) · Tables · Links · Images · PlantUML diagrams · Mermaid diagrams · Vega / Vega-Lite charts · drawio diagrams · Canvas diagrams · Infographic charts · Graphviz DOT graphs · LaTeX formulas · HTML · GFM extensions
 
 ### 29 Themes
 
@@ -269,7 +271,7 @@ English · 简体中文 · 繁體中文 · Русский · 日本語 · हि
 A: Yes. Standard .docx format, math formulas are editable, not images.
 
 **Q: Which diagrams are supported?**  
-A: All Mermaid diagrams (flowchart, sequence, gantt, class, state, pie, ER, etc.), Vega / Vega-Lite data visualization charts, drawio architecture diagrams, Canvas mind maps, Infographic statistical charts, Graphviz DOT graphs + SVG auto-conversion.
+A: PlantUML diagrams (class, sequence, use case, activity, etc.), all Mermaid diagrams (flowchart, sequence, gantt, class, state, pie, ER, etc.), Vega / Vega-Lite data visualization charts, drawio architecture diagrams, Canvas mind maps, Infographic statistical charts, Graphviz DOT graphs + SVG auto-conversion.
 
 **Q: Is there a file size limit?**  
 A: No limit. Smart cache, documents with 100+ diagrams open instantly.
@@ -352,7 +354,7 @@ A: Use ````vega-lite` code block in Markdown with JSON format chart specificatio
 
 ## 📜 Open Source License
 
-This project is open source under ISC license. Welcome to Star, report issues, suggest features, and contribute code.
+This project is open source under GPL-3.0 license. Welcome to Star, report issues, suggest features, and contribute code.
 
 **Project URL:** https://github.com/markdown-viewer/markdown-viewer-extension
 

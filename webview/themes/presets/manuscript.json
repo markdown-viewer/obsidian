@@ -4,7 +4,7 @@
   "name_en": "Manuscript",
   "description": "学术手稿感，适合论文草稿和研究笔记",
   "description_en": "Academic manuscript style for paper drafts and research notes",
-  "author": "Markdown Viewer Extension",
+  "author": "docu.md Markdown Viewer",
   "version": "2.0.0",
   "fontScheme": {
     "body": {
@@ -15,7 +15,7 @@
       "fontFamily": "Consolas"
     }
   },
-  "layoutScheme": "academic",
+  "layoutScheme": "book",
   "colorScheme": "sepia",
   "tableStyle": "borderless",
   "codeTheme": "warm-book"

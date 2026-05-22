@@ -147,25 +147,33 @@
     "message": "Удалить все недавние файлы из списка?",
     "description": "Confirmation message for clearing recent files"
   },
-  "clipboard_empty": {
-    "message": "Буфер обмена пуст",
-    "description": "Error when clipboard is empty"
-  },
-  "clipboard_open": {
-    "message": "Открыть из буфера обмена",
-    "description": "Clipboard item title in history"
-  },
-  "clipboard_read_failed": {
-    "message": "Не удалось прочитать буфер обмена",
-    "description": "Error when clipboard read fails"
-  },
   "close": {
     "message": "Закрыть",
     "description": "Close button text/tooltip"
   },
+  "code_copied": {
+    "message": "Скопировано",
+    "description": "Tooltip shown after a code block has been copied"
+  },
+  "code_copy": {
+    "message": "Копировать код",
+    "description": "Tooltip for the button that copies a code block"
+  },
+  "code_copy_failed": {
+    "message": "Не удалось скопировать",
+    "description": "Tooltip shown when copying a code block fails"
+  },
   "contextMenu_viewAsMarkdown": {
     "message": "Просмотреть как Markdown",
     "description": "Context menu item to view any file as markdown"
+  },
+  "contextMenu_viewAsRaw": {
+    "message": "View as Raw",
+    "description": "Context menu item to restore the page to its original state"
+  },
+  "copy_as_png": {
+    "message": "Copy as PNG",
+    "description": "Context menu item for copying a diagram as PNG"
   },
   "delete": {
     "message": "Удалить",
@@ -191,12 +199,28 @@
     "message": "Поделиться как Word",
     "description": "Menu item for exporting to DOCX"
   },
+  "export_menu_export_docx": {
+    "message": "Экспортировать в DOCX",
+    "description": "Export menu item for exporting to DOCX"
+  },
+  "export_menu_export_html": {
+    "message": "Экспортировать в HTML",
+    "description": "Export menu item for exporting to HTML"
+  },
+  "export_menu_print_pdf": {
+    "message": "Печать в PDF",
+    "description": "Export menu item for printing to PDF"
+  },
+  "export_menu_save_file": {
+    "message": "Сохранить файл",
+    "description": "Export menu item for saving current file"
+  },
   "exporting": {
     "message": "Подготовка документа Word...",
     "description": "Toast shown during export"
   },
   "extensionDescription": {
-    "message": "Markdown в идеальный Word в один клик — Mermaid, Vega, drawio, canvas, инфографика, Graphviz, LaTeX (редактируемый), подсветка кода, локальная обработка.",
+    "message": "Markdown в идеальный Word — Mermaid, PlantUML, Vega, drawio, инфографика, Graphviz, LaTeX, подсветка кода, локальная обработка.",
     "description": "Описание расширения в Chrome Web Store"
   },
   "extensionName": {
@@ -299,6 +323,22 @@
     "message": "Язык",
     "description": "Menu item for language"
   },
+  "lightbox_close": {
+    "message": "Закрыть",
+    "description": "Tooltip for closing the diagram lightbox"
+  },
+  "lightbox_fit": {
+    "message": "Подогнать к экрану",
+    "description": "Tooltip for fitting the diagram to the lightbox viewport"
+  },
+  "lightbox_zoom_in": {
+    "message": "Увеличить масштаб",
+    "description": "Tooltip for zooming in in the diagram lightbox"
+  },
+  "lightbox_zoom_out": {
+    "message": "Уменьшить масштаб",
+    "description": "Tooltip for zooming out in the diagram lightbox"
+  },
   "more": {
     "message": "Ещё",
     "description": "More menu tooltip"
@@ -343,6 +383,94 @@
     "message": "Недавние файлы",
     "description": "Title for recent files section"
   },
+  "remark_add_note": {
+    "message": "Добавить заметку…",
+    "description": "Placeholder and tooltip for adding a remark note"
+  },
+  "remark_cancel": {
+    "message": "Отменить и удалить",
+    "description": "Button text for cancelling a new remark and removing the temporary mark"
+  },
+  "remark_change_color": {
+    "message": "Изменить цвет",
+    "description": "Tooltip for changing the remark color"
+  },
+  "remark_clear_all": {
+    "message": "Очистить все заметки",
+    "description": "Tooltip for clearing all remarks"
+  },
+  "remark_color_blue": {
+    "message": "Вопрос",
+    "description": "Label for the blue remark category"
+  },
+  "remark_color_green": {
+    "message": "Оставить",
+    "description": "Label for the green remark category"
+  },
+  "remark_color_pink": {
+    "message": "Замечание",
+    "description": "Label for the pink remark category"
+  },
+  "remark_color_yellow": {
+    "message": "Предложение",
+    "description": "Label for the yellow remark category"
+  },
+  "remark_copied": {
+    "message": "Скопировано!",
+    "description": "Temporary success state after copying remarks"
+  },
+  "remark_copy_btn": {
+    "message": "Скопировать заметки",
+    "description": "Button text for copying all remarks"
+  },
+  "remark_copy_failed": {
+    "message": "Не удалось скопировать",
+    "description": "Temporary error state when copying remarks fails"
+  },
+  "remark_copy_tooltip": {
+    "message": "Скопировать все заметки в буфер обмена",
+    "description": "Tooltip for copying all remarks"
+  },
+  "remark_delete": {
+    "message": "Удалить",
+    "description": "Tooltip for deleting a remark"
+  },
+  "remark_deleted": {
+    "message": "Удалено",
+    "description": "Status label shown after a remark is deleted"
+  },
+  "remark_edit_note": {
+    "message": "Нажмите для редактирования",
+    "description": "Tooltip for editing an existing remark note"
+  },
+  "remark_empty_hint": {
+    "message": "Выделите текст, чтобы добавить заметки",
+    "description": "Empty state hint in the remarks sidebar"
+  },
+  "remark_exit_mode": {
+    "message": "Выйти из режима заметок",
+    "description": "Toolbar button title for leaving remark mode"
+  },
+  "remark_export_intro": {
+    "message": "Я просмотрел **{0}** и оставил следующие комментарии:",
+    "description": "Intro line for exported remarks. {0} is the file path or title."
+  },
+  "remark_export_note": {
+    "message": "Примечание",
+    "description": "Label preceding the note text in exported remarks"
+  },
+  "remark_mode": {
+    "message": "Режим заметок",
+    "description": "Toolbar button title for entering remark mode"
+  },
+  "remark_sidebar_title": {
+    "message": "Заметки",
+    "description": "Sidebar title for the remarks panel"
+  },
+  "remark_undo": {
+    "message": "Отменить",
+    "description": "Button text for undoing remark deletion"
+  },
   "remove_from_list": {
     "message": "Удалить из списка",
     "description": "Menu item to remove file from recent list"
@@ -350,6 +478,22 @@
   "reset": {
     "message": "Сбросить",
     "description": "Reset button"
+  },
+  "save_as_drawio": {
+    "message": "Сохранить как DrawIO",
+    "description": "Context menu item for saving a PlantUML diagram as DrawIO"
+  },
+  "save_as_png": {
+    "message": "Сохранить как PNG",
+    "description": "Context menu item for saving a diagram as PNG"
+  },
+  "save_as_svg": {
+    "message": "Сохранить как SVG",
+    "description": "Context menu item for saving a diagram as SVG"
+  },
+  "save_image_as": {
+    "message": "Сохранить изображение как…",
+    "description": "Context menu item for saving an image"
   },
   "search_case_sensitive": {
     "message": "С учётом регистра",
@@ -499,37 +643,13 @@
     "message": "Настройки сохранены",
     "description": "Уведомление об успехе"
   },
-  "settings_support_canvas": {
-    "message": "JSON Canvas диаграммы (.canvas)",
-    "description": "Checkbox label for enabling JSON Canvas file support"
+  "settings_swap_panel_side": {
+    "message": "Swap TOC / file tree side",
+    "description": "Checkbox label for swapping TOC and workspace file tree panel side"
   },
-  "settings_support_dot": {
-    "message": "Диаграммы Graphviz DOT (.gv)",
-    "description": "Checkbox label for Graphviz DOT format support"
-  },
-  "settings_support_drawio": {
-    "message": "drawio диаграммы (.drawio)",
-    "description": "Checkbox label for enabling drawio file support"
-  },
-  "settings_support_infographic": {
-    "message": "Инфографика (.infographic)",
-    "description": "Checkbox label for Infographic format support"
-  },
-  "settings_support_mermaid": {
-    "message": "Диаграммы Mermaid (.mermaid)",
-    "description": "Checkbox label for Mermaid format support"
-  },
-  "settings_support_vega": {
-    "message": "Графики Vega (.vega)",
-    "description": "Checkbox label for Vega format support"
-  },
-  "settings_support_vega_lite": {
-    "message": "Графики Vega-Lite (.vl, .vega-lite)",
-    "description": "Checkbox label for Vega-Lite format support"
-  },
-  "settings_supported_formats_title": {
-    "message": "Поддерживаемые форматы",
-    "description": "Title for supported file formats section in settings"
+  "settings_swap_panel_side_note": {
+    "message": "Chrome switches both the TOC and workspace file tree. Firefox switches the TOC only.",
+    "description": "Helper note for TOC and workspace panel side swap setting"
   },
   "settings_table_layout": {
     "message": "Расположение таблицы",
@@ -538,6 +658,10 @@
   "settings_table_layout_center": {
     "message": "По центру",
     "description": "Table layout option: center aligned"
+  },
+  "settings_table_layout_full_width": {
+    "message": "Во всю ширину",
+    "description": "Option for centered tables stretched to the full content width"
   },
   "settings_table_layout_left": {
     "message": "Слева",
@@ -622,6 +746,74 @@
   "welcome_message": {
     "message": "Откройте файл markdown, чтобы начать",
     "description": "Welcome message on empty state"
+  },
+  "workspace_binary_file_cannot_preview": {
+    "message": "Бинарный файл нельзя просмотреть",
+    "description": "Message shown in workspace preview pane when selected file is binary"
+  },
+  "workspace_change_directory": {
+    "message": "Сменить каталог",
+    "description": "Tooltip for changing the current workspace directory"
+  },
+  "workspace_choose_directory": {
+    "message": "Выбрать каталог",
+    "description": "Button to open directory picker"
+  },
+  "workspace_desc": {
+    "message": "Откройте локальный каталог для просмотра и предварительного просмотра поддерживаемых файлов.",
+    "description": "Workspace landing page description"
+  },
+  "workspace_open": {
+    "message": "Открыть рабочее пространство",
+    "description": "Button in popup to open workspace page"
+  },
+  "workspace_recent": {
+    "message": "Недавние рабочие пространства",
+    "description": "Title for recent workspaces list"
+  },
+  "workspace_search_content_hint": {
+    "message": "Нажмите Enter, чтобы искать по содержимому файлов",
+    "description": "Hint shown before executing a workspace content search"
+  },
+  "workspace_search_content_no_results": {
+    "message": "Нет совпадающего содержимого",
+    "description": "Empty state shown when workspace content search returns no matches"
+  },
+  "workspace_search_content_placeholder": {
+    "message": "Искать по содержимому файлов",
+    "description": "Placeholder text for the workspace content search input"
+  },
+  "workspace_search_content_searching": {
+    "message": "Поиск по содержимому файлов...",
+    "description": "Status shown while workspace content search is running"
+  },
+  "workspace_search_mode_content_title": {
+    "message": "Режим поиска по содержимому",
+    "description": "Tooltip for workspace content search mode toggle"
+  },
+  "workspace_search_mode_filename_title": {
+    "message": "Режим поиска по имени файла",
+    "description": "Tooltip for workspace file name search mode toggle"
+  },
+  "workspace_search_no_results": {
+    "message": "Нет совпадающих файлов",
+    "description": "Empty state shown when workspace file search returns no matches"
+  },
+  "workspace_search_placeholder": {
+    "message": "Искать имена файлов",
+    "description": "Placeholder text for the workspace file name search input"
+  },
+  "workspace_search_title": {
+    "message": "Искать файлы",
+    "description": "Tooltip for the workspace file search button"
+  },
+  "workspace_select_file": {
+    "message": "Выберите файл для предварительного просмотра",
+    "description": "Placeholder text when no file is selected"
+  },
+  "workspace_title": {
+    "message": "Рабочее пространство",
+    "description": "Workspace landing page title"
   },
   "zoom": {
     "message": "Масштаб",

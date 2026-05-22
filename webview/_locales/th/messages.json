@@ -147,25 +147,33 @@
     "message": "ลบไฟล์ล่าสุดทั้งหมดออกจากรายการ?",
     "description": "Confirmation message for clearing recent files"
   },
-  "clipboard_empty": {
-    "message": "คลิปบอร์ดว่างเปล่า",
-    "description": "Error when clipboard is empty"
-  },
-  "clipboard_open": {
-    "message": "เปิดจากคลิปบอร์ด",
-    "description": "Clipboard item title in history"
-  },
-  "clipboard_read_failed": {
-    "message": "ไม่สามารถอ่านคลิปบอร์ดได้",
-    "description": "Error when clipboard read fails"
-  },
   "close": {
     "message": "ปิด",
     "description": "Close button text/tooltip"
   },
+  "code_copied": {
+    "message": "คัดลอกแล้ว",
+    "description": "Tooltip shown after a code block has been copied"
+  },
+  "code_copy": {
+    "message": "คัดลอกโค้ด",
+    "description": "Tooltip for the button that copies a code block"
+  },
+  "code_copy_failed": {
+    "message": "คัดลอกไม่สำเร็จ",
+    "description": "Tooltip shown when copying a code block fails"
+  },
   "contextMenu_viewAsMarkdown": {
     "message": "ดูเป็น Markdown",
     "description": "Context menu item to view any file as markdown"
+  },
+  "contextMenu_viewAsRaw": {
+    "message": "View as Raw",
+    "description": "Context menu item to restore the page to its original state"
+  },
+  "copy_as_png": {
+    "message": "Copy as PNG",
+    "description": "Context menu item for copying a diagram as PNG"
   },
   "delete": {
     "message": "Delete",
@@ -191,16 +199,32 @@
     "message": "แชร์เป็น Word",
     "description": "Menu item for exporting to DOCX"
   },
+  "export_menu_export_docx": {
+    "message": "ส่งออกเป็น DOCX",
+    "description": "Export menu item for exporting to DOCX"
+  },
+  "export_menu_export_html": {
+    "message": "ส่งออกเป็น HTML",
+    "description": "Export menu item for exporting to HTML"
+  },
+  "export_menu_print_pdf": {
+    "message": "พิมพ์เป็น PDF",
+    "description": "Export menu item for printing to PDF"
+  },
+  "export_menu_save_file": {
+    "message": "บันทึกไฟล์",
+    "description": "Export menu item for saving current file"
+  },
   "exporting": {
     "message": "กำลังเตรียมเอกสาร Word...",
     "description": "Toast shown during export"
   },
   "extensionDescription": {
-    "message": "Markdown สู่ Word สมบูรณ์แบบในคลิกเดียว — Mermaid, Vega, drawio, canvas, อินโฟกราฟิก, Graphviz, LaTeX (แก้ไขได้), ไฮไลท์โค้ด, ประมวลผลในเครื่อง.",
+    "message": "Markdown สู่ Word สมบูรณ์แบบ — Mermaid, PlantUML, Vega, drawio, อินโฟกราฟิก, Graphviz, LaTeX, ไฮไลท์โค้ด, ประมวลผลในเครื่อง.",
     "description": "Extension description shown in Chrome Web Store"
   },
   "extensionName": {
-    "message": "Markdown Viewer",
+    "message": "docu.md Markdown Viewer",
     "description": "Extension name"
   },
   "failed_to_open_file": {
@@ -299,6 +323,22 @@
     "message": "ภาษา",
     "description": "Menu item for language"
   },
+  "lightbox_close": {
+    "message": "ปิด",
+    "description": "Tooltip for closing the diagram lightbox"
+  },
+  "lightbox_fit": {
+    "message": "พอดีกับหน้าจอ",
+    "description": "Tooltip for fitting the diagram to the lightbox viewport"
+  },
+  "lightbox_zoom_in": {
+    "message": "ซูมเข้า",
+    "description": "Tooltip for zooming in in the diagram lightbox"
+  },
+  "lightbox_zoom_out": {
+    "message": "ซูมออก",
+    "description": "Tooltip for zooming out in the diagram lightbox"
+  },
   "more": {
     "message": "More",
     "description": "More menu tooltip"
@@ -343,6 +383,94 @@
     "message": "ไฟล์ล่าสุด",
     "description": "Title for recent files section"
   },
+  "remark_add_note": {
+    "message": "เพิ่มหมายเหตุ…",
+    "description": "Placeholder and tooltip for adding a remark note"
+  },
+  "remark_cancel": {
+    "message": "ยกเลิกและลบ",
+    "description": "Button text for cancelling a new remark and removing the temporary mark"
+  },
+  "remark_change_color": {
+    "message": "เปลี่ยนสี",
+    "description": "Tooltip for changing the remark color"
+  },
+  "remark_clear_all": {
+    "message": "ล้างหมายเหตุทั้งหมด",
+    "description": "Tooltip for clearing all remarks"
+  },
+  "remark_color_blue": {
+    "message": "คำถาม",
+    "description": "Label for the blue remark category"
+  },
+  "remark_color_green": {
+    "message": "เก็บไว้",
+    "description": "Label for the green remark category"
+  },
+  "remark_color_pink": {
+    "message": "ข้อกังวล",
+    "description": "Label for the pink remark category"
+  },
+  "remark_color_yellow": {
+    "message": "ข้อเสนอแนะ",
+    "description": "Label for the yellow remark category"
+  },
+  "remark_copied": {
+    "message": "คัดลอกแล้ว!",
+    "description": "Temporary success state after copying remarks"
+  },
+  "remark_copy_btn": {
+    "message": "คัดลอกหมายเหตุ",
+    "description": "Button text for copying all remarks"
+  },
+  "remark_copy_failed": {
+    "message": "คัดลอกไม่สำเร็จ",
+    "description": "Temporary error state when copying remarks fails"
+  },
+  "remark_copy_tooltip": {
+    "message": "คัดลอกหมายเหตุทั้งหมดไปยังคลิปบอร์ด",
+    "description": "Tooltip for copying all remarks"
+  },
+  "remark_delete": {
+    "message": "ลบ",
+    "description": "Tooltip for deleting a remark"
+  },
+  "remark_deleted": {
+    "message": "ลบแล้ว",
+    "description": "Status label shown after a remark is deleted"
+  },
+  "remark_edit_note": {
+    "message": "คลิกเพื่อแก้ไข",
+    "description": "Tooltip for editing an existing remark note"
+  },
+  "remark_empty_hint": {
+    "message": "เลือกข้อความเพื่อเพิ่มหมายเหตุ",
+    "description": "Empty state hint in the remarks sidebar"
+  },
+  "remark_exit_mode": {
+    "message": "ออกจากโหมดหมายเหตุ",
+    "description": "Toolbar button title for leaving remark mode"
+  },
+  "remark_export_intro": {
+    "message": "ฉันได้ตรวจทาน **{0}** และมีข้อเสนอแนะดังนี้:",
+    "description": "Intro line for exported remarks. {0} is the file path or title."
+  },
+  "remark_export_note": {
+    "message": "หมายเหตุ",
+    "description": "Label preceding the note text in exported remarks"
+  },
+  "remark_mode": {
+    "message": "โหมดหมายเหตุ",
+    "description": "Toolbar button title for entering remark mode"
+  },
+  "remark_sidebar_title": {
+    "message": "หมายเหตุ",
+    "description": "Sidebar title for the remarks panel"
+  },
+  "remark_undo": {
+    "message": "เลิกทำ",
+    "description": "Button text for undoing remark deletion"
+  },
   "remove_from_list": {
     "message": "Remove from list",
     "description": "Menu item to remove file from recent list"
@@ -350,6 +478,22 @@
   "reset": {
     "message": "รีเซ็ต",
     "description": "Reset button"
+  },
+  "save_as_drawio": {
+    "message": "บันทึกเป็น DrawIO",
+    "description": "Context menu item for saving a PlantUML diagram as DrawIO"
+  },
+  "save_as_png": {
+    "message": "บันทึกเป็น PNG",
+    "description": "Context menu item for saving a diagram as PNG"
+  },
+  "save_as_svg": {
+    "message": "บันทึกเป็น SVG",
+    "description": "Context menu item for saving a diagram as SVG"
+  },
+  "save_image_as": {
+    "message": "บันทึกรูปภาพเป็น…",
+    "description": "Context menu item for saving an image"
   },
   "search_case_sensitive": {
     "message": "ตรงตามตัวพิมพ์",
@@ -499,37 +643,13 @@
     "message": "บันทึกการตั้งค่าแล้ว",
     "description": "Toast when settings saved"
   },
-  "settings_support_canvas": {
-    "message": "ไดอะแกรม JSON Canvas (.canvas)",
-    "description": "Checkbox label for enabling JSON Canvas file support"
+  "settings_swap_panel_side": {
+    "message": "Swap TOC / file tree side",
+    "description": "Checkbox label for swapping TOC and workspace file tree panel side"
   },
-  "settings_support_dot": {
-    "message": "ไดอะแกรม Graphviz DOT (.gv)",
-    "description": "Checkbox label for Graphviz DOT format support"
-  },
-  "settings_support_drawio": {
-    "message": "ไดอะแกรม drawio (.drawio)",
-    "description": "Checkbox label for enabling drawio file support"
-  },
-  "settings_support_infographic": {
-    "message": "อินโฟกราฟิก (.infographic)",
-    "description": "Checkbox label for Infographic format support"
-  },
-  "settings_support_mermaid": {
-    "message": "ไดอะแกรม Mermaid (.mermaid)",
-    "description": "Checkbox label for Mermaid format support"
-  },
-  "settings_support_vega": {
-    "message": "แผนภูมิ Vega (.vega)",
-    "description": "Checkbox label for Vega format support"
-  },
-  "settings_support_vega_lite": {
-    "message": "แผนภูมิ Vega-Lite (.vl, .vega-lite)",
-    "description": "Checkbox label for Vega-Lite format support"
-  },
-  "settings_supported_formats_title": {
-    "message": "รูปแบบที่รองรับ",
-    "description": "Title for supported file formats section in settings"
+  "settings_swap_panel_side_note": {
+    "message": "Chrome switches both the TOC and workspace file tree. Firefox switches the TOC only.",
+    "description": "Helper note for TOC and workspace panel side swap setting"
   },
   "settings_table_layout": {
     "message": "เค้าโครงตาราง",
@@ -538,6 +658,10 @@
   "settings_table_layout_center": {
     "message": "กลาง",
     "description": "Table layout option: center aligned"
+  },
+  "settings_table_layout_full_width": {
+    "message": "tem khwam kwang",
+    "description": "Option for centered tables stretched to the full content width"
   },
   "settings_table_layout_left": {
     "message": "ซ้าย",
@@ -622,6 +746,74 @@
   "welcome_message": {
     "message": "เปิดไฟล์ markdown เพื่อเริ่มต้น",
     "description": "Welcome message on empty state"
+  },
+  "workspace_binary_file_cannot_preview": {
+    "message": "ไม่สามารถแสดงตัวอย่างไฟล์ไบนารีได้",
+    "description": "Message shown in workspace preview pane when selected file is binary"
+  },
+  "workspace_change_directory": {
+    "message": "เปลี่ยนไดเรกทอรี",
+    "description": "Tooltip for changing the current workspace directory"
+  },
+  "workspace_choose_directory": {
+    "message": "เลือกไดเรกทอรี",
+    "description": "Button to open directory picker"
+  },
+  "workspace_desc": {
+    "message": "เปิดไดเรกทอรีในเครื่องเพื่อเรียกดูและดูตัวอย่างไฟล์ที่รองรับ",
+    "description": "Workspace landing page description"
+  },
+  "workspace_open": {
+    "message": "เปิดพื้นที่ทำงาน",
+    "description": "Button in popup to open workspace page"
+  },
+  "workspace_recent": {
+    "message": "พื้นที่ทำงานล่าสุด",
+    "description": "Title for recent workspaces list"
+  },
+  "workspace_search_content_hint": {
+    "message": "กด Enter เพื่อค้นหาในเนื้อหาไฟล์",
+    "description": "Hint shown before executing a workspace content search"
+  },
+  "workspace_search_content_no_results": {
+    "message": "ไม่พบเนื้อหาที่ตรงกัน",
+    "description": "Empty state shown when workspace content search returns no matches"
+  },
+  "workspace_search_content_placeholder": {
+    "message": "ค้นหาในเนื้อหาไฟล์",
+    "description": "Placeholder text for the workspace content search input"
+  },
+  "workspace_search_content_searching": {
+    "message": "กำลังค้นหาในเนื้อหาไฟล์...",
+    "description": "Status shown while workspace content search is running"
+  },
+  "workspace_search_mode_content_title": {
+    "message": "โหมดค้นหาเนื้อหา",
+    "description": "Tooltip for workspace content search mode toggle"
+  },
+  "workspace_search_mode_filename_title": {
+    "message": "โหมดค้นหาชื่อไฟล์",
+    "description": "Tooltip for workspace file name search mode toggle"
+  },
+  "workspace_search_no_results": {
+    "message": "ไม่พบไฟล์ที่ตรงกัน",
+    "description": "Empty state shown when workspace file search returns no matches"
+  },
+  "workspace_search_placeholder": {
+    "message": "ค้นหาชื่อไฟล์",
+    "description": "Placeholder text for the workspace file name search input"
+  },
+  "workspace_search_title": {
+    "message": "ค้นหาไฟล์",
+    "description": "Tooltip for the workspace file search button"
+  },
+  "workspace_select_file": {
+    "message": "เลือกไฟล์เพื่อดูตัวอย่าง",
+    "description": "Placeholder text when no file is selected"
+  },
+  "workspace_title": {
+    "message": "พื้นที่ทำงาน",
+    "description": "Workspace landing page title"
   },
   "zoom": {
     "message": "ซูม",

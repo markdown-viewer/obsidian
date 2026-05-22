@@ -15,7 +15,7 @@
       "fontFamily": "Consolas"
     }
   },
-  "layoutScheme": "student",
+  "layoutScheme": "display",
   "colorScheme": "rainbow",
   "tableStyle": "zebra",
   "codeTheme": "colorful",

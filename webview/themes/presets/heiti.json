@@ -4,7 +4,7 @@
   "name_en": "Hei Style",
   "description": "黑体字体，现代简约风格",
   "description_en": "Hei font with modern minimal style",
-  "author": "Markdown Viewer Extension",
+  "author": "docu.md Markdown Viewer",
   "version": "1.0.0",
   "fontScheme": {
     "body": {
@@ -15,7 +15,7 @@
       "fontFamily": "Monaco"
     }
   },
-  "layoutScheme": "document",
+  "layoutScheme": "regular",
   "colorScheme": "neutral",
   "tableStyle": "grid",
   "codeTheme": "light-clean"

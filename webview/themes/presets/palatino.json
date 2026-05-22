@@ -4,7 +4,7 @@
   "name_en": "Book Publishing",
   "description": "Palatino 字体，优雅的书籍出版风格",
   "description_en": "Palatino font with elegant book publishing style",
-  "author": "Markdown Viewer Extension",
+  "author": "docu.md Markdown Viewer",
   "version": "1.0.0",
   "fontScheme": {
     "body": {

@@ -1,0 +1,18 @@
+{
+  "id": "solarized-dark",
+  "name": "日晒暗",
+  "name_en": "Solarized Dark",
+  "description": "Solarized 深色经典，青蓝底 + Garamond 衬线书卷气",
+  "description_en": "Solarized Dark with Garamond serif for book-like reading",
+  "author": "docu.md Markdown Viewer",
+  "version": "1.0.0",
+  "fontScheme": {
+    "body": { "fontFamily": "Garamond" },
+    "headings": { "fontFamily": "Palatino" },
+    "code": { "fontFamily": "Consolas" }
+  },
+  "layoutScheme": "book",
+  "colorScheme": "solarized-dark",
+  "tableStyle": "academic",
+  "codeTheme": "solarized-dark-code"
+}

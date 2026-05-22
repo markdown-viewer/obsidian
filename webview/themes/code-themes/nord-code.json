@@ -1,0 +1,31 @@
+{
+  "id": "nord-code",
+  "name": "北欧代码",
+  "description": "Nord 官方高亮配色，适合 nord-dark 主题",
+  "description_en": "Nord official highlight palette for nord-dark theme",
+  
+  "foreground": "#d8dee9",
+  "colors": {
+    "keyword": "#81a1c1",
+    "built_in": "#88c0d0",
+    "literal": "#b48ead",
+    "number": "#b48ead",
+    "string": "#a3be8c",
+    "title": "#8fbcbb",
+    "attr": "#8fbcbb",
+    "comment": "#616e88",
+    "meta": "#81a1c1",
+    "params": "#d8dee9",
+    "symbol": "#ebcb8b",
+    "type": "#8fbcbb",
+    "addition": "#a3be8c",
+    "deletion": "#bf616a",
+    "quote": "#616e88",
+    "regexp": "#ebcb8b",
+    "selector_tag": "#81a1c1",
+    "selector_id": "#88c0d0",
+    "selector_class": "#8fbcbb",
+    "variable": "#d08770",
+    "property": "#88c0d0"
+  }
+}

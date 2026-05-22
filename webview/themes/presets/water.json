@@ -4,7 +4,7 @@
   "name_en": "Ink Poetry",
   "description": "仿宋字体，中国传统水墨美学",
   "description_en": "FangSong font with traditional Chinese ink aesthetics",
-  "author": "Markdown Viewer Extension",
+  "author": "docu.md Markdown Viewer",
   "version": "1.0.0",
   "fontScheme": {
     "body": {

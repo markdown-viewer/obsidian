@@ -1,0 +1,18 @@
+{
+  "id": "gruvbox",
+  "name": "复古暖暗",
+  "name_en": "Gruvbox",
+  "description": "Gruvbox Dark 配色，怀旧编辑器风代码段",
+  "description_en": "Gruvbox Dark palette with retro code vibe",
+  "author": "docu.md Markdown Viewer",
+  "version": "1.0.0",
+  "fontScheme": {
+    "body": { "fontFamily": "Lucida Grande" },
+    "headings": {},
+    "code": { "fontFamily": "Monaco" }
+  },
+  "layoutScheme": "regular",
+  "colorScheme": "gruvbox-dark",
+  "tableStyle": "grid",
+  "codeTheme": "solarized-dark-code"
+}

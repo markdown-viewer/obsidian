@@ -4,7 +4,7 @@
   "name_en": "Long Reading",
   "description": "Georgia 字体，舒适的长文阅读体验",
   "description_en": "Georgia font for comfortable long-form reading",
-  "author": "Markdown Viewer Extension",
+  "author": "docu.md Markdown Viewer",
   "version": "1.0.0",
   "fontScheme": {
     "body": {

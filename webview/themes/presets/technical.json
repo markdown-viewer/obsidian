@@ -4,7 +4,7 @@
   "name_en": "Technical",
   "description": "专为技术文档设计，清晰简洁的极简风格",
   "description_en": "Designed for technical documentation with clean minimalist style",
-  "author": "Markdown Viewer Extension",
+  "author": "docu.md Markdown Viewer",
   "version": "1.0.0",
   "fontScheme": {
     "body": {
@@ -15,7 +15,7 @@
       "fontFamily": "Monaco"
     }
   },
-  "layoutScheme": "technical",
+  "layoutScheme": "compact",
   "colorScheme": "cool",
   "tableStyle": "modern-tech",
   "codeTheme": "cool-modern"

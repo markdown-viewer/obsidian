@@ -1,0 +1,37 @@
+{
+  "id": "nord-dark",
+  "name": "北欧暗",
+  "name_en": "Nord Dark",
+  "description": "Nord 官方深色，冷净克制，适合长文阅读",
+  "description_en": "Official Nord dark palette—cool and restrained for long reads",
+  
+  "text": {
+    "primary": "#d8dee9",
+    "secondary": "#c0c8d1",
+    "muted": "#a0a8b4"
+  },
+  
+  "accent": {
+    "link": "#88c0d0",
+    "linkHover": "#8fbcbb"
+  },
+  
+  "background": {
+    "page": "#2e3440",
+    "surface": "#3b4252",
+    "code": "#3b4252",
+    "blockquote": "#363c4a"
+  },
+  
+  "blockquote": {
+    "border": "#4c566a"
+  },
+  
+  "table": {
+    "border": "#434c5e",
+    "headerBackground": "#3b4252",
+    "headerText": "#eceff4",
+    "zebraEven": "#333a49",
+    "zebraOdd": "#2e3440"
+  }
+}

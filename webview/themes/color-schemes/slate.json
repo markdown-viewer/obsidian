@@ -1,0 +1,37 @@
+{
+  "id": "slate",
+  "name": "石板",
+  "name_en": "Slate",
+  "description": "冷调石板蓝，科技感强，适合技术博客与文档",
+  "description_en": "Cool slate tones with strong tech feel for technical writing",
+  
+  "text": {
+    "primary": "#e2e8f0",
+    "secondary": "#cbd5e1",
+    "muted": "#94a3b8"
+  },
+  
+  "accent": {
+    "link": "#38bdf8",
+    "linkHover": "#7dd3fc"
+  },
+  
+  "background": {
+    "page": "#0f172a",
+    "surface": "#1e293b",
+    "code": "#1e293b",
+    "blockquote": "#172033"
+  },
+  
+  "blockquote": {
+    "border": "#475569"
+  },
+  
+  "table": {
+    "border": "#334155",
+    "headerBackground": "#1e293b",
+    "headerText": "#e2e8f0",
+    "zebraEven": "#172033",
+    "zebraOdd": "#0f172a"
+  }
+}

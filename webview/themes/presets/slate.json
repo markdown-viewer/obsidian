@@ -1,0 +1,18 @@
+{
+  "id": "slate",
+  "name": "石板",
+  "name_en": "Slate",
+  "description": "冷调石板蓝，技术博客与产品文档首选",
+  "description_en": "Cool slate tones for tech blogs and product docs",
+  "author": "docu.md Markdown Viewer",
+  "version": "1.0.0",
+  "fontScheme": {
+    "body": { "fontFamily": "Helvetica Neue" },
+    "headings": {},
+    "code": { "fontFamily": "Consolas" }
+  },
+  "layoutScheme": "regular",
+  "colorScheme": "slate",
+  "tableStyle": "modern-tech",
+  "codeTheme": "midnight-code"
+}

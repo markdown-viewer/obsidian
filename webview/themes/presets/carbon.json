@@ -1,0 +1,18 @@
+{
+  "id": "carbon",
+  "name": "碳黑",
+  "name_en": "Carbon",
+  "description": "IBM Carbon 近黑底 + 紧凑布局，适合控制台与管理后台",
+  "description_en": "IBM Carbon near-black base with compact layout",
+  "author": "docu.md Markdown Viewer",
+  "version": "1.0.0",
+  "fontScheme": {
+    "body": { "fontFamily": "Helvetica Neue" },
+    "headings": {},
+    "code": { "fontFamily": "Consolas" }
+  },
+  "layoutScheme": "compact",
+  "colorScheme": "carbon",
+  "tableStyle": "modern-tech",
+  "codeTheme": "midnight-code"
+}

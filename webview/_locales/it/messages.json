@@ -147,25 +147,33 @@
     "message": "Rimuovere tutti i file recenti dalla lista?",
     "description": "Confirmation message for clearing recent files"
   },
-  "clipboard_empty": {
-    "message": "Gli appunti sono vuoti",
-    "description": "Error when clipboard is empty"
-  },
-  "clipboard_open": {
-    "message": "Apri dagli appunti",
-    "description": "Clipboard item title in history"
-  },
-  "clipboard_read_failed": {
-    "message": "Impossibile leggere gli appunti",
-    "description": "Error when clipboard read fails"
-  },
   "close": {
     "message": "Chiudi",
     "description": "Close button text/tooltip"
   },
+  "code_copied": {
+    "message": "Copiato",
+    "description": "Tooltip shown after a code block has been copied"
+  },
+  "code_copy": {
+    "message": "Copia codice",
+    "description": "Tooltip for the button that copies a code block"
+  },
+  "code_copy_failed": {
+    "message": "Copia non riuscita",
+    "description": "Tooltip shown when copying a code block fails"
+  },
   "contextMenu_viewAsMarkdown": {
     "message": "Visualizza come Markdown",
     "description": "Context menu item to view any file as markdown"
+  },
+  "contextMenu_viewAsRaw": {
+    "message": "View as Raw",
+    "description": "Context menu item to restore the page to its original state"
+  },
+  "copy_as_png": {
+    "message": "Copy as PNG",
+    "description": "Context menu item for copying a diagram as PNG"
   },
   "delete": {
     "message": "Elimina",
@@ -191,16 +199,32 @@
     "message": "Condividi come Word",
     "description": "Menu item for exporting to DOCX"
   },
+  "export_menu_export_docx": {
+    "message": "Esporta in DOCX",
+    "description": "Export menu item for exporting to DOCX"
+  },
+  "export_menu_export_html": {
+    "message": "Esporta in HTML",
+    "description": "Export menu item for exporting to HTML"
+  },
+  "export_menu_print_pdf": {
+    "message": "Stampa in PDF",
+    "description": "Export menu item for printing to PDF"
+  },
+  "export_menu_save_file": {
+    "message": "Salva file",
+    "description": "Export menu item for saving current file"
+  },
   "exporting": {
     "message": "Preparazione documento Word...",
     "description": "Toast shown during export"
   },
   "extensionDescription": {
-    "message": "Markdown in Word perfetto con un clic — Mermaid, Vega, drawio, canvas, infografica, Graphviz, LaTeX (modificabile), evidenziazione codice, elaborazione locale.",
+    "message": "Markdown in Word perfetto — Mermaid, PlantUML, Vega, drawio, Graphviz, LaTeX, evidenziazione codice, elaborazione locale.",
     "description": "Extension description shown in Chrome Web Store"
   },
   "extensionName": {
-    "message": "Markdown Viewer",
+    "message": "docu.md Markdown Viewer",
     "description": "Extension name"
   },
   "failed_to_open_file": {
@@ -299,6 +323,22 @@
     "message": "Lingua",
     "description": "Menu item for language"
   },
+  "lightbox_close": {
+    "message": "Chiudi",
+    "description": "Tooltip for closing the diagram lightbox"
+  },
+  "lightbox_fit": {
+    "message": "Adatta allo schermo",
+    "description": "Tooltip for fitting the diagram to the lightbox viewport"
+  },
+  "lightbox_zoom_in": {
+    "message": "Aumenta zoom",
+    "description": "Tooltip for zooming in in the diagram lightbox"
+  },
+  "lightbox_zoom_out": {
+    "message": "Riduci zoom",
+    "description": "Tooltip for zooming out in the diagram lightbox"
+  },
   "more": {
     "message": "Altro",
     "description": "More menu tooltip"
@@ -343,6 +383,94 @@
     "message": "File recenti",
     "description": "Title for recent files section"
   },
+  "remark_add_note": {
+    "message": "Aggiungi annotazione…",
+    "description": "Placeholder and tooltip for adding a remark note"
+  },
+  "remark_cancel": {
+    "message": "Annulla e rimuovi",
+    "description": "Button text for cancelling a new remark and removing the temporary mark"
+  },
+  "remark_change_color": {
+    "message": "Cambia colore",
+    "description": "Tooltip for changing the remark color"
+  },
+  "remark_clear_all": {
+    "message": "Cancella tutte le annotazioni",
+    "description": "Tooltip for clearing all remarks"
+  },
+  "remark_color_blue": {
+    "message": "Domanda",
+    "description": "Label for the blue remark category"
+  },
+  "remark_color_green": {
+    "message": "Mantieni",
+    "description": "Label for the green remark category"
+  },
+  "remark_color_pink": {
+    "message": "Preoccupazione",
+    "description": "Label for the pink remark category"
+  },
+  "remark_color_yellow": {
+    "message": "Suggerimento",
+    "description": "Label for the yellow remark category"
+  },
+  "remark_copied": {
+    "message": "Copiato!",
+    "description": "Temporary success state after copying remarks"
+  },
+  "remark_copy_btn": {
+    "message": "Copia annotazioni",
+    "description": "Button text for copying all remarks"
+  },
+  "remark_copy_failed": {
+    "message": "Copia non riuscita",
+    "description": "Temporary error state when copying remarks fails"
+  },
+  "remark_copy_tooltip": {
+    "message": "Copia tutte le annotazioni negli appunti",
+    "description": "Tooltip for copying all remarks"
+  },
+  "remark_delete": {
+    "message": "Elimina",
+    "description": "Tooltip for deleting a remark"
+  },
+  "remark_deleted": {
+    "message": "Eliminato",
+    "description": "Status label shown after a remark is deleted"
+  },
+  "remark_edit_note": {
+    "message": "Fai clic per modificare",
+    "description": "Tooltip for editing an existing remark note"
+  },
+  "remark_empty_hint": {
+    "message": "Seleziona il testo per aggiungere annotazioni",
+    "description": "Empty state hint in the remarks sidebar"
+  },
+  "remark_exit_mode": {
+    "message": "Esci dalla modalità annotazioni",
+    "description": "Toolbar button title for leaving remark mode"
+  },
+  "remark_export_intro": {
+    "message": "Ho esaminato **{0}** e ho il seguente feedback:",
+    "description": "Intro line for exported remarks. {0} is the file path or title."
+  },
+  "remark_export_note": {
+    "message": "Nota",
+    "description": "Label preceding the note text in exported remarks"
+  },
+  "remark_mode": {
+    "message": "Modalità annotazioni",
+    "description": "Toolbar button title for entering remark mode"
+  },
+  "remark_sidebar_title": {
+    "message": "Annotazioni",
+    "description": "Sidebar title for the remarks panel"
+  },
+  "remark_undo": {
+    "message": "Annulla",
+    "description": "Button text for undoing remark deletion"
+  },
   "remove_from_list": {
     "message": "Rimuovi dall'elenco",
     "description": "Menu item to remove file from recent list"
@@ -350,6 +478,22 @@
   "reset": {
     "message": "Reimposta",
     "description": "Reset button"
+  },
+  "save_as_drawio": {
+    "message": "Salva come DrawIO",
+    "description": "Context menu item for saving a PlantUML diagram as DrawIO"
+  },
+  "save_as_png": {
+    "message": "Salva come PNG",
+    "description": "Context menu item for saving a diagram as PNG"
+  },
+  "save_as_svg": {
+    "message": "Salva come SVG",
+    "description": "Context menu item for saving a diagram as SVG"
+  },
+  "save_image_as": {
+    "message": "Salva immagine come…",
+    "description": "Context menu item for saving an image"
   },
   "search_case_sensitive": {
     "message": "Maiuscole/minuscole",
@@ -499,37 +643,13 @@
     "message": "Impostazioni salvate",
     "description": "Toast when settings saved"
   },
-  "settings_support_canvas": {
-    "message": "Diagrammi JSON Canvas (.canvas)",
-    "description": "Checkbox label for enabling JSON Canvas file support"
+  "settings_swap_panel_side": {
+    "message": "Swap TOC / file tree side",
+    "description": "Checkbox label for swapping TOC and workspace file tree panel side"
   },
-  "settings_support_dot": {
-    "message": "Diagrammi Graphviz DOT (.gv)",
-    "description": "Checkbox label for Graphviz DOT format support"
-  },
-  "settings_support_drawio": {
-    "message": "Diagrammi drawio (.drawio)",
-    "description": "Checkbox label for enabling drawio file support"
-  },
-  "settings_support_infographic": {
-    "message": "Infografiche (.infographic)",
-    "description": "Checkbox label for Infographic format support"
-  },
-  "settings_support_mermaid": {
-    "message": "Diagrammi Mermaid (.mermaid)",
-    "description": "Checkbox label for Mermaid format support"
-  },
-  "settings_support_vega": {
-    "message": "Grafici Vega (.vega)",
-    "description": "Checkbox label for Vega format support"
-  },
-  "settings_support_vega_lite": {
-    "message": "Grafici Vega-Lite (.vl, .vega-lite)",
-    "description": "Checkbox label for Vega-Lite format support"
-  },
-  "settings_supported_formats_title": {
-    "message": "Formati supportati",
-    "description": "Title for supported file formats section in settings"
+  "settings_swap_panel_side_note": {
+    "message": "Chrome switches both the TOC and workspace file tree. Firefox switches the TOC only.",
+    "description": "Helper note for TOC and workspace panel side swap setting"
   },
   "settings_table_layout": {
     "message": "Layout tabella",
@@ -538,6 +658,10 @@
   "settings_table_layout_center": {
     "message": "Centro",
     "description": "Table layout option: center aligned"
+  },
+  "settings_table_layout_full_width": {
+    "message": "Larghezza piena",
+    "description": "Option for centered tables stretched to the full content width"
   },
   "settings_table_layout_left": {
     "message": "Sinistra",
@@ -622,6 +746,74 @@
   "welcome_message": {
     "message": "Apri un file markdown per iniziare",
     "description": "Welcome message on empty state"
+  },
+  "workspace_binary_file_cannot_preview": {
+    "message": "Il file binario non può essere visualizzato in anteprima",
+    "description": "Message shown in workspace preview pane when selected file is binary"
+  },
+  "workspace_change_directory": {
+    "message": "Cambia directory",
+    "description": "Tooltip for changing the current workspace directory"
+  },
+  "workspace_choose_directory": {
+    "message": "Scegli directory",
+    "description": "Button to open directory picker"
+  },
+  "workspace_desc": {
+    "message": "Apri una directory locale per sfogliare e visualizzare in anteprima i file supportati.",
+    "description": "Workspace landing page description"
+  },
+  "workspace_open": {
+    "message": "Apri area di lavoro",
+    "description": "Button in popup to open workspace page"
+  },
+  "workspace_recent": {
+    "message": "Aree di lavoro recenti",
+    "description": "Title for recent workspaces list"
+  },
+  "workspace_search_content_hint": {
+    "message": "Premi Invio per cercare nel contenuto dei file",
+    "description": "Hint shown before executing a workspace content search"
+  },
+  "workspace_search_content_no_results": {
+    "message": "Nessun contenuto corrispondente",
+    "description": "Empty state shown when workspace content search returns no matches"
+  },
+  "workspace_search_content_placeholder": {
+    "message": "Cerca nel contenuto dei file",
+    "description": "Placeholder text for the workspace content search input"
+  },
+  "workspace_search_content_searching": {
+    "message": "Ricerca nel contenuto dei file...",
+    "description": "Status shown while workspace content search is running"
+  },
+  "workspace_search_mode_content_title": {
+    "message": "Modalità ricerca nel contenuto",
+    "description": "Tooltip for workspace content search mode toggle"
+  },
+  "workspace_search_mode_filename_title": {
+    "message": "Modalità ricerca per nome file",
+    "description": "Tooltip for workspace file name search mode toggle"
+  },
+  "workspace_search_no_results": {
+    "message": "Nessun file corrispondente",
+    "description": "Empty state shown when workspace file search returns no matches"
+  },
+  "workspace_search_placeholder": {
+    "message": "Cerca nomi file",
+    "description": "Placeholder text for the workspace file name search input"
+  },
+  "workspace_search_title": {
+    "message": "Cerca file",
+    "description": "Tooltip for the workspace file search button"
+  },
+  "workspace_select_file": {
+    "message": "Seleziona un file da visualizzare",
+    "description": "Placeholder text when no file is selected"
+  },
+  "workspace_title": {
+    "message": "Area di lavoro",
+    "description": "Workspace landing page title"
   },
   "zoom": {
     "message": "Zoom",

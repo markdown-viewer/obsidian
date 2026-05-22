@@ -1,209 +1,46 @@
 {
-  "version": "2.0.0",
+  "version": "2.1.0",
   "themes": [
-    {
-      "id": "default",
-      "file": "default.json",
-      "category": "classic",
-      "featured": true,
-      "order": 1
-    },
-    {
-      "id": "academic",
-      "file": "academic.json",
-      "category": "classic",
-      "featured": true,
-      "order": 2
-    },
-    {
-      "id": "business",
-      "file": "business.json",
-      "category": "classic",
-      "featured": true,
-      "order": 3
-    },
-    {
-      "id": "manuscript",
-      "file": "manuscript.json",
-      "category": "classic",
-      "featured": false,
-      "order": 4
-    },
-    {
-      "id": "newspaper",
-      "file": "newspaper.json",
-      "category": "classic",
-      "featured": false,
-      "order": 5
-    },
-    {
-      "id": "palatino",
-      "file": "palatino.json",
-      "category": "reading",
-      "featured": true,
-      "order": 6
-    },
-    {
-      "id": "garamond",
-      "file": "garamond.json",
-      "category": "reading",
-      "featured": true,
-      "order": 7
-    },
-    {
-      "id": "typewriter",
-      "file": "typewriter.json",
-      "category": "reading",
-      "featured": true,
-      "order": 8
-    },
-    {
-      "id": "elegant",
-      "file": "elegant.json",
-      "category": "reading",
-      "featured": true,
-      "order": 9
-    },
-    {
-      "id": "technical",
-      "file": "technical.json",
-      "category": "modern",
-      "featured": true,
-      "order": 10
-    },
-    {
-      "id": "swiss",
-      "file": "swiss.json",
-      "category": "modern",
-      "featured": true,
-      "order": 11
-    },
-    {
-      "id": "minimal",
-      "file": "minimal.json",
-      "category": "modern",
-      "featured": true,
-      "order": 12
-    },
-    {
-      "id": "magazine",
-      "file": "magazine.json",
-      "category": "creative",
-      "featured": true,
-      "order": 13
-    },
-    {
-      "id": "century",
-      "file": "century.json",
-      "category": "creative",
-      "featured": true,
-      "order": 14
-    },
-    {
-      "id": "handwritten",
-      "file": "handwritten.json",
-      "category": "creative",
-      "featured": true,
-      "order": 15
-    },
-    {
-      "id": "verdana",
-      "file": "verdana.json",
-      "category": "creative",
-      "featured": true,
-      "order": 16
-    },
-    {
-      "id": "heiti",
-      "file": "heiti.json",
-      "category": "chinese",
-      "featured": true,
-      "order": 17
-    },
-    {
-      "id": "mixed",
-      "file": "mixed.json",
-      "category": "chinese",
-      "featured": false,
-      "order": 18
-    },
-    {
-      "id": "water",
-      "file": "water.json",
-      "category": "chinese",
-      "featured": true,
-      "order": 19
-    },
-    {
-      "id": "rainbow",
-      "file": "rainbow.json",
-      "category": "playful",
-      "featured": true,
-      "order": 20
-    },
-    {
-      "id": "starry",
-      "file": "starry.json",
-      "category": "playful",
-      "featured": true,
-      "order": 21
-    },
-    {
-      "id": "candy",
-      "file": "candy.json",
-      "category": "playful",
-      "featured": true,
-      "order": 22
-    },
-    {
-      "id": "dinosaur",
-      "file": "dinosaur.json",
-      "category": "playful",
-      "featured": true,
-      "order": 23
-    },
-    {
-      "id": "space",
-      "file": "space.json",
-      "category": "playful",
-      "featured": true,
-      "order": 24
-    },
-    {
-      "id": "garden",
-      "file": "garden.json",
-      "category": "playful",
-      "featured": true,
-      "order": 25
-    },
-    {
-      "id": "forest",
-      "file": "forest.json",
-      "category": "nature",
-      "featured": true,
-      "order": 26
-    },
-    {
-      "id": "ocean",
-      "file": "ocean.json",
-      "category": "nature",
-      "featured": true,
-      "order": 27
-    },
-    {
-      "id": "coral",
-      "file": "coral.json",
-      "category": "nature",
-      "featured": true,
-      "order": 28
-    },
-    {
-      "id": "sunset",
-      "file": "sunset.json",
-      "category": "nature",
-      "featured": true,
-      "order": 29
-    }
+    { "id": "default", "file": "default.json", "category": "classic", "featured": true, "order": 1 },
+    { "id": "academic", "file": "academic.json", "category": "classic", "featured": true, "order": 2 },
+    { "id": "business", "file": "business.json", "category": "classic", "featured": true, "order": 3 },
+    { "id": "manuscript", "file": "manuscript.json", "category": "classic", "featured": false, "order": 4 },
+    { "id": "newspaper", "file": "newspaper.json", "category": "classic", "featured": false, "order": 5 },
+
+    { "id": "palatino", "file": "palatino.json", "category": "reading", "featured": true, "order": 10 },
+    { "id": "garamond", "file": "garamond.json", "category": "reading", "featured": true, "order": 11 },
+    { "id": "typewriter", "file": "typewriter.json", "category": "reading", "featured": true, "order": 12 },
+    { "id": "elegant", "file": "elegant.json", "category": "reading", "featured": true, "order": 13 },
+
+    { "id": "technical", "file": "technical.json", "category": "modern", "featured": true, "order": 20 },
+    { "id": "swiss", "file": "swiss.json", "category": "modern", "featured": true, "order": 21 },
+    { "id": "minimal", "file": "minimal.json", "category": "modern", "featured": true, "order": 22 },
+    { "id": "vscode", "file": "vscode.json", "category": "modern", "featured": true, "order": 23 },
+
+    { "id": "magazine", "file": "magazine.json", "category": "creative", "featured": true, "order": 30 },
+    { "id": "century", "file": "century.json", "category": "creative", "featured": true, "order": 31 },
+    { "id": "handwritten", "file": "handwritten.json", "category": "creative", "featured": true, "order": 32 },
+    { "id": "verdana", "file": "verdana.json", "category": "creative", "featured": true, "order": 33 },
+
+    { "id": "heiti", "file": "heiti.json", "category": "chinese", "featured": true, "order": 40 },
+    { "id": "mixed", "file": "mixed.json", "category": "chinese", "featured": false, "order": 41 },
+    { "id": "water", "file": "water.json", "category": "chinese", "featured": true, "order": 42 },
+
+    { "id": "rainbow", "file": "rainbow.json", "category": "playful", "featured": true, "order": 50 },
+    { "id": "candy", "file": "candy.json", "category": "playful", "featured": true, "order": 51 },
+
+    { "id": "forest", "file": "forest.json", "category": "nature", "featured": true, "order": 60 },
+    { "id": "ocean", "file": "ocean.json", "category": "nature", "featured": true, "order": 61 },
+
+    { "id": "midnight", "file": "midnight.json", "category": "dark", "featured": true, "order": 70 },
+    { "id": "slate", "file": "slate.json", "category": "dark", "featured": true, "order": 71 },
+    { "id": "dracula", "file": "dracula.json", "category": "dark", "featured": true, "order": 72 },
+    { "id": "nord", "file": "nord.json", "category": "dark", "featured": true, "order": 73 },
+    { "id": "solarized-dark", "file": "solarized-dark.json", "category": "dark", "featured": false, "order": 74 },
+    { "id": "gruvbox", "file": "gruvbox.json", "category": "dark", "featured": false, "order": 75 },
+    { "id": "carbon", "file": "carbon.json", "category": "dark", "featured": true, "order": 76 },
+    { "id": "obsidian", "file": "obsidian.json", "category": "dark", "featured": false, "order": 77 },
+    { "id": "vscode-dark", "file": "vscode-dark.json", "category": "dark", "featured": true, "order": 78 }
   ],
   "categories": {
     "classic": {
@@ -254,6 +91,13 @@
       "description": "取自自然的配色，温暖舒适的视觉体验",
       "description_en": "Nature-inspired colors for warm visual experience",
       "order": 7
+    },
+    "dark": {
+      "name": "深色夜间",
+      "name_en": "Dark",
+      "description": "适合夜间阅读与开发者的深色主题",
+      "description_en": "Dark themes for night reading and developers",
+      "order": 8
     }
   },
   "recommendations": {
@@ -265,6 +109,7 @@
     "book": "palatino",
     "modern": "swiss",
     "screen": "verdana",
-    "creative": "magazine"
+    "creative": "magazine",
+    "dark": "midnight"
   }
 }

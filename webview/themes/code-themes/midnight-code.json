@@ -1,0 +1,31 @@
+{
+  "id": "midnight-code",
+  "name": "午夜代码",
+  "description": "冷色低饱和代码配色，适合 midnight / slate / carbon 等深色主题",
+  "description_en": "Cool low-saturation code palette for midnight/slate/carbon",
+  
+  "foreground": "#e5e7eb",
+  "colors": {
+    "keyword": "#c4b5fd",
+    "built_in": "#93c5fd",
+    "literal": "#fca5a5",
+    "number": "#fca5a5",
+    "string": "#a7f3d0",
+    "title": "#fcd34d",
+    "attr": "#93c5fd",
+    "comment": "#64748b",
+    "meta": "#94a3b8",
+    "params": "#e5e7eb",
+    "symbol": "#f9a8d4",
+    "type": "#fcd34d",
+    "addition": "#86efac",
+    "deletion": "#fca5a5",
+    "quote": "#94a3b8",
+    "regexp": "#fbbf24",
+    "selector_tag": "#c4b5fd",
+    "selector_id": "#93c5fd",
+    "selector_class": "#93c5fd",
+    "variable": "#fdba74",
+    "property": "#93c5fd"
+  }
+}

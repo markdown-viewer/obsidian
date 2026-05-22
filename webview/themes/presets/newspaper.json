@@ -4,7 +4,7 @@
   "name_en": "Newspaper",
   "description": "传统新闻排版风格，正式严肃",
   "description_en": "Traditional newspaper typography, formal and serious",
-  "author": "Markdown Viewer Extension",
+  "author": "docu.md Markdown Viewer",
   "version": "2.0.0",
   "fontScheme": {
     "body": {
@@ -17,7 +17,7 @@
       "fontFamily": "Consolas"
     }
   },
-  "layoutScheme": "magazine",
+  "layoutScheme": "editorial",
   "colorScheme": "sepia",
   "tableStyle": "grid",
   "codeTheme": "warm-book"
